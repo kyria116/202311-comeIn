@@ -3,6 +3,9 @@
 
 .health{
     padding-top: 150px;
+    @include mediaquery(null, 767px){
+        padding-top: 50px;
+    }
 }
 
 .health_topMenu{
@@ -15,7 +18,7 @@
         border: none;
         height: 45px;
         line-height: 45px;
-        margin-bottom: 25px;
+        margin-bottom: 10px;
     }
     .item_menu_Box{
         text-align: center;
@@ -56,7 +59,7 @@
 .teamTopMenu{
     margin: 0 0 70px;
     @include mediaquery(null, 767px){
-        margin: 0 24px 26px;
+        margin: 0 24px 45px;
     }
     .top-menu-ul{
         margin: 0;
@@ -127,27 +130,67 @@
         }
         &:nth-child(4){
             padding-bottom: 150px;
+            @include mediaquery(null, 767px){
+                padding-bottom: 76px;
+            }
             ul{
                 display: flex;
                 flex-wrap: wrap;
                 padding-bottom: 16px;
+                @include mediaquery(null, 767px){
+                    padding-bottom: 7px;
+                }
                 li{
-                    width: calc((100% - 64px) / 3);
-                    margin: 0 32px 83px 0;
-                    &:nth-child(3n){
-                        margin-right: 0;
+                    @include mediaquery(992px, null){
+                        width: calc((100% - 64px) / 3);
+                        margin: 0 32px 83px 0;
+                        &:nth-child(3n){
+                            margin-right: 0;
+                        }
+                    }
+                    @include mediaquery(992px, 1200px){
+                        width: calc((100% - 40px) / 3);
+                        margin: 0 20px 60px 0;
+                        &:nth-child(3n){
+                            margin-right: 0;
+                        }
+                    }
+                    @include mediaquery(576px, 991px){
+                        width: calc((100% - 20px) / 2);
+                        margin: 0 20px 40px 0;
+                        &:nth-child(2n){
+                            margin-right: 0;
+                        }
+                    }
+                    @include mediaquery(null, 575px){
+                        width: 100%;
+                        margin: 0 0 40px 0;
+                    }
+                    >a{
+                        &:hover{
+                            @include mediaquery(768px, null){
+                                .img img{
+                                    transform: scale(1.05);
+                                }
+                            }
+                        }
                     }
                     .img{
                         border-radius: 24px;
                         aspect-ratio: 1 / 1;
                         overflow: hidden;
                         margin-bottom: 36px;
+                        @include mediaquery(null, 767px){
+                            border-radius: 12px;
+                            margin-bottom: 26px;
+                        }
                         img{
                             display: block;
                             width: 100%;
                             height: 100%;
                             object-fit: cover;
                             object-position: center;
+                            transition: transform 0.75s;
                         }
                     }
                     .sortBox{
@@ -156,6 +199,9 @@
                         font-size: 16px;
                         color: #868686;
                         margin-bottom: 17px;
+                        @include mediaquery(null, 767px){
+                            font-size: 15px;
+                        }
                         .sort{
                             position: relative;
                             padding: 0 18px;
@@ -188,6 +234,10 @@
                         font-family: $font-en;
                         font-weight: 700;
                         margin-bottom: 8px;
+                        @include mediaquery(null, 767px){
+                            font-size: 25px;
+                            margin-bottom: 10px;
+                        }
                         span{
                             @include clamp(1.46, 2);
                             height: auto;
@@ -198,6 +248,9 @@
                         font-weight: 500;
                         color: $primary-color;
                         margin-bottom: 12px;
+                        @include mediaquery(null, 767px){
+                            font-size: 15px;
+                        }
                         span{
                             @include clamp(1.875, 2);
                             height: auto;
@@ -208,15 +261,33 @@
                         flex-wrap: wrap;
                         height: calc(28px * 2 + 8px);
                         overflow: hidden;
+                        @include mediaquery(null, 767px){
+                            height: calc(32px * 2 + 9px);
+                        }
                         .tag{
                             display: inline-block;
                             border-radius: 4px;
+                            border: 1px solid #cdb0a7;
                             background-color: #cdb0a7;
                             color: #fff;
                             padding: 0 17px;
                             height: 28px;
                             line-height: 28px;
                             margin: 0 8px 8px 0;
+                            transition: 0.75s;
+                            @include mediaquery(null, 767px){
+                                font-size: 15px;
+                                height: 32px;
+                                line-height: 32px;
+                                margin: 0 9px 9px 0;
+                                border-radius: 5px;
+                            }
+                            &:hover{
+                                @include mediaquery(768px, null){
+                                    background-color: #fff;
+                                    color: #cdb0a7;
+                                }
+                            }
                         }
                     }
                 }

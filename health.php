@@ -86,8 +86,8 @@
                     <li class="active">
                         <ul>
                             <li>
-                                <a href="javascript:;">
-                                    <div class="img" style="background: url('dist/images/img.jpg') cover / contain no-repeat;">
+                                <a href="health-detail.php">
+                                    <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
                                         <img src="dist/images/health.jpg">
                                     </div>
                                     <div class="txt">
@@ -102,21 +102,21 @@
                                     </div>
                                 </a>
                                 <div class="tagBox">
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
-                                    <div class="img" style="background: url('dist/images/img.jpg') cover / contain no-repeat;">
+                                <a href="health-detail.php">
+                                    <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
                                         <!-- <img src="dist/images/health.jpg"> -->
                                     </div>
                                     <div class="txt">
@@ -131,21 +131,21 @@
                                     </div>
                                 </a>
                                 <div class="tagBox">
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
-                                    <div class="img" style="background: url('dist/images/img.jpg') cover / contain no-repeat;">
+                                <a href="health-detail.php">
+                                    <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
                                         <img src="dist/images/health.jpg">
                                     </div>
                                     <div class="txt">
@@ -160,21 +160,21 @@
                                     </div>
                                 </a>
                                 <div class="tagBox">
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
-                                    <div class="img" style="background: url('dist/images/img.jpg') cover / contain no-repeat;">
+                                <a href="health-detail.php">
+                                    <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
                                         <img src="dist/images/health.jpg">
                                     </div>
                                     <div class="txt">
@@ -189,21 +189,21 @@
                                     </div>
                                 </a>
                                 <div class="tagBox">
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
-                                    <div class="img" style="background: url('dist/images/img.jpg') cover / contain no-repeat;">
+                                <a href="health-detail.php">
+                                    <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
                                         <img src="dist/images/health.jpg">
                                     </div>
                                     <div class="txt">
@@ -218,21 +218,21 @@
                                     </div>
                                 </a>
                                 <div class="tagBox">
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
-                                    <div class="img" style="background: url('dist/images/img.jpg') cover / contain no-repeat;">
+                                <a href="health-detail.php">
+                                    <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
                                         <img src="dist/images/health.jpg">
                                     </div>
                                     <div class="txt">
@@ -247,21 +247,21 @@
                                     </div>
                                 </a>
                                 <div class="tagBox">
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
-                                    <div class="img" style="background: url('dist/images/img.jpg') cover / contain no-repeat;">
+                                <a href="health-detail.php">
+                                    <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
                                         <img src="dist/images/health.jpg">
                                     </div>
                                     <div class="txt">
@@ -276,21 +276,21 @@
                                     </div>
                                 </a>
                                 <div class="tagBox">
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
-                                    <div class="img" style="background: url('dist/images/img.jpg') cover / contain no-repeat;">
+                                <a href="health-detail.php">
+                                    <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
                                         <img src="dist/images/health.jpg">
                                     </div>
                                     <div class="txt">
@@ -305,21 +305,21 @@
                                     </div>
                                 </a>
                                 <div class="tagBox">
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
-                                    <div class="img" style="background: url('dist/images/img.jpg') cover / contain no-repeat;">
+                                <a href="health-detail.php">
+                                    <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
                                         <img src="dist/images/health.jpg">
                                     </div>
                                     <div class="txt">
@@ -329,21 +329,21 @@
                                         </div>
                                         <div class="title"><span>複診掛號費異動複診掛號費異動複診掛號費異動</span></div>
                                         <div class="intro">
-                                            <span>複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動</span>
+                                            <span>複診</span>
                                         </div>
                                     </div>
                                 </a>
                                 <div class="tagBox">
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
-                                    <a href="javascript" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
+                                    <a href="javascript:;" class="tag">自律神經</a>
                                 </div>
                             </li>
                         </ul>
