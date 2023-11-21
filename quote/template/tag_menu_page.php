@@ -1,47 +1,40 @@
-<div id="top-menu-ul" class="top-menu-ul index">
+<div id="top-menu-ul" class="top-menu-ul page_brown">
     <div class="item_Menu">
         <div class="item_menu_Box">
             <ul class="item_menu_list slides">
-                <li>
-                    <a href="javascript:;">
-                        <span class="b_title">康迎晴天</span>
-                        <span class="s_title">台北延吉</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="javascript:;">
-                        <span class="b_title">康迎晴天</span>
-                        <span class="s_title">台北延吉</span>
-                    </a>
-                </li>
                 <li class="active">
                     <a href="javascript:;">
-                        <span class="b_title">康迎晴天3</span>
-                        <span class="s_title">台北延吉3</span>
+                        全部
                     </a>
                 </li>
                 <li>
                     <a href="javascript:;">
-                        <span class="b_title">康迎晴天</span>
-                        <span class="s_title">台北延吉</span>
+                        診所消息
                     </a>
                 </li>
                 <li>
                     <a href="javascript:;">
-                        <span class="b_title">康迎晴天</span>
-                        <span class="s_title">台北延吉</span>
+                        門診異動
                     </a>
                 </li>
                 <li>
                     <a href="javascript:;">
-                        <span class="b_title">康迎晴天</span>
-                        <span class="s_title">台北延吉</span>
+                        診所消息
                     </a>
                 </li>
                 <li>
                     <a href="javascript:;">
-                        <span class="b_title">康迎晴天</span>
-                        <span class="s_title">台北延吉</span>
+                        門診異動
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        診所消息
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        門診異動44
                     </a>
                 </li>
             </ul>

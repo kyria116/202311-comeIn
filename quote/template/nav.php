@@ -21,10 +21,10 @@
                         </a>
                         <ul class="menu-second">
                             <li>
-                                <a href="javascript:;">企業理念</a>
+                                <a href="about.php">企業理念</a>
                             </li>
                             <li>
-                                <a href="javascript:;">專業團隊</a>
+                                <a href="team.php">專業團隊</a>
                             </li>
                         </ul>
                     </li>            
@@ -34,22 +34,22 @@
                         </a>
                         <ul class="menu-second">
                             <li>
-                                <a href="javascript:;">睡眠健檢</a>
+                                <a href="service">睡眠健檢</a>
                             </li>
                             <li>
-                                <a href="javascript:;">身心問題</a>
+                                <a href="service">身心問題</a>
                             </li>
                             <li>
-                                <a href="javascript:;">心理諮商</a>
+                                <a href="service">心理諮商</a>
                             </li>
                             <li>
-                                <a href="javascript:;">健腦設備</a>
+                                <a href="service">健腦設備</a>
                             </li>
                             <li>
-                                <a href="javascript:;">企業關懷</a>
+                                <a href="service">企業關懷</a>
                             </li>
                             <li>
-                                <a href="javascript:;">特約門診</a>
+                                <a href="service">特約門診</a>
                             </li>
                         </ul>
                     </li>            
@@ -59,29 +59,29 @@
                         </a>
                         <ul class="menu-second">
                             <li>
-                                <a href="javascript:;">延吉晴天</a>
+                                <a href="information.php">延吉晴天</a>
                             </li>
                             <li>
-                                <a href="javascript:;">敦化向陽</a>
+                                <a href="information.php">敦化向陽</a>
                             </li>
                             <li>
-                                <a href="javascript:;">土城合康</a>
+                                <a href="information.php">土城合康</a>
                             </li>
                             <li>
-                                <a href="javascript:;">林口欣泉</a>
+                                <a href="information.php">林口欣泉</a>
                             </li>
                             <li>
-                                <a href="javascript:;">板橋澄思</a>
+                                <a href="information.php">板橋澄思</a>
                             </li>
                         </ul>
                     </li>        
                     <li>
-                        <a class="menu-list" href="javascript:;">
+                        <a class="menu-list" href="news.php">
                             最新消息
                         </a>
                     </li>        
                     <li>
-                        <a class="menu-list" href="javascript:;">
+                        <a class="menu-list" href="health.php">
                             健康資訊
                         </a>
                     </li>        
@@ -91,20 +91,20 @@
                         </a>
                         <ul class="menu-second">
                             <li>
-                                <a href="javascript:;">線上預約</a>
+                                <a href="reserve-information.php">線上預約</a>
                             </li>
                             <li>
-                                <a href="javascript:;">查詢預約</a>
+                                <a href="reserve-search.php">查詢預約</a>
                             </li>
                             <li>
-                                <a href="javascript:;">即時候診資訊</a>
+                                <a href="reserve-waiting.php">即時候診資訊</a>
                             </li>
                         </ul>
                     </li>
                 </ul>
                 <ul class="menu_2">
                     <li>
-                        <a href="javascript:;">
+                        <a href="physical.php">
                             <div class="img"><img src="dist/images/common/icon1.png" alt="自我檢測中心"></div>
                             <div class="txt">自我檢測中心</div>
                         </a>

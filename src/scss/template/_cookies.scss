@@ -29,7 +29,7 @@
     }
   }
   #cookie .cookie-txt a {
-    border-bottom: 1px solid #221e1f;
+    border-bottom: 1px solid $primary-color;
     transition: all 0.5s ease-in-out;
   }
   @media (min-width:768px){
@@ -38,8 +38,8 @@
     }
   }
   #cookie .cookie-close {
-    background-color: #749294;
-    border: 1px solid #749294;
+    background-color: $secondary-color;
+    border: 1px solid $secondary-color;
     color: #fff;
     border-radius: 24px;
     font-size: 16px;    
@@ -67,7 +67,7 @@
   @media (min-width:768px){
     #cookie .cookie-close:hover {
         background-color: #fff;
-        color: #749294;
+        color: $secondary-color;
     }
   }
 

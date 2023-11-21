@@ -243,7 +243,8 @@ header{
                 .menu-list{
                     color: $primary-color;
                     &::before{
-                        transform: translate(-50%, 0%);
+                        opacity: 1;
+                        transform: translate(0, 0);
                     }
                 }
             }
@@ -544,11 +545,10 @@ header{
             top: 50%;
             left: 0;
             transform: translateY(-50%);
-            width: 2px;
+            width: 1px;
             height: 16px;
             background-color: $primary-color;
             @include mediaquery(null, 991px){
-                width: 1px;
                 height: 14px;
             }
         }

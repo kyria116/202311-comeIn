@@ -18,11 +18,11 @@ function slider_ul_list(id) {
     let pos = new Array();
     let sumArray = new Array();
     menu_li.each(function () {
-                    //pos[i]計算每一個li到window的左邊距離
+        //pos[i]計算每一個li到window的左邊距離
         pos[i] = $(this).offset().left;
-                    //sum是每個li在ul的起始位置
+        //sum是每個li在ul的起始位置
         sum = pos[i] - move;
-                    // total_width是全部li加起來的長度，menu_box是顯示出來的那段的長度，所以兩個相加為尚未顯示li的長度
+        // total_width是全部li加起來的長度，menu_box是顯示出來的那段的長度，所以兩個相加為尚未顯示li的長度
         if (sum < total_width - menu_box) sclEnd = i;
         sumArray[i] = sum;
         i++;
