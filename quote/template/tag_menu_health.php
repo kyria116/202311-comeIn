@@ -2,23 +2,23 @@
     <div class="item_Menu">
         <div class="item_menu_Box">
             <ul class="item_menu_list slides">
-                <li class="active">
-                    <a href="javascript:;">
+                <li>
+                    <a href="podcast.php">
                         Podcast
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:;">
+                    <a href="video.php">
                         影音專區
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:;">
+                    <a href="music.php">
                         音頻專區
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:;">
+                    <a href="health.php">
                         精選文章
                     </a>
                 </li>

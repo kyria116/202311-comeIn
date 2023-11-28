@@ -135,14 +135,14 @@
                             <div class="mailIcon"></div>
                         </a>
                     </div>
-                    <div class="privacy mo_991">
-                        <a href="javascript:;">隱私權政策</a>
+                    <div class="f_privacy mo_991">
+                        <a href="privacy.php">隱私權政策</a>
                     </div>
                 </div>
             </div>
             <div class="f_bottom">
-                <div class="privacy pc_991">
-                    <a href="javascript:;">隱私權政策</a>
+                <div class="f_privacy pc_991">
+                    <a href="privacy.php">隱私權政策</a>
                 </div>
                 <div class="copyright">
                     © 2023 ivalue 晴天事業. All rights reserved. | Design by <a href="https://mak66design.com/" target="_blank">M.A.K.</a>

@@ -7,7 +7,7 @@
         include "quote/template/added.php";
         include "quote/template/nav.php";
     ?>
-    <main>
+    <main data-health="3">
         <div class="kv_banner">
             <img src="dist/images/kv/health.jpg" class="pc">
             <img src="dist/images/kv/health_mo.jpg" class="mo">
@@ -69,289 +69,274 @@
                         </div>
                     </div>
                 </div>
-                <ul class="healthContain">
-                    <!-- podcast -->
-                    <li>
-                        podcast
-                    </li>
-                    <!-- 影音專區 -->
-                    <li>
-                        影音專區
-                    </li>
-                    <!-- 音頻專區 -->
-                    <li>
-                        音頻專區
-                    </li>
-                    <!-- 精選文章 -->
-                    <li class="active">
-                        <ul>
-                            <li>
-                                <a href="health-detail.php">
-                                    <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
-                                        <img src="dist/images/health.jpg">
-                                    </div>
-                                    <div class="txt">
-                                        <div class="sortBox">
-                                            <div class="sort">情緒問題</div>
-                                            <div class="date">2023.03.25</div>
-                                        </div>
-                                        <div class="title"><span>複診掛號費</span></div>
-                                        <div class="intro">
-                                            <span>複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動</span>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="tagBox">
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
+                <div class="healthContain">
+                    <ul>
+                        <li>
+                            <a href="health-detail.php">
+                                <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
+                                    <img src="dist/images/health.jpg">
                                 </div>
-                            </li>
-                            <li>
-                                <a href="health-detail.php">
-                                    <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
-                                        <!-- <img src="dist/images/health.jpg"> -->
+                                <div class="txt">
+                                    <div class="sortBox">
+                                        <div class="sort">情緒問題</div>
+                                        <div class="date">2023.03.25</div>
                                     </div>
-                                    <div class="txt">
-                                        <div class="sortBox">
-                                            <div class="sort">情緒問題</div>
-                                            <div class="date">2023.03.25</div>
-                                        </div>
-                                        <div class="title"><span>複診掛號費異動複診掛號費異動複診掛號費異動</span></div>
-                                        <div class="intro">
-                                            <span>複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動</span>
-                                        </div>
+                                    <div class="title"><span>複診掛號費</span></div>
+                                    <div class="intro">
+                                        <span>複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動</span>
                                     </div>
-                                </a>
-                                <div class="tagBox">
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
                                 </div>
-                            </li>
-                            <li>
-                                <a href="health-detail.php">
-                                    <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
-                                        <img src="dist/images/health.jpg">
-                                    </div>
-                                    <div class="txt">
-                                        <div class="sortBox">
-                                            <div class="sort">情緒問題</div>
-                                            <div class="date">2023.03.25</div>
-                                        </div>
-                                        <div class="title"><span>複診掛號費異動複診掛號費異動複診掛號費異動</span></div>
-                                        <div class="intro">
-                                            <span>複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動</span>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="tagBox">
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
+                            </a>
+                            <div class="tagBox">
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="health-detail.php">
+                                <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
+                                    <!-- <img src="dist/images/health.jpg"> -->
                                 </div>
-                            </li>
-                            <li>
-                                <a href="health-detail.php">
-                                    <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
-                                        <img src="dist/images/health.jpg">
+                                <div class="txt">
+                                    <div class="sortBox">
+                                        <div class="sort">情緒問題</div>
+                                        <div class="date">2023.03.25</div>
                                     </div>
-                                    <div class="txt">
-                                        <div class="sortBox">
-                                            <div class="sort">情緒問題</div>
-                                            <div class="date">2023.03.25</div>
-                                        </div>
-                                        <div class="title"><span>複診掛號費異動複診掛號費異動複診掛號費異動</span></div>
-                                        <div class="intro">
-                                            <span>複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動</span>
-                                        </div>
+                                    <div class="title"><span>複診掛號費異動複診掛號費異動複診掛號費異動</span></div>
+                                    <div class="intro">
+                                        <span>複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動</span>
                                     </div>
-                                </a>
-                                <div class="tagBox">
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
                                 </div>
-                            </li>
-                            <li>
-                                <a href="health-detail.php">
-                                    <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
-                                        <img src="dist/images/health.jpg">
-                                    </div>
-                                    <div class="txt">
-                                        <div class="sortBox">
-                                            <div class="sort">情緒問題</div>
-                                            <div class="date">2023.03.25</div>
-                                        </div>
-                                        <div class="title"><span>複診掛號費異動複診掛號費異動複診掛號費異動</span></div>
-                                        <div class="intro">
-                                            <span>複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動</span>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="tagBox">
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
+                            </a>
+                            <div class="tagBox">
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="health-detail.php">
+                                <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
+                                    <img src="dist/images/health.jpg">
                                 </div>
-                            </li>
-                            <li>
-                                <a href="health-detail.php">
-                                    <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
-                                        <img src="dist/images/health.jpg">
+                                <div class="txt">
+                                    <div class="sortBox">
+                                        <div class="sort">情緒問題</div>
+                                        <div class="date">2023.03.25</div>
                                     </div>
-                                    <div class="txt">
-                                        <div class="sortBox">
-                                            <div class="sort">情緒問題</div>
-                                            <div class="date">2023.03.25</div>
-                                        </div>
-                                        <div class="title"><span>複診掛號費異動複診掛號費異動複診掛號費異動</span></div>
-                                        <div class="intro">
-                                            <span>複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動</span>
-                                        </div>
+                                    <div class="title"><span>複診掛號費異動複診掛號費異動複診掛號費異動</span></div>
+                                    <div class="intro">
+                                        <span>複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動</span>
                                     </div>
-                                </a>
-                                <div class="tagBox">
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
                                 </div>
-                            </li>
-                            <li>
-                                <a href="health-detail.php">
-                                    <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
-                                        <img src="dist/images/health.jpg">
-                                    </div>
-                                    <div class="txt">
-                                        <div class="sortBox">
-                                            <div class="sort">情緒問題</div>
-                                            <div class="date">2023.03.25</div>
-                                        </div>
-                                        <div class="title"><span>複診掛號費異動複診掛號費異動複診掛號費異動</span></div>
-                                        <div class="intro">
-                                            <span>複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動</span>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="tagBox">
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
+                            </a>
+                            <div class="tagBox">
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="health-detail.php">
+                                <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
+                                    <img src="dist/images/health.jpg">
                                 </div>
-                            </li>
-                            <li>
-                                <a href="health-detail.php">
-                                    <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
-                                        <img src="dist/images/health.jpg">
+                                <div class="txt">
+                                    <div class="sortBox">
+                                        <div class="sort">情緒問題</div>
+                                        <div class="date">2023.03.25</div>
                                     </div>
-                                    <div class="txt">
-                                        <div class="sortBox">
-                                            <div class="sort">情緒問題</div>
-                                            <div class="date">2023.03.25</div>
-                                        </div>
-                                        <div class="title"><span>複診掛號費異動複診掛號費異動複診掛號費異動</span></div>
-                                        <div class="intro">
-                                            <span>複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動</span>
-                                        </div>
+                                    <div class="title"><span>複診掛號費異動複診掛號費異動複診掛號費異動</span></div>
+                                    <div class="intro">
+                                        <span>複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動</span>
                                     </div>
-                                </a>
-                                <div class="tagBox">
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
                                 </div>
-                            </li>
-                            <li>
-                                <a href="health-detail.php">
-                                    <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
-                                        <img src="dist/images/health.jpg">
-                                    </div>
-                                    <div class="txt">
-                                        <div class="sortBox">
-                                            <div class="sort">情緒問題</div>
-                                            <div class="date">2023.03.25</div>
-                                        </div>
-                                        <div class="title"><span>複診掛號費異動複診掛號費異動複診掛號費異動</span></div>
-                                        <div class="intro">
-                                            <span>複診</span>
-                                        </div>
-                                    </div>
-                                </a>
-                                <div class="tagBox">
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
-                                    <a href="javascript:;" class="tag">自律神經</a>
+                            </a>
+                            <div class="tagBox">
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="health-detail.php">
+                                <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
+                                    <img src="dist/images/health.jpg">
                                 </div>
-                            </li>
-                        </ul>
-                        <?php
-                            include "quote/template/page_list.php";
-                        ?>
-                    </li>
-                </ul>
+                                <div class="txt">
+                                    <div class="sortBox">
+                                        <div class="sort">情緒問題</div>
+                                        <div class="date">2023.03.25</div>
+                                    </div>
+                                    <div class="title"><span>複診掛號費異動複診掛號費異動複診掛號費異動</span></div>
+                                    <div class="intro">
+                                        <span>複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="tagBox">
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="health-detail.php">
+                                <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
+                                    <img src="dist/images/health.jpg">
+                                </div>
+                                <div class="txt">
+                                    <div class="sortBox">
+                                        <div class="sort">情緒問題</div>
+                                        <div class="date">2023.03.25</div>
+                                    </div>
+                                    <div class="title"><span>複診掛號費異動複診掛號費異動複診掛號費異動</span></div>
+                                    <div class="intro">
+                                        <span>複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="tagBox">
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="health-detail.php">
+                                <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
+                                    <img src="dist/images/health.jpg">
+                                </div>
+                                <div class="txt">
+                                    <div class="sortBox">
+                                        <div class="sort">情緒問題</div>
+                                        <div class="date">2023.03.25</div>
+                                    </div>
+                                    <div class="title"><span>複診掛號費異動複診掛號費異動複診掛號費異動</span></div>
+                                    <div class="intro">
+                                        <span>複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="tagBox">
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="health-detail.php">
+                                <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
+                                    <img src="dist/images/health.jpg">
+                                </div>
+                                <div class="txt">
+                                    <div class="sortBox">
+                                        <div class="sort">情緒問題</div>
+                                        <div class="date">2023.03.25</div>
+                                    </div>
+                                    <div class="title"><span>複診掛號費異動複診掛號費異動複診掛號費異動</span></div>
+                                    <div class="intro">
+                                        <span>複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動複診掛號費異動</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="tagBox">
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="health-detail.php">
+                                <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
+                                    <img src="dist/images/health.jpg">
+                                </div>
+                                <div class="txt">
+                                    <div class="sortBox">
+                                        <div class="sort">情緒問題</div>
+                                        <div class="date">2023.03.25</div>
+                                    </div>
+                                    <div class="title"><span>複診掛號費異動複診掛號費異動複診掛號費異動</span></div>
+                                    <div class="intro">
+                                        <span>複診</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="tagBox">
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                                <a href="javascript:;" class="tag">自律神經</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <?php
+                        include "quote/template/page_list.php";
+                    ?>
+                </div>
             </div>
         </div>
     </main>

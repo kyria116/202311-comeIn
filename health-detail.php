@@ -7,7 +7,7 @@
         include "quote/template/added.php";
         include "quote/template/nav.php";
     ?>
-    <main>
+    <main class="detail">
         <div class="kv_banner">
             <img src="dist/images/kv/health.jpg" class="pc">
             <img src="dist/images/kv/health_mo.jpg" class="mo">
@@ -20,8 +20,8 @@
             <div class="container">
                 <div class="topContain">
                     <div class="breadCrumbs">
-                        <a href="javascript:;">精選文章</a>
-                        <i> > </i>
+                        <a href="health-article.php">精選文章</a>
+                        <i></i>
                         <span>精神科常見用藥</span>
                     </div>
                     <div class="topTxt">
@@ -93,6 +93,15 @@
                             <a href="javascript:;" class="tag">
                                 準備參選源做市長
                             </a>
+                            <a href="javascript:;" class="tag">
+                                幼稚園頭領
+                            </a>
+                            <a href="javascript:;" class="tag">
+                                源做第一里長
+                            </a>
+                            <a href="javascript:;" class="tag">
+                                準備參選源做市長
+                            </a>
                         </div>
                         <div class="experience">
                             <div class="title">
@@ -105,9 +114,27 @@
                                 <li>中華民國精神科專科醫師</li>
                                 <li>雙北向陽診所群總執行</li>
                                 <li>向陽身心診所院長</li>
+                                <li>成大醫學系</li>
+                                <li>美國哈佛大學商學院高管教育領導學結訓</li>
+                                <li>美國新英格蘭音樂院演奏碩士</li>
+                                <li>中華民國精神科專科醫師</li>
+                                <li>雙北向陽診所群總執行</li>
+                                <li>向陽身心診所院長</li>
+                                <li>成大醫學系</li>
+                                <li>美國哈佛大學商學院高管教育領導學結訓</li>
+                                <li>美國新英格蘭音樂院演奏碩士</li>
+                                <li>中華民國精神科專科醫師</li>
+                                <li>雙北向陽診所群總執行</li>
+                                <li>向陽身心診所院長</li>
                             </ul>
                         </div>
                     </div>
+                </div>
+                <div class="btnBox">
+                    <a href="javascript:history.go(-1);" class="btn_blue">
+                        <div class="arrow"></div>
+                        返回
+                    </a>
                 </div>
             </div>
         </div>
@@ -118,7 +145,6 @@
         include "quote/template/cookies.php";
     ?>
     <script src="dist/js/function.js"></script> 
-    <script src="dist/js/health.js"></script>
     
 </body>
 

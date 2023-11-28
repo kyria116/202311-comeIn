@@ -81,7 +81,7 @@
                         </a>
                     </li>        
                     <li>
-                        <a class="menu-list" href="health.php">
+                        <a class="menu-list" href="podcast.php">
                             健康資訊
                         </a>
                     </li>        
@@ -97,7 +97,7 @@
                                 <a href="reserve-search.php">查詢預約</a>
                             </li>
                             <li>
-                                <a href="reserve-waiting.php">即時候診資訊</a>
+                                <a href="waiting.php">即時候診資訊</a>
                             </li>
                         </ul>
                     </li>
