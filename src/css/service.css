@@ -1,0 +1,19 @@
+.service {
+  padding: 150px 0 148px;
+}
+@media all and (max-width: 767px) {
+  .service {
+    padding: 49px 0 66px;
+  }
+}
+.service .page_brown {
+  margin-bottom: 114px;
+}
+@media all and (max-width: 767px) {
+  .service .page_brown {
+    margin-bottom: 34px;
+  }
+}
+.service .page_brown ul.slides {
+  min-width: 100%;
+}

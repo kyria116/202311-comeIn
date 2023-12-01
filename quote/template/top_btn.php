@@ -9,12 +9,12 @@
     </a>
 </div>
 <div class="fixBoxBtn2">
-    <a href="javascript:;" class="iconPhone">
-        <div class="img"></div>
-        <div class="txt">專人諮詢</div>
+    <a href="javascript:;" target="_blank">
+        <div class="img f_line"></div>
+        <div class="txt">預約看診</div>
     </a>
-    <a href="javascript:;" class="iconPhone">
-        <div class="img"></div>
+    <a href="javascript:;" target="_blank">
+        <div class="img f_serve"></div>
         <div class="txt">專人諮詢</div>
     </a>
 </div>

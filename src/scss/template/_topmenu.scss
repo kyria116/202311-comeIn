@@ -11,20 +11,20 @@
         position: absolute;
         z-index: 2;
         top: 0;
-        left: 0;
-        width: 20px;
+        left: 0px;
+        width: 10px;
         height: 100%;
-        background: linear-gradient(to right, #fff 30%, rgba(255,255,255,0));
+        background: linear-gradient(to right, #fff, rgba(255,255,255,0));
     }
     &.index::after{
         content: "";
         position: absolute;
         z-index: 2;
         top: 0;
-        right: 0;
-        width: 20px;
+        right: 0px;
+        width: 10px;
         height: 100%;
-        background: linear-gradient(to left, #fff 30%, rgba(255,255,255,0));
+        background: linear-gradient(to left, #fff, rgba(255,255,255,0));
     }
     .item_menu_Box {
         text-align: left;
@@ -186,7 +186,7 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
-                background: url('../images/common/l_arrow_bt.png') center/contain no-repeat;
+                background: url('../images/common/leftMenu.png') center/contain no-repeat;
             }
             &::after{
                 content: "";
@@ -195,7 +195,7 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
-                background: url('../images/common/l_arrow_bt.png') center/contain no-repeat;
+                background: url('../images/common/leftMenu.png') center/contain no-repeat;
                 opacity: 0;
                 transition: opacity 0.75s;
             }
@@ -242,7 +242,7 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
-                background: url('../images/common/r_arrow_bt.png') center/contain no-repeat;
+                background: url('../images/common/rightMenu.png') center/contain no-repeat;
             }
             &::after{
                 content: "";
@@ -251,7 +251,7 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
-                background: url('../images/common/r_arrow_bt.png') center/contain no-repeat;
+                background: url('../images/common/rightMenu.png') center/contain no-repeat;
                 opacity: 0;
                 transition: opacity 0.75s;
             }

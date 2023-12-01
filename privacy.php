@@ -31,7 +31,7 @@
         include "quote/template/top_btn.php";
         include "quote/template/cookies.php";
     ?>
-    <script src="dist/js/function.js"></script> 
+    <script src="dist/js/main.js"></script>     
     
 </body>
 

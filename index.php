@@ -28,7 +28,7 @@
                 <div class="swiper-pagination"></div>
             </div>
             <div class="btnBox">
-                <a href="javascript:;" class="btn_blue">
+                <a href="information.php" class="btn_blue">
                     診所資訊
                     <div class="arrow"></div>
                 </a>
@@ -57,7 +57,7 @@
                         </span>
                     </div>
                     <div class="btnBox">
-                        <a href="javascript:;" class="btn_blue">
+                        <a href="about.php" class="btn_blue">
                             康迎介紹
                             <div class="arrow"></div>
                         </a>
@@ -66,7 +66,8 @@
             </div>
             <div class="team">
                 <div class="img">
-                    <img src="dist/images/team.png">
+                    <img src="dist/images/img_index_2.jpg" class="img_2">
+                    <img src="dist/images/img_index_1.jpg" class="img_1">
                 </div>
                 <div class="txtBox">
                     <div class="title_en">Team</div>
@@ -77,7 +78,7 @@
                         </span>
                     </div>
                     <div class="btnBox">
-                        <a href="javascript:;" class="btn_blue">
+                        <a href="team.php" class="btn_blue">
                             團隊介紹
                             <div class="arrow"></div>
                         </a>
@@ -96,7 +97,7 @@
                 <div class="swiper_service mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <a href="javascript:;">
+                            <a href="service.php">
                                 <div class="img">
                                     <img src="dist/images/icon_1.png">
                                 </div>
@@ -113,7 +114,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="javascript:;">
+                            <a href="service.php">
                                 <div class="img">
                                     <img src="dist/images/icon_1.png">
                                 </div>
@@ -130,7 +131,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="javascript:;">
+                            <a href="service.php">
                                 <div class="img">
                                     <img src="dist/images/icon_1.png">
                                 </div>
@@ -147,7 +148,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="javascript:;">
+                            <a href="service.php">
                                 <div class="img">
                                     <img src="dist/images/icon_1.png">
                                 </div>
@@ -164,7 +165,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="javascript:;">
+                            <a href="service.php">
                                 <div class="img">
                                     <img src="dist/images/icon_1.png">
                                 </div>
@@ -181,7 +182,7 @@
                             </a>
                         </div>
                         <div class="swiper-slide">
-                            <a href="javascript:;">
+                            <a href="service.php">
                                 <div class="img">
                                     <img src="dist/images/icon_1.png">
                                 </div>
@@ -216,9 +217,9 @@
                 <div class="swiper_news mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <a href="javascript:;">
-                                <div class="img">
-                                    <img src="dist/images/1.jpg">
+                            <a href="news-detail.php">
+                                <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
+                                    <img src="dist/">
                                 </div>
                                 <div class="txt">
                                     <div class="tags">
@@ -251,8 +252,8 @@
                             </ul>
                         </div>
                         <div class="swiper-slide">
-                            <a href="javascript:;">
-                                <div class="img">
+                            <a href="news-detail.php">
+                                <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
                                     <img src="dist/images/banner.png">
                                 </div>
                                 <div class="txt">
@@ -286,8 +287,8 @@
                             </ul>
                         </div>
                         <div class="swiper-slide">
-                            <a href="javascript:;">
-                                <div class="img">
+                            <a href="news-detail.php">
+                                <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
                                     <img src="dist/images/banner_mo.png">
                                 </div>
                                 <div class="txt">
@@ -325,8 +326,8 @@
                             </ul>
                         </div>
                         <div class="swiper-slide">
-                            <a href="javascript:;">
-                                <div class="img">
+                            <a href="news-detail.php">
+                                <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
                                     <img src="dist/images/1.jpg">
                                 </div>
                                 <div class="txt">
@@ -360,8 +361,8 @@
                             </ul>
                         </div>
                         <div class="swiper-slide">
-                            <a href="javascript:;">
-                                <div class="img">
+                            <a href="news-detail.php">
+                                <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
                                     <img src="dist/images/1.jpg">
                                 </div>
                                 <div class="txt">
@@ -395,8 +396,8 @@
                             </ul>
                         </div>
                         <div class="swiper-slide">
-                            <a href="javascript:;">
-                                <div class="img">
+                            <a href="news-detail.php">
+                                <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
                                     <img src="dist/images/1.jpg">
                                 </div>
                                 <div class="txt">
@@ -433,7 +434,7 @@
                 </div>
             </div>
             <div class="btnBox">
-                <a href="javascript:;" class="btn_blue">
+                <a href="news.php" class="btn_blue">
                     更多消息
                     <div class="arrow"></div>
                 </a>
@@ -449,7 +450,7 @@
                     include "quote/template/tag_menu.php";
                 ?>
                 <div class="swiperInfo">
-                    <div class="img"><img src="dist/images/1.jpg"></div>
+                    <div class="img" style="background: url('dist/images/img.jpg') center / cover no-repeat;"><img src="dist/images/1.jpg"></div>
                     <div class="txt">
                         <div class="titleBox">
                             <div class="iconInfo"><img src="dist/images/infoLogo.jpg"></div>
@@ -467,41 +468,41 @@
                                 </div>
                                 <div class="addrInfo">
                                     <img src="dist/images/common/location_b.png">
-                                    <a href="tel:0888643905" target="_blank">新北市土城區金城路三段17號1樓</a>
+                                    <a href="https://maps.app.goo.gl/hAoirTm7cxRkqqK68" target="_blank">新北市土城區金城路三段17號1樓</a>
                                 </div>
                             </div>
                             <ul class="linkSocial">
                                 <li>
-                                    <a href="javascript:;" class="icon iconFB"></a>
+                                    <a href="javascript:;" target="_blank" class="icon iconFB"></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:;" class="icon iconLine"></a>
+                                    <a href="javascript:;" target="_blank" class="icon iconLine"></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:;" class="icon iconYT"></a>
+                                    <a href="javascript:;" target="_blank" class="icon iconYT"></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:;" class="icon iconIG"></a>
+                                    <a href="javascript:;" target="_blank" class="icon iconIG"></a>
                                 </li>
                                 <li>
-                                    <a href="javascript:;" class="icon iconPod"></a>
+                                    <a href="javascript:;" target="_blank" class="icon iconPod"></a>
                                 </li>
                             </ul>
                             <ul class="btnBox">
                                 <li>
-                                    <a href="javascript:;" class="btn_blue">
+                                    <a href="information.php" class="btn_blue">
                                         門診資訊
                                         <div class="arrow"></div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:;" class="btn_blue">
+                                    <a href="information.php" class="btn_blue">
                                         線上預約
                                         <div class="arrow"></div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:;" class="btn_blue">
+                                    <a href="information.php" class="btn_blue">
                                         交通資訊
                                         <div class="arrow"></div>
                                     </a>
@@ -518,7 +519,7 @@
         include "quote/template/top_btn.php";
         include "quote/template/cookies.php";
     ?>
-    <script src="dist/js/function.js"></script>    
+    <script src="dist/js/main.js"></script>    
     <script src="dist/js/top_menu.js"></script>
     <script src="dist/js/index.js"></script>
     

@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="dist/css/health.css">
 </head>
 
-<body class="lang_tw">
+<body class="lang_tw" data-menu="4">
     <?php
         include "quote/template/added.php";
         include "quote/template/nav.php";
@@ -28,32 +28,32 @@
                                 <ul class="item_menu_list slides">
                                     <li class="active">
                                         <a href="javascript:;">
-                                            醫師
+                                            <span>醫師</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="javascript:;">
-                                            心理師
+                                            <span>心理師</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="javascript:;">
-                                            精神科醫師
+                                            <span>精神科醫師</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="javascript:;">
-                                            精神科醫師
+                                            <span>精神科醫師</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="javascript:;">
-                                            精神科醫師
+                                            <span>精神科醫師</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="javascript:;">
-                                            精神科醫師
+                                            <span>精神科醫師</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -140,7 +140,7 @@
         include "quote/template/top_btn.php";
         include "quote/template/cookies.php";
     ?>
-    <script src="dist/js/function.js"></script> 
+    <script src="dist/js/main.js"></script>     
     <script src="dist/js/health.js"></script>
     
 </body>

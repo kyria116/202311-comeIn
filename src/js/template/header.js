@@ -50,8 +50,8 @@ $('.menu-ham').on('click', function () {
 //當畫面大於991時，移除漢堡選單目前開闔的情況
 $(window).on('resize', function () {
     winW = $(window).width();
-    $('.menu li').removeClass('active')
     if (winW > 991) {
+        // $('.menu li').removeClass('active')
         $('body').removeClass('openMenu');
         $('.menu-ham').removeClass('hamActive');
     }
@@ -59,15 +59,17 @@ $(window).on('resize', function () {
 
 
 
-$('footer .f_top ul li').on('click', function(){
-    $(this).addClass('open')
-    $(this).siblings().removeClass('open')
-})
-
-$(window).on('click', function(e){
-    var icon = $('footer .f_top ul'); 
-    if(!icon.is(e.target) && icon.has(e.target).length === 0){
-        $('footer .f_top ul li').removeClass('open');
-    }
-});
+if (winW < 992) {
+    $('footer .f_top ul li').on('click', function(){
+        $(this).addClass('open')
+        $(this).siblings().removeClass('open')
+    })
+    
+    $(window).on('click', function(e){
+        var icon = $('footer .f_top ul'); 
+        if(!icon.is(e.target) && icon.has(e.target).length === 0){
+            $('footer .f_top ul li').removeClass('open');
+        }
+    });
+}
 

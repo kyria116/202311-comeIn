@@ -69,4 +69,5 @@ $(function(){
         $('html').removeClass('popupOpen')
         $('#popup iframe').attr('src', ``)
     });
+    setTimeout(function(){console.clear()}, 500)
 });

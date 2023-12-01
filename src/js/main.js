@@ -24,4 +24,20 @@ $(function () {
         });
     });
 
+    
+    //footer
+    $('footer .mailBox a').on('click', function(){
+        if($('body').hasClass('popupOpen')){
+            $('body').removeClass('popupOpen')
+            $('body, html').css('overflow-y', 'auto')
+        }else{
+            $('body').addClass('popupOpen')
+            $('body, html').css('overflow-y', 'hidden')
+        }
+    })
+    $('.popup_mailbox .closeIcon').on('click', function () {
+        $('body').removeClass('popupOpen')
+        $('body, html').css('overflow-y', 'auto')
+    });
+
 });

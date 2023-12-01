@@ -226,6 +226,7 @@ a:hover {
     }
     .subtitle{
         font-size: 20px;
+        text-transform: uppercase;
         @include mediaquery(null, 767px) {
             font-size: 14px;
         }

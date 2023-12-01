@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="dist/css/health.css">
 </head>
 
-<body class="lang_tw">
+<body class="lang_tw" data-menu="4">
     <?php
         include "quote/template/added.php";
         include "quote/template/nav.php";
@@ -144,7 +144,7 @@
         include "quote/template/top_btn.php";
         include "quote/template/cookies.php";
     ?>
-    <script src="dist/js/function.js"></script> 
+    <script src="dist/js/main.js"></script>     
     
 </body>
 

@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="dist/css/information.css">
 </head>
 
-<body class="lang_tw">
+<body class="lang_tw" data-menu="2">
     <?php
         include "quote/template/added.php";
         include "quote/template/nav.php";
@@ -40,7 +40,7 @@
                                 </div>
                                 <div class="addrInfo">
                                     <img src="dist/images/common/location_b.png">
-                                    <a href="tel:0888643905" target="_blank">新北市土城區金城路三段17號1樓</a>
+                                    <a href="https://maps.app.goo.gl/hAoirTm7cxRkqqK68" target="_blank">新北市土城區金城路三段17號1樓</a>
                                 </div>
                             </div>
                             <ul class="linkSocial">
@@ -133,7 +133,7 @@
                 </div>
             </div>
             <ul class="topMenuContain">
-                <li class="active">
+                <li>
                     <div class="container">
                         <ul>
                             <li>
@@ -311,19 +311,44 @@
                         </div>
                     </div>
                 </li>
-                <li>
+                <li class="active">
                     <div class="container_table">
+                        <div class="mo mo_txt">
+                            <div class="tableTitle">康迎身心診所-門診表</div>
+                            <div class="tag">
+                                <a href="javascript:;" class="allDoctor">全部醫生</a> 
+                                <div class="doctors">
+                                    <ul>
+                                        <li><a href="javascript:;">張邦彥</a></li>
+                                        <li><a href="javascript:;">張邦彥</a></li>
+                                        <li><a href="javascript:;">張邦彥</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                         <div class="bigBox">
                             <div>
-                                <table class="">
+                                <table>
                                     <thead>
-                                        <tr>
+                                        <tr class="pc">
                                             <th colspan="7">
-                                                <div>康迎身心診所-門診表</div>
-                                                <div class="tag">
-                                                    <a href="javascript:;" class="allDoctor">全部醫師</a> <a href="javascript:;">張邦彥</a> <a href="javascript:;">張邦彥</a> <a href="javascript:;">張邦彥</a>
-                                                </div>
+                                                <span>
+                                                    <div>康迎身心診所-門診表</div>
+                                                    <div class="tag">
+                                                        <a href="javascript:;" class="allDoctor">全部醫師</a> <a href="javascript:;">張邦彥</a> <a href="javascript:;">張邦彥</a> <a href="javascript:;">張邦彥</a>
+                                                    </div>
+                                                </span>
                                             </th>
+                                        </tr>
+                                        
+                                        <tr class="mo">
+                                            <th></th>
+                                            <th>一</th>
+                                            <th>二</th>
+                                            <th>三</th>
+                                            <th>四</th>
+                                            <th>五</th>
+                                            <th>六</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -337,7 +362,7 @@
                                             <td>六</td>
                                         </tr>
                                         <tr>
-                                            <td>早診<div>09:00 - 12:30</div></td>
+                                            <td>早診<div>09:00<i class="pc"> - </i><i class="mo"> | </i>12:30</div></td>
                                             <td>
                                                 <div class="box">
                                                     <div class="name">張邦彥</div><a href="javascript:;" target="_blank">4/1起</a>
@@ -412,7 +437,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>午診<div>14:00 - 17:00</div></td>
+                                            <td>午診<div>14:00<i class="pc"> - </i><i class="mo"> | </i>17:00</div></td>
                                             <td>
                                                 <div class="box">
                                                     <div class="name">張邦彥</div><a href="javascript:;" target="_blank">4/1起</a>
@@ -481,7 +506,7 @@
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>晚診<div>18:00 - 21:00</div></td>
+                                            <td>晚診<div>18:00<i class="pc"> - </i><i class="mo"> | </i>21:00</div></td>
                                             <td>
                                                 <div class="box">
                                                     <div class="name">張邦彥</div><a href="javascript:;">4/1起</a>
@@ -553,11 +578,13 @@
                                     <tfoot>
                                         <tr>
                                             <td colspan="7">
-                                                備註<br>
-                                                週二午診張瀞方醫師為飲食疾<br>
-                                                患特別門診<br>
-                                                四月起「週三晚診」<br>
-                                                葉明玫醫師休診
+                                                <span>
+                                                    備註<br>
+                                                    週二午診張瀞方醫師為飲食疾<br>
+                                                    患特別門診<br>
+                                                    四月起「週三晚診」<br>
+                                                    葉明玫醫師休診
+                                                </span>
                                             </td>
                                         </tr>
                                     </tfoot>
@@ -1095,10 +1122,8 @@
         include "quote/template/top_btn.php";
         include "quote/template/cookies.php";
     ?>
-    <script src="dist/js/function.js"></script> 
-    <script src="https://cdn.datatables.net/v/dt/dt-1.10.12/b-1.2.2/b-colvis-1.2.2/fc-3.2.2/sc-1.4.2/datatables.min.js"></script>
+    <script src="dist/js/main.js"></script> 
     <script src="dist/js/information.js"></script>
-    
 </body>
 
 </html>

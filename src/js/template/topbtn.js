@@ -1,7 +1,10 @@
 
 let topbtnH = $('.fixBoxBtn').outerHeight();
 
-$(window).on('scroll resize', function () {
+
+$(window).on('scroll', gotop);
+$(window).on('resize', gotop);
+function gotop(){
     let winH = $(window).height();
     let winscroll = $(window).scrollTop();
     let topBtnStop = $(document).height() - winH - $('footer').outerHeight() + ($('.fixBtn').outerHeight() / 2) + 20;
@@ -36,4 +39,4 @@ $(window).on('scroll resize', function () {
             scrollTop: 0
         }, 1000);
     })
-});
+}

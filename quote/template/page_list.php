@@ -1,4 +1,4 @@
-<dl class="page asj fadeIn">
+<dl class="page">
     <!-- 若沒有上一則或下一則請使用 nopage -->
     <dt class="ltbn nopage">
         <a href="javascript:;">

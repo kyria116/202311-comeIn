@@ -34,22 +34,22 @@
                         </a>
                         <ul class="menu-second">
                             <li>
-                                <a href="service">睡眠健檢</a>
+                                <a href="service.php">睡眠健檢</a>
                             </li>
                             <li>
-                                <a href="service">身心問題</a>
+                                <a href="service.php">身心問題</a>
                             </li>
                             <li>
-                                <a href="service">心理諮商</a>
+                                <a href="service.php">心理諮商</a>
                             </li>
                             <li>
-                                <a href="service">健腦設備</a>
+                                <a href="service.php">健腦設備</a>
                             </li>
                             <li>
-                                <a href="service">企業關懷</a>
+                                <a href="service.php">企業關懷</a>
                             </li>
                             <li>
-                                <a href="service">特約門診</a>
+                                <a href="service.php">特約門診</a>
                             </li>
                         </ul>
                     </li>            
