@@ -182,7 +182,7 @@
                     </div>
                 </fieldset>
                 <fieldset>
-                    <legend class="txt_3"><span>8</span><i>動作或說話速度緩慢，或煩躁或坐立不安</i></legend>
+                    <legend class="txt_3"><span>8</span><i>動作或說話速度緩慢，或煩躁或坐立不安動作或說話速度緩慢，或煩躁或坐立不安</i></legend>
                     <div class="ckbutton">
                         <input type="radio" id="none8" name="contact8"  />
                         <label for="none8">完全沒有</label>
@@ -225,7 +225,7 @@
                 </fieldset>
             <div class="sumbit">
                 <div class="btnBox">
-                    <a href="javascript:;" class="btn_blue">
+                    <a href="physical-results.php" class="btn_blue">
                         送出<div class="arrow"></div>
                     </a>
                 </div>

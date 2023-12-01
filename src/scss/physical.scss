@@ -96,24 +96,44 @@
                 font-family: $font-en;
                 color: #9e8470;
                 margin-bottom: 4.5%;
-                @include clamp(1.5,1)
+                @include clamp(1.5, 1);
             }
             .title {
                 font-size: 18px;
                 font-family: $font-en;
                 color: #8c8c8c;
                 width: 100%;
-                @include clamp(1.45,2)
+                @include clamp(1.45, 2);
             }
         }
         li:nth-child(3n) {
             margin-right: 0;
         }
+        li:last-child {
+            margin-right: 0;
+    }
         @include mediaquery(null, 991px) {
             li:nth-child(2n) {
                 margin-right: 0;
             }
+            li:nth-child(3n) {
+                margin-right: 30px;
         }
+        li:last-child {
+            margin-right: 0;
+    }
+    }
+    @include mediaquery(null, 767px) {
+        li:nth-child(2n) {
+            margin-right: 0;
+        }
+        li:nth-child(3n) {
+            margin-right: 0px;
+    }
+    li:last-child {
+        margin-right: 0;
+}
+}
     }
     ul:nth-child(2) {
         margin-top: 0;
@@ -200,6 +220,7 @@
         margin-bottom: 40px;
     }
     .txt_3 {
+        position: relative;
         display: flex;
         width: 100%;
         justify-content: start;
@@ -211,15 +232,20 @@
         border-radius: 8px;
         margin-bottom: 26px;
         span {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            text-align: center;
             font-size: 26px;
             font-family: Noto Sans TC;
             color: #fff;
             background-color: #dabfb6;
-            padding: 10px 20px;
+            height: 100%;
+            padding: 0 30px;
             border-radius: 8px 0 0 8px;
         }
         i {
-            padding-left: 25px;
+            padding:25px 25px 25px 110px;
         }
     }
     .ckbutton {
@@ -290,7 +316,7 @@
     .physical_r {
         padding-top: 150px;
         @include mediaquery(null, 767px) {
-            padding-top: 74px;
+            padding-top: 45px;
         }
     }
     .breadCrumbs {
@@ -298,7 +324,7 @@
         align-items: baseline;
         font-size: 16px;
         letter-spacing: 0.05em;
-        margin-bottom: 110px;
+        margin-bottom: 32px;
         @include mediaquery(null, 767px) {
             margin-bottom: 30px;
         }
@@ -324,9 +350,14 @@
     }
     .results-block {
         width: 100%;
-        border: 2px solid #b68a7c;
+        border: 1px solid #b68a7c;
         border-radius: 25px;
-        margin-bottom: 85px;
+        margin-bottom: 70px;
+        @include mediaquery(null, 767px) {
+            border: 1px solid #b68a7c;
+            border-radius: 14.5px;
+            margin-bottom: 45px;
+        }
         .title {
             text-align: center;
             background-color: #b68a7c;
@@ -334,25 +365,27 @@
             font-size: 26px;
             font-family: $font-en;
             color: #fff;
-            padding: 30px 0;
+            padding: 17px 0;
             @include mediaquery(null, 767px) {
                 font-size: 19px;
-                padding: 20px 0;
+                padding: 11px 0;
+                border-radius: 10px 10px 0 0;
             }
         }
         .txt-block {
-            padding: 53px 0 75px 0;
+            padding: 45px 0 80px 0;
             @include mediaquery(null, 767px) {
-                padding: 26px 36px 29px 36px;
+                padding: 23px 36px 25px 36px;
             }
             .title_B {
                 text-align: center;
                 color: #9e8470;
                 font-size: 26px;
                 font-family: $font-en;
-                margin-bottom: 30px;
+                margin-bottom: 20px;
                 @include mediaquery(null, 767px) {
                     font-size: 19px;
+                    margin-bottom: 15px;
                 }
             }
             .subtitle {
@@ -360,6 +393,7 @@
                 font-size: 16px;
                 font-weight: 500;
                 color: #221e1f;
+                padding: 0 40px;
                 @include mediaquery(null, 767px) {
                     font-size: 15px;
                 }
@@ -390,9 +424,10 @@
             font-size: 16px;
             font-weight: 500;
             color: #221e1f;
-            padding: 45px 0;
+            padding: 35px 0;
             @include mediaquery(null, 767px) {
                 font-size: 15px;
+                padding: 15px 0;
             }
         }
     }
@@ -400,34 +435,56 @@
         ul {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
-            margin-top: 150px;
+            justify-content: center;
+            margin-top: 5px;
+            margin-bottom: 120px;
             @include mediaquery(null, 767px) {
                 flex-direction: column;
                 align-items: center;
+                margin-top: 10px;
+                margin-bottom: 0;
             }
         }
         li {
             position: relative;
             width: calc((100% - 54px) / 3);
-            margin-bottom: 115px;
+            margin-bottom: 42px;
+            margin-right: 27px;
             @include mediaquery(null, 991px) {
                 width: calc(50% - 54px);
             }
             @include mediaquery(null, 767px) {
                 width: 100%;
+                margin-bottom: 22px;
             }
-
+            a {
+                display: inline-block;
+                position: relative;
+                padding-top: 70px;
+                width: 100%;
+                @include mediaquery(null, 767px) {
+                    padding-top: 61px;
+                }
+            }
             img {
                 position: absolute;
                 border: 2px solid #dabfb6;
                 background-color: #fff;
                 left: 50%;
-                top: -40%;
+                top: 0;
+                width: 40%;
+                min-width: 146px;
                 transform: translateX(-50%);
-                padding: 32px 26px;
+                padding: 25px 26px;
                 border-radius: 20px;
                 z-index: 1;
+                @include mediaquery(null, 767px) {
+                    max-width: 135px;
+                    min-width: 100px;
+                    border-radius: 10px;
+                    padding: 20px;
+                    border: 1px solid #dabfb6;
+                }
             }
             .subtitle {
                 position: relative;
@@ -437,9 +494,15 @@
                 font-size: 18px;
                 color: #221e1f;
                 font-family: $font-en;
-                padding: 120px 0 53px 0;
+                padding: 115px 45px 53px;
                 transition: 0.75s;
+                @include mediaquery(null, 767px) {
+                    padding: 85px 50px 25px;
+                    font-size: 16px;
+                    border-radius: 10px;
+                }
                 span {
+                    display: inline-block;
                     position: relative;
                     &::after {
                         content: "";
@@ -466,6 +529,26 @@
                         }
                     }
                 }
+            }
+        }
+        li:nth-child(even){
+            @include mediaquery(null, 991px) {
+                margin-right: 0;
+            }}
+        li:nth-child(3n){
+            margin-right: 0;
+            @include mediaquery(null, 991px) {
+                margin-right: 27px;
+            }
+            @include mediaquery(null, 767px) {
+                margin-right: 27px;
+            }
+        }
+        li:last-child {
+            margin-right: 0;
+            @include mediaquery(null, 767px) {
+                margin-bottom: 44px;
+                margin-right: 27px;
             }
         }
     }
@@ -547,10 +630,16 @@
             }
         }
     }
-    .banner:nth-child(3){
+    .banner:nth-child(2) {
+        margin-bottom: 2px;
+        @include mediaquery(null, 767px) {
+            margin-bottom: 1px;
+        }
+    }
+    .banner:last-child {
         margin-bottom: 150px;
         @include mediaquery(null, 767px) {
-            margin-bottom: 82.5px;
+            margin-bottom: 70px;
         }
     }
 }

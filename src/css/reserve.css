@@ -1,0 +1,1331 @@
+.breadCrumbs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  margin-bottom: 36px;
+}
+@media all and (max-width: 767px) {
+  .breadCrumbs {
+    margin-bottom: 22px;
+  }
+}
+.breadCrumbs a {
+  color: #a0a0a0;
+}
+.breadCrumbs i {
+  display: inline-block;
+  width: 6px;
+  height: 12px;
+  margin: 0 10px;
+  background: url("../images/common/breadArrow.png") center/contain no-repeat;
+}
+.breadCrumbs span {
+  color: #9e8470;
+}
+
+.personInfo {
+  padding: 142px 0 100px;
+}
+@media all and (max-width: 767px) {
+  .personInfo {
+    padding: 34px 0 78px;
+  }
+}
+.personInfo .title {
+  font-size: 26px;
+  color: #9e8470;
+  font-family: "Shippori Mincho", sans-serif;
+  font-weight: 600;
+  margin-bottom: 33px;
+}
+@media all and (max-width: 767px) {
+  .personInfo .title {
+    font-size: 25px;
+    margin-bottom: 18px;
+  }
+}
+.personInfo .subtitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: #221e1f;
+  margin-bottom: 5px;
+}
+@media all and (max-width: 767px) {
+  .personInfo .subtitle {
+    font-size: 19px;
+  }
+}
+.personInfo .info {
+  font-size: 16px;
+  color: #221e1f;
+  line-height: 1.5;
+  padding-bottom: 25px;
+  margin-bottom: 45px;
+  border-bottom: 1px solid #dadada;
+}
+@media all and (max-width: 767px) {
+  .personInfo .info {
+    font-size: 15px;
+    padding-bottom: 16px;
+    margin-bottom: 28px;
+  }
+}
+.personInfo form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+@media all and (max-width: 767px) {
+  .personInfo form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.personInfo form .w50 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 48.6%;
+          flex: 0 0 48.6%;
+  margin-bottom: 27px;
+}
+@media all and (max-width: 767px) {
+  .personInfo form .w50 {
+    width: 100%;
+    margin-bottom: 17px;
+  }
+}
+.personInfo form label {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #221e1f;
+  margin-bottom: 13px;
+}
+@media all and (max-width: 767px) {
+  .personInfo form label {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+.personInfo form label::before {
+  content: "*";
+  position: absolute;
+  top: -2px;
+  left: -10px;
+  font-size: 12px;
+  color: #ff0303;
+}
+@media all and (max-width: 767px) {
+  .personInfo form label::before {
+    top: -2px;
+    left: -10px;
+    font-size: 12px;
+  }
+}
+.personInfo form label span {
+  font-size: 16px;
+  color: #ff0303;
+}
+@media all and (max-width: 767px) {
+  .personInfo form label span {
+    font-size: 12px;
+  }
+}
+.personInfo form input {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  height: 48px;
+  line-height: 48px;
+  border: 1px solid #dabfb6;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 18px;
+  color: #221e1f;
+  padding: 0 16px;
+}
+@media all and (max-width: 767px) {
+  .personInfo form input {
+    font-size: 15px;
+    height: 47px;
+    line-height: 47px;
+    border-radius: 4px;
+  }
+}
+.personInfo form input::-webkit-input-placeholder {
+  font-size: 18px;
+  color: #cacaca;
+}
+.personInfo form input::-moz-placeholder {
+  font-size: 18px;
+  color: #cacaca;
+}
+.personInfo form input:-ms-input-placeholder {
+  font-size: 18px;
+  color: #cacaca;
+}
+.personInfo form input::-ms-input-placeholder {
+  font-size: 18px;
+  color: #cacaca;
+}
+.personInfo form input::placeholder {
+  font-size: 18px;
+  color: #cacaca;
+}
+@media all and (max-width: 767px) {
+  .personInfo form input::-webkit-input-placeholder {
+    font-size: 15px;
+  }
+  .personInfo form input::-moz-placeholder {
+    font-size: 15px;
+  }
+  .personInfo form input:-ms-input-placeholder {
+    font-size: 15px;
+  }
+  .personInfo form input::-ms-input-placeholder {
+    font-size: 15px;
+  }
+  .personInfo form input::placeholder {
+    font-size: 15px;
+  }
+}
+.personInfo form .selectBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.personInfo form .selectBox select {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  height: 48px;
+  line-height: 48px;
+  border: 1px solid #dabfb6;
+  border-radius: 8px;
+  width: 100%;
+  font-size: 18px;
+  color: #221e1f;
+  padding: 0 16px;
+  background: #fff url("../images/common/select_down.png") center right 16px/8px 5px no-repeat;
+}
+@media all and (max-width: 767px) {
+  .personInfo form .selectBox select {
+    font-size: 15px;
+    background: #fff url("../images/common/select_down.png") center right 10px/8px 5px no-repeat;
+  }
+}
+.personInfo form .selectBox select + select {
+  margin-left: 20px;
+}
+.personInfo .btnBox {
+  text-align: center;
+  padding: 54px 0 50px;
+}
+@media all and (max-width: 767px) {
+  .personInfo .btnBox {
+    padding: 34px 0 0;
+  }
+}
+
+.personInfo_online {
+  padding: 145px 0 0;
+}
+@media all and (max-width: 767px) {
+  .personInfo_online {
+    padding: 36px 0 0;
+  }
+}
+.personInfo_online .online_choose {
+  border-radius: 24px;
+  background-color: #f4e9e7;
+}
+@media all and (max-width: 767px) {
+  .personInfo_online .online_choose {
+    border-radius: 12px;
+  }
+}
+.personInfo_online .online_choose > div {
+  max-width: 768px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 41px 0 26px;
+}
+@media all and (max-width: 767px) {
+  .personInfo_online .online_choose > div {
+    padding: 33px 20px 26px;
+    width: 100%;
+  }
+}
+.personInfo_online .online_choose .title {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Shippori Mincho", sans-serif;
+  color: #9e8470;
+  text-align: center;
+  margin-bottom: 43px;
+}
+@media all and (max-width: 767px) {
+  .personInfo_online .online_choose .title {
+    font-size: 25px;
+    margin-bottom: 18px;
+  }
+}
+.personInfo_online .online_choose ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 45px;
+}
+@media all and (max-width: 767px) {
+  .personInfo_online .online_choose ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 27px;
+  }
+}
+.personInfo_online .online_choose ul li {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 48.1%;
+          flex: 0 0 48.1%;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 2px solid #dabfb6;
+  overflow: hidden;
+}
+@media all and (max-width: 767px) {
+  .personInfo_online .online_choose ul li {
+    border-radius: 10px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 100%;
+    border: 1px solid #dabfb6;
+    margin-bottom: 12px;
+  }
+}
+.personInfo_online .online_choose ul li a {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 34px 0;
+}
+@media all and (max-width: 767px) {
+  .personInfo_online .online_choose ul li a {
+    padding: 26px 0;
+  }
+}
+@media all and (min-width: 768px) {
+  .personInfo_online .online_choose ul li a:hover::after {
+    opacity: 1;
+  }
+}
+.personInfo_online .online_choose ul li a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(209, 117, 89, 0.5);
+  opacity: 0;
+  -webkit-transition: opacity 0.75s;
+  transition: opacity 0.75s;
+}
+@media all and (max-width: 767px) {
+  .personInfo_online .online_choose ul li .img {
+    width: 93px;
+  }
+}
+.personInfo_online .online_choose ul li .txt {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Shippori Mincho", sans-serif;
+  color: #221e1f;
+  margin-left: 22px;
+}
+.personInfo_online .online_choose #select_1, .personInfo_online .online_choose #select_2 {
+  display: block;
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: 1px solid #dabfb6;
+  padding: 0 16px;
+  font-size: 18px;
+  color: #221e1f;
+  margin-bottom: 22px;
+}
+@media all and (max-width: 767px) {
+  .personInfo_online .online_choose #select_1, .personInfo_online .online_choose #select_2 {
+    font-size: 15px;
+    margin-bottom: 12px;
+    padding: 0 12px;
+  }
+}
+.personInfo_online .linkTelBox {
+  max-width: 968px;
+  margin: 100px auto;
+}
+@media all and (max-width: 991px) {
+  .personInfo_online .linkTelBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 40px auto 98px;
+  }
+}
+@media all and (min-width: 768px) {
+  .personInfo_online .linkTelBox:hover .img::after {
+    opacity: 1;
+  }
+  .personInfo_online .linkTelBox:hover .tel {
+    background-color: #749294;
+  }
+}
+.personInfo_online .linkTelBox .linkTel {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(100% - 27px);
+  min-height: 180px;
+  border-radius: 90px;
+  background-color: #fff;
+  border: 2px solid #dabfb6;
+  padding: 0 76px 0 110px;
+}
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .personInfo_online .linkTelBox .linkTel {
+    padding: 0 56px;
+  }
+}
+@media all and (max-width: 991px) {
+  .personInfo_online .linkTelBox .linkTel {
+    border: 1px solid #dabfb6;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px 0 14px;
+    border-radius: 42px;
+    min-height: auto;
+  }
+}
+.personInfo_online .linkTelBox .linkTel::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: -27px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 50%;
+  height: calc(100% + 50px);
+  border-radius: 114px;
+  background-color: #f4e9e7;
+}
+@media all and (max-width: 991px) {
+  .personInfo_online .linkTelBox .linkTel::after {
+    right: -16px;
+    border-radius: 61px;
+    width: 68%;
+    height: calc(100% + 38px);
+  }
+}
+.personInfo_online .linkTelBox .title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #9e8470;
+  font-family: "Shippori Mincho", sans-serif;
+  margin-bottom: 12px;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .personInfo_online .linkTelBox .title {
+    font-size: 23px;
+    text-align: center;
+  }
+}
+@media all and (max-width: 767px) {
+  .personInfo_online .linkTelBox .title {
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 5px;
+  }
+}
+.personInfo_online .linkTelBox .subtitle {
+  font-size: 18px;
+  color: #8c8c8c;
+  font-family: "Shippori Mincho", sans-serif;
+}
+@media all and (max-width: 991px) {
+  .personInfo_online .linkTelBox .subtitle {
+    margin-bottom: 14px;
+    font-size: 17px;
+    text-align: center;
+  }
+}
+@media all and (max-width: 767px) {
+  .personInfo_online .linkTelBox .subtitle {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+.personInfo_online .linkTelBox .rightBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.personInfo_online .linkTelBox .img {
+  position: relative;
+  width: 86px;
+  height: 86px;
+}
+@media all and (max-width: 767px) {
+  .personInfo_online .linkTelBox .img {
+    width: 53px;
+    height: 53px;
+  }
+}
+.personInfo_online .linkTelBox .img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/telIcon.png") center/contain no-repeat;
+}
+.personInfo_online .linkTelBox .img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/telIcon_b.png") center/contain no-repeat;
+  opacity: 0;
+  -webkit-transition: opacity 0.75s;
+  transition: opacity 0.75s;
+}
+.personInfo_online .linkTelBox .tel {
+  font-size: 26px;
+  letter-spacing: 0.075em;
+  color: #fff;
+  font-family: "Shippori Mincho", sans-serif;
+  border-radius: 24px;
+  background-color: #d17559;
+  padding: 0 51px 0 60px;
+  height: 48px;
+  line-height: 48px;
+  margin-left: -34px;
+  -webkit-transition: 0.75s;
+  transition: 0.75s;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .personInfo_online .linkTelBox .tel {
+    font-size: 23px;
+  }
+}
+@media all and (max-width: 767px) {
+  .personInfo_online .linkTelBox .tel {
+    border-radius: 18px;
+    font-size: 19px;
+    height: 37px;
+    line-height: 35px;
+    padding: 0 20px 0 41px;
+  }
+}
+
+.reserveSearch .kv_banner .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.reserveSearch .kv_banner .title img {
+  display: block;
+  width: 50px;
+  padding-top: 6px;
+  margin-right: 2px;
+}
+@media all and (max-width: 767px) {
+  .reserveSearch .kv_banner .title img {
+    padding-top: 1px;
+    width: 32px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .reserveList .table_wrap {
+    border: 1px solid #b68a7c;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+}
+@media all and (min-width: 768px) {
+  .reserveList .table_wrap ul > li:nth-child(1) {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+    margin-right: 20px;
+  }
+}
+@media all and (min-width: 768px) {
+  .reserveList .table_wrap ul > li:nth-child(2) {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 16.8%;
+            flex: 0 0 16.8%;
+    margin-right: 20px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1365px) {
+  .reserveList .table_wrap ul > li:nth-child(2) {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 13.8%;
+            flex: 0 0 13.8%;
+  }
+}
+@media all and (min-width: 768px) {
+  .reserveList .table_wrap ul > li:nth-child(3) {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 19.1%;
+            flex: 0 0 19.1%;
+    margin-right: 20px;
+  }
+}
+@media all and (min-width: 768px) {
+  .reserveList .table_wrap ul > li:nth-child(4) {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 14.4%;
+            flex: 0 0 14.4%;
+    margin-right: 20px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1365px) {
+  .reserveList .table_wrap ul > li:nth-child(4) {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 12.4%;
+            flex: 0 0 12.4%;
+  }
+}
+@media all and (min-width: 768px) {
+  .reserveList .table_wrap ul > li:nth-child(5) {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 13%;
+            flex: 0 0 13%;
+    margin-right: 20px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1365px) {
+  .reserveList .table_wrap ul > li:nth-child(5) {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 10%;
+            flex: 0 0 10%;
+  }
+}
+@media all and (min-width: 768px) {
+  .reserveList .table_wrap ul > li:nth-child(6) {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    font-size: 14px;
+  }
+}
+@media all and (max-width: 767px) {
+  .reserveList .table_wrap ul > li:nth-child(6) {
+    font-size: 15px;
+  }
+}
+.reserveList .table_wrap .table_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #b68a7c;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Shippori Mincho", sans-serif;
+  height: 58px;
+  line-height: 58px;
+  padding: 0 40px;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .reserveList .table_wrap .table_title {
+    padding: 0 16px;
+  }
+}
+@media all and (max-width: 767px) {
+  .reserveList .table_wrap .table_title {
+    display: none;
+  }
+}
+.reserveList .table_wrap .table_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  font-size: 16px;
+  color: #221e1f;
+  padding: 20px 40px;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .reserveList .table_wrap .table_list {
+    padding: 16px 16px;
+  }
+}
+@media all and (max-width: 767px) {
+  .reserveList .table_wrap .table_list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    padding: 0;
+    border: 1px solid #b68a7c;
+    margin-bottom: 24px;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+}
+.reserveList .table_wrap .table_list:nth-child(odd) {
+  background-color: #fef8f6;
+}
+@media all and (max-width: 767px) {
+  .reserveList .table_wrap .table_list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    width: 100%;
+  }
+  .reserveList .table_wrap .table_list li:first-child .m_title {
+    padding-top: 16px;
+  }
+  .reserveList .table_wrap .table_list li:last-child {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .reserveList .table_wrap .table_list li:last-child .m_title {
+    padding: 37px 10px 37px 20px;
+    background-color: #b68a7c;
+  }
+}
+@media all and (max-width: 767px) {
+  .reserveList .table_wrap .table_list li .m_title {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 128px;
+            flex: 0 0 128px;
+    background-color: #b68a7c;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Shippori Mincho", sans-serif;
+    padding: 11px 10px 11px 24px;
+  }
+}
+@media all and (max-width: 767px) {
+  .reserveList .table_wrap .table_list li .m_info {
+    font-size: 15px;
+    color: #221e1f;
+    padding-left: 52px;
+  }
+}
+.reserveList .table_wrap .btnDele {
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #9e8470;
+  background-color: #9e8470;
+  border-radius: 4px;
+  padding: 4px 10px 2px;
+  -webkit-transition: 0.75s;
+  transition: 0.75s;
+  line-height: 1.25;
+}
+@media all and (max-width: 767px) {
+  .reserveList .table_wrap .btnDele {
+    padding: 6px 13px 4px;
+  }
+}
+@media all and (min-width: 768px) {
+  .reserveList .table_wrap .btnDele:hover {
+    background-color: #fff;
+    color: #9e8470;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 992px) {
+  .reserveList .table_wrap .btnDele i {
+    display: block;
+  }
+}
+.reserveList .btn_blue {
+  letter-spacing: 0.02em;
+}
+@media all and (max-width: 767px) {
+  .reserveList .btn_blue {
+    width: 148px;
+  }
+}
+
+.waiting {
+  padding-top: 143px;
+}
+@media all and (max-width: 767px) {
+  .waiting {
+    padding-top: 38px;
+  }
+}
+.waiting .linkTelBox {
+  max-width: 830px;
+  margin: 97px auto 172px;
+}
+@media all and (max-width: 991px) {
+  .waiting .linkTelBox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 56px auto 91px;
+  }
+}
+.waiting .linkTelBox .linkTel {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: calc(100% - 27px);
+  min-height: 183px;
+  border-radius: 90px;
+  background-color: #fff;
+  border: 2px solid #dabfb6;
+  padding: 0 66px 0 92px;
+}
+@media all and (min-width: 992px) and (max-width: 1200px) {
+  .waiting .linkTelBox .linkTel {
+    padding: 0 56px;
+  }
+}
+@media all and (max-width: 991px) {
+  .waiting .linkTelBox .linkTel {
+    border: 1px solid #dabfb6;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 10px 0 11px;
+    border-radius: 55px;
+    min-height: auto;
+  }
+}
+.waiting .linkTelBox .linkTel:hover .img::after {
+  opacity: 1;
+}
+.waiting .linkTelBox .linkTel:hover .line {
+  background-color: #749294;
+}
+.waiting .linkTelBox .linkTel::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: -27px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 50%;
+  height: calc(100% + 50px);
+  border-radius: 114px;
+  background-color: #f4e9e7;
+}
+@media all and (max-width: 991px) {
+  .waiting .linkTelBox .linkTel::after {
+    right: -16px;
+    border-radius: 69px;
+    width: 68%;
+    height: calc(100% + 30px);
+  }
+}
+.waiting .linkTelBox .title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #9e8470;
+  font-family: "Shippori Mincho", sans-serif;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .waiting .linkTelBox .title {
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+}
+@media all and (max-width: 767px) {
+  .waiting .linkTelBox .title {
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 5px;
+  }
+}
+.waiting .linkTelBox .rightBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.waiting .linkTelBox .img {
+  position: relative;
+  width: 86px;
+  height: 86px;
+}
+@media all and (max-width: 767px) {
+  .waiting .linkTelBox .img {
+    width: 53px;
+    height: 53px;
+  }
+}
+.waiting .linkTelBox .img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/line.png") center/contain no-repeat;
+}
+.waiting .linkTelBox .img::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/line_b.png") center/contain no-repeat;
+  opacity: 0;
+  -webkit-transition: opacity 0.75s;
+  transition: opacity 0.75s;
+}
+.waiting .linkTelBox .line {
+  display: block;
+  font-size: 26px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  font-family: "Shippori Mincho", sans-serif;
+  border-radius: 30px;
+  background-color: #d17559;
+  padding: 0 36px 0 62px;
+  height: 60px;
+  line-height: 60px;
+  margin-left: -42px;
+  -webkit-transition: 0.75s;
+  transition: 0.75s;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .waiting .linkTelBox .line {
+    font-size: 23px;
+  }
+}
+@media all and (max-width: 767px) {
+  .waiting .linkTelBox .line {
+    border-radius: 18px;
+    font-size: 19px;
+    height: 37px;
+    line-height: 35px;
+    padding: 0 20px 0 41px;
+  }
+}
+
+.successful {
+  padding: 145px 0 0;
+}
+@media all and (max-width: 767px) {
+  .successful {
+    padding: 36px 0 0;
+  }
+}
+.successful .breadCrumbs {
+  margin-bottom: 106px;
+}
+@media all and (max-width: 767px) {
+  .successful .breadCrumbs {
+    margin-bottom: 90px;
+  }
+}
+.successful .contactBox {
+  height: 400px;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .successful .contactBox {
+    height: 300px;
+  }
+}
+@media all and (max-width: 767px) {
+  .successful .contactBox {
+    height: 400px;
+  }
+}
+.successful .contactBox a {
+  position: relative;
+  display: block;
+  height: 100%;
+}
+@media all and (max-width: 767px) {
+  .successful .contactBox a {
+    padding-top: 47px;
+  }
+}
+.successful .contactBox a::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../images/contact.jpg") center/cover no-repeat;
+  -webkit-transition: -webkit-transform 0.75s;
+  transition: -webkit-transform 0.75s;
+  transition: transform 0.75s;
+  transition: transform 0.75s, -webkit-transform 0.75s;
+}
+@media all and (max-width: 767px) {
+  .successful .contactBox a::before {
+    background: url("../images/contact_mo.jpg") center/cover no-repeat;
+  }
+}
+.successful .contactBox a:hover::before {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+@media all and (min-width: 768px) {
+  .successful .contactBox .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 100%;
+  }
+}
+.successful .contactBox .txtBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media all and (max-width: 767px) {
+  .successful .contactBox .txtBox {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+.successful .contactBox .img {
+  width: 65px;
+  margin-right: 21px;
+}
+@media all and (max-width: 767px) {
+  .successful .contactBox .img {
+    width: 50px;
+    margin-right: 25px;
+  }
+}
+.successful .contactBox .contactTitle {
+  font-size: 35px;
+  font-family: "Shippori Mincho", sans-serif;
+  font-weight: 700;
+  color: #221e1f;
+  margin-bottom: 12px;
+}
+@media all and (max-width: 767px) {
+  .successful .contactBox .contactTitle {
+    font-size: 26px;
+    margin-bottom: 5px;
+  }
+}
+.successful .contactBox .contactSubtitle {
+  font-size: 18px;
+  font-family: "Shippori Mincho", sans-serif;
+  font-weight: 700;
+  color: #221e1f;
+}
+@media all and (max-width: 767px) {
+  .successful .contactBox .contactSubtitle {
+    font-size: 15px;
+  }
+}
+.successful .appInfor .en_title {
+  font-size: 18px;
+  color: #9e8470;
+  font-family: "Shippori Mincho", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+@media all and (max-width: 767px) {
+  .successful .appInfor .en_title {
+    font-size: 16px;
+    margin-bottom: 2px;
+  }
+}
+.successful .appInfor .tw_title {
+  font-size: 40px;
+  color: #9e8470;
+  font-family: "Shippori Mincho", sans-serif;
+  font-weight: 600;
+  padding-bottom: 16px;
+}
+@media all and (max-width: 767px) {
+  .successful .appInfor .tw_title {
+    font-size: 27px;
+    padding-bottom: 23px;
+  }
+}
+.successful .appInfor ul {
+  padding: 19px 0 9px;
+  border-top: 1px solid #dabfb6;
+  border-bottom: 1px solid #dabfb6;
+}
+@media all and (max-width: 767px) {
+  .successful .appInfor ul {
+    padding: 15px 0 0;
+  }
+}
+.successful .appInfor ul li {
+  color: #221e1f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 14px;
+}
+.successful .appInfor ul li .m_title {
+  position: relative;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 170px;
+          flex: 0 0 170px;
+  font-size: 18px;
+  font-weight: 500;
+  padding-left: 20px;
+}
+@media all and (max-width: 767px) {
+  .successful .appInfor ul li .m_title {
+    font-size: 15px;
+  }
+}
+.successful .appInfor ul li .m_title::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #cdb0a7;
+}
+.successful .appInfor ul li .m_info {
+  font-size: 16px;
+}
+@media all and (max-width: 767px) {
+  .successful .appInfor ul li .m_info {
+    font-size: 15px;
+  }
+}
+.successful .appInfor .btnBox {
+  margin: 81px 0 149px;
+  text-align: center;
+}
+@media all and (max-width: 767px) {
+  .successful .appInfor .btnBox {
+    margin: 50px 0 85px;
+  }
+}
+.successful .appInfor .btnBox .btn_blue {
+  margin: 0 3px;
+}
+@media all and (max-width: 767px) {
+  .successful .appInfor .btnBox .btn_blue {
+    margin: 0 5px;
+  }
+}
+.successful .appInfor .btnBox .btn_blue:nth-child(1) {
+  width: 150px;
+}
+@media all and (max-width: 767px) {
+  .successful .appInfor .btnBox .btn_blue:nth-child(1) {
+    width: 122px;
+  }
+}
+.successful .appInfor .btnBox .btn_blue:nth-child(2) {
+  width: 202px;
+}
+@media all and (max-width: 767px) {
+  .successful .appInfor .btnBox .btn_blue:nth-child(2) {
+    width: 168px;
+  }
+}
+.successful .finishBox {
+  margin-bottom: 142px;
+}
+@media all and (max-width: 767px) {
+  .successful .finishBox {
+    margin-bottom: 42px;
+  }
+}
+.successful .finishBox .titleTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 24px 24px 0 0;
+  width: 100%;
+  background-color: #b68a7c;
+  text-align: center;
+  padding-bottom: 28px;
+}
+@media all and (max-width: 767px) {
+  .successful .finishBox .titleTop {
+    padding-bottom: 12px;
+    border-radius: 12px 12px 0 0;
+  }
+}
+.successful .finishBox .titleTop img {
+  max-width: 144px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+@media all and (max-width: 767px) {
+  .successful .finishBox .titleTop img {
+    max-width: 98px;
+  }
+}
+.successful .finishBox .titleTop span {
+  display: inline-block;
+  font-size: 26px;
+  font-family: "Shippori Mincho", sans-serif;
+  font-weight: 600;
+  color: #fff;
+  margin-top: -50px;
+}
+@media all and (max-width: 767px) {
+  .successful .finishBox .titleTop span {
+    margin-top: -40px;
+    font-size: 25px;
+  }
+}
+.successful .finishBox .containBox {
+  border-radius: 0 0 24px 24px;
+  border: 1px solid #b68a7c;
+  padding: 0 100px;
+}
+@media all and (min-width: 768px) and (max-width: 1200px) {
+  .successful .finishBox .containBox {
+    padding: 0 65px;
+  }
+}
+@media all and (max-width: 767px) {
+  .successful .finishBox .containBox {
+    padding: 0 20px;
+    border-radius: 0 0 12px 12px;
+  }
+}
+.successful .finishBox .containBox .topBox {
+  font-size: 16px;
+  line-height: 1.875;
+  color: #221e1f;
+  text-align: center;
+  padding: 40px 0;
+  border-bottom: 1px solid #dedede;
+}
+@media all and (max-width: 767px) {
+  .successful .finishBox .containBox .topBox {
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 20px 0;
+  }
+}
+.successful .finishBox .containBox .bottomBox {
+  padding: 24px 0 37px;
+}
+@media all and (max-width: 767px) {
+  .successful .finishBox .containBox .bottomBox {
+    padding: 30px 0 30px;
+  }
+}

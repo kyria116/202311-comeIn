@@ -870,25 +870,72 @@ button.swiper-pagination-bullet {
   border-radius: 8px;
   width: 100%;
   margin: 14.5px 0 25px 0;
-}
-@media all and (max-width: 767px) {
-  .contact .personal select,
-  .contact .personal input {
-    margin: 14.5px 0 12px 0;
-  }
-}
-.contact .personal input,
-.contact .personal select {
   font-size: 18px;
-  color: #cacaca;
+  color: #221e1f;
   padding: 0 18px;
   height: 48px;
   line-height: 48px;
 }
 @media all and (max-width: 767px) {
-  .contact .personal input,
-  .contact .personal select {
+  .contact .personal select,
+  .contact .personal input {
     font-size: 15px;
+  }
+}
+.contact .personal select::-webkit-input-placeholder, .contact .personal input::-webkit-input-placeholder {
+  -webkit-transform: translateY(2%);
+          transform: translateY(2%);
+  font-size: 18px;
+  color: #cacaca;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.contact .personal select::-moz-placeholder, .contact .personal input::-moz-placeholder {
+  transform: translateY(2%);
+  font-size: 18px;
+  color: #cacaca;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.contact .personal select:-ms-input-placeholder, .contact .personal input:-ms-input-placeholder {
+  transform: translateY(2%);
+  font-size: 18px;
+  color: #cacaca;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.contact .personal select::-ms-input-placeholder, .contact .personal input::-ms-input-placeholder {
+  transform: translateY(2%);
+  font-size: 18px;
+  color: #cacaca;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.contact .personal select::placeholder,
+.contact .personal input::placeholder {
+  -webkit-transform: translateY(2%);
+          transform: translateY(2%);
+  font-size: 18px;
+  color: #cacaca;
+  font-family: "Noto Sans TC", sans-serif;
+}
+@media all and (max-width: 767px) {
+  .contact .personal select::-webkit-input-placeholder, .contact .personal input::-webkit-input-placeholder {
+    font-size: 15px;
+    margin: 14.5px 0 12px 0;
+  }
+  .contact .personal select::-moz-placeholder, .contact .personal input::-moz-placeholder {
+    font-size: 15px;
+    margin: 14.5px 0 12px 0;
+  }
+  .contact .personal select:-ms-input-placeholder, .contact .personal input:-ms-input-placeholder {
+    font-size: 15px;
+    margin: 14.5px 0 12px 0;
+  }
+  .contact .personal select::-ms-input-placeholder, .contact .personal input::-ms-input-placeholder {
+    font-size: 15px;
+    margin: 14.5px 0 12px 0;
+  }
+  .contact .personal select::placeholder,
+  .contact .personal input::placeholder {
+    font-size: 15px;
+    margin: 14.5px 0 12px 0;
   }
 }
 .contact .personal input:nth-child(odd) {
@@ -900,6 +947,7 @@ button.swiper-pagination-bullet {
   }
 }
 .contact .personal select {
+  color: #cacaca;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -907,6 +955,9 @@ button.swiper-pagination-bullet {
   height: 48px;
   line-height: 48px;
   background: url("../images/contact/arrow_select.png") center right 24px/12px 8px no-repeat;
+}
+.contact .personal select option {
+  color: #221e1f;
 }
 .contact .item-title {
   position: relative;
@@ -958,7 +1009,7 @@ button.swiper-pagination-bullet {
 }
 @media all and (max-width: 767px) {
   .contact .item {
-    padding: 36px 31px;
+    padding: 36px 31px 5.5px 31px;
     margin-bottom: 30px;
   }
 }
@@ -968,9 +1019,9 @@ button.swiper-pagination-bullet {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 @media all and (max-width: 767px) {
   .contact .item ul {
@@ -983,9 +1034,12 @@ button.swiper-pagination-bullet {
   margin-right: 0;
 }
 @media all and (max-width: 767px) {
-  .contact .item ul li:nth-last-child(-n+2) {
-    margin-bottom: 0;
+  .contact .item ul li:nth-child(5n) {
+    margin-right: 24px;
   }
+}
+.contact .item ul li:last-child {
+  margin-right: 0;
 }
 .contact .item li {
   position: relative;
@@ -1000,7 +1054,7 @@ button.swiper-pagination-bullet {
 @media all and (max-width: 767px) {
   .contact .item li {
     width: calc(50% - 12.5px);
-    margin: 0 0 29px 0;
+    margin: 0 24px 29px 0;
   }
 }
 .contact .item li .icon_pic {
@@ -1068,6 +1122,11 @@ button.swiper-pagination-bullet {
     font-size: 15px;
   }
 }
+@media all and (max-width: 767px) {
+  .contact .item li:nth-child(even) {
+    margin-right: 0;
+  }
+}
 .contact .note-title {
   font-size: 18px;
   font-weight: 500;
@@ -1080,6 +1139,10 @@ button.swiper-pagination-bullet {
     margin-bottom: 15px;
   }
 }
+.contact .note {
+  position: relative;
+  width: 100%;
+}
 .contact .note textarea {
   width: 100%;
   height: 230px;
@@ -1089,6 +1152,25 @@ button.swiper-pagination-bullet {
   border: 1px solid #dabfb6;
   border-radius: 8px;
   resize: none;
+  overflow: auto;
+}
+@media all and (max-width: 767px) {
+  .contact .note textarea {
+    border-radius: 14px 0 0 14px;
+  }
+}
+.contact .note textarea::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 20px;
+}
+.contact .note textarea::-webkit-scrollbar-track {
+  background-color: #b68a7c;
+  opacity: 0.5;
+  border-radius: 20px;
+}
+.contact .note textarea::-webkit-scrollbar-thumb {
+  background: #eeeeee;
+  border-radius: 20px;
 }
 @media all and (max-width: 767px) {
   .contact .note textarea {

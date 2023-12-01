@@ -24,31 +24,31 @@
                         <label for="name">
                             姓名<span>必填</span>
                         </label>
-                        <input type="text" id="name" name="username" value="請輸入姓名" />
+                        <input type="text" id="name" name="username" placeholder="請輸入姓名" />
                     </div>
                     <div class="personal_data">
                         <label for="phone">
                             電話<span>必填</span>
                         </label>
-                        <input type="text" id="phone" name="phone" value="請輸入電話" />
+                        <input type="text" id="phone" name="phone" placeholder="請輸入電話" />
                     </div>
                     <div class="personal_data">
                         <label for="date">
                             您方便連絡的時段<span>必填</span>
                         </label>
-                        <select id="date" name="date">
-                            <option value="">請選擇時段</option>
+                        <select id="date" name="date" onchange="changeColor()">
+                            <option value="" disabled selected hidden >請選擇時段</option>
                             <option value="date_1">時段一</option>
                             <option value="date_2">時段二</option>
                             <option value="date_3">時段三</option>
                         </select>
                     </div>
-                    <div class="personal_data">
+                    <div class="personal_data" id="selectWrapper">
                         <label for="name">
                             院所<span>必填</span>
                         </label>
-                        <select id="institution" name="institution">
-                            <option value="">請選擇院所</option>
+                        <select id="insti" name="insti" onchange="changeColor()">
+                            <option value="" disabled selected hidden >請選擇院所</option>
                             <option value="institution_1">院所一</option>
                             <option value="institution_2">院所二</option>
                             <option value="institution_3">院所三</option>
@@ -181,6 +181,14 @@
     ?>
     <script src="dist/js/function.js"></script>
     <script src="dist/js/contact.js"></script>
+    <script>
+        $('#date').on('change', function () {
+            $(this).css('color', '#221e1f')
+        });
+        $('#insti').on('change', function () {
+            $(this).css('color', '#221e1f')
+        });
+    </script>
 
 </body>
 

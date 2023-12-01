@@ -34,14 +34,14 @@
         </div>
         <div class="banner">
             <div class="pic_container">
-                <a  href="javascript:;">
+                <a  href="javascript:;" target="_blank">
                 <img src="dist/images/about/mindandbody.jpg" class="pc">
                 <img src="dist/images/about/mindandbody_mb.jpg" class="mo">
                 <div class="txt">身心小棧</div>
                 </a>
             </div>
             <div class="pic_container">
-                <a  href="javascript:;">
+                <a  href="javascript:;" target="_blank">
                 <img src="dist/images/about/lesson.jpg" class="pc">
                 <img src="dist/images/about/lesson_mb.jpg" class="mo">
                 <div class="txt">課程中心</div>
@@ -109,7 +109,7 @@
                         <div class="subtitle">多年經驗的專業醫療團隊</div>
                         <div class="title">科技世代，瞬息萬變，資訊流促成了便利也帶來了挑戰。心理韌性、身心平衡、正向思考，是獲致如實幸福感之泉源，而醫學也漸從療癒走向全人健康促進。如何結合精神醫學。</div>
                         <div class="btnBox">
-                            <a href="javascript:;" class="btn_blue">
+                            <a href="team.php" class="btn_blue">
                                 團隊介紹<div class="arrow"></div>
                             </a>
                         </div>
