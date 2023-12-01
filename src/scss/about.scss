@@ -1031,7 +1031,7 @@
     justify-content: center;
     font-family: $font-en;
     width: 100%;
-    margin-bottom: 140px;
+    margin-bottom: 135px;
     @include mediaquery(991px, 1440px) {
         height: 400px;
     }
@@ -1054,12 +1054,12 @@
         position: relative;
         width: calc((100% - 2px) / 2);
         overflow: hidden;
-        cursor: pointer;
         margin-right: 2px;
+        transition: 0.75s;
         @include mediaquery(768px, null) {
             &:hover {
                 img {
-                    transform: scale(1.1);
+                    transform: scale(1.05);
                 }
                 .txt {
                     &::after {
@@ -1114,7 +1114,7 @@
 // }
 .environment_txt {
     position: relative;
-    margin-bottom: 72px;
+    margin-bottom: 63px;
     @include mediaquery(null, 767px) {
         margin-bottom: 5.5vw;
     }
@@ -1168,9 +1168,15 @@
     justify-content: center;
     align-items: start;
     .txt {
-        font-size: 15px;
-        margin-top: 12px;
+        display: inline-block;
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: 28px;
         letter-spacing: 2px;
+        @include clamp(1.5,1);
+        @include mediaquery(null, 767px) {
+            font-size: 15px;
+        }
         span {
             margin: 0 13px;
         }
@@ -1219,10 +1225,10 @@
     }
 }
 .teamgroup {
-    margin-bottom: 80px;
+    margin-bottom: 145px;
     &_txt {
         position: relative;
-        margin: 198px 0 72px;
+        margin: 190px 0 43px;
         @include mediaquery(null, 767px) {
             margin-bottom: 23.438vw;
             margin-top: 27vw;
@@ -1277,44 +1283,48 @@
         &::after {
             background: url(../images/about/dean.png) center / contain no-repeat;
             position: absolute;
-            right:0;
+            right:-5px;
             bottom: 0;
             content: "";
-            width: 38.31%;
+            width: 32%;
             aspect-ratio: 1/1.37;
             @include mediaquery(null, 767px) {
                 display:none;
             }
         }
         .txt {
-            padding: 65px 121px 60px 85px;
+            padding: 55px 121px 60px 85px;
             @include mediaquery(null, 767px) {
-                padding: 38px 23.5px 42.5px 23.5px;
+                padding: 26px 23.5px 42.5px 23.5px;
             }
             .subtitle {
+                display: inline-block;
                 font-size: 25px;
                 font-family: $font-en;
                 color: #9e8470;
-                margin-bottom: 30px;
+                margin-bottom: 17px;
+                @include clamp(1.5,1);
                 @include mediaquery(null, 767px) {
-                    font-size: 25px;
+                    font-size: 24px;
                     margin-bottom: 10px;
                 }
             }
             .title {
+                display: inline-block;
                 font-size: 16px;
-                width: 58%;
+                width: 66%;
                 font-weight: 500;
                 text-align: justify;
                 letter-spacing: 0.1vw;
-                line-height: 180%;
-                margin-bottom: 1.6vw;
+                margin-bottom: 1.2vw;
+                @include clamp(1.85,3);
                 @include mediaquery(null, 767px) {
                     font-size: 13.5px;
                     line-height: 175%;
                     letter-spacing: 0.5vw;
                     margin-bottom: 3.5vw;
                     width: 100%;
+                    @include clamp(1.6,5);
                 }
             }
         }

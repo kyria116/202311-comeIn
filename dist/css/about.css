@@ -1988,7 +1988,7 @@ button.swiper-pagination-bullet {
           justify-content: center;
   font-family: "Shippori Mincho", sans-serif;
   width: 100%;
-  margin-bottom: 140px;
+  margin-bottom: 135px;
 }
 @media all and (min-width: 991px) and (max-width: 1440px) {
   .banner {
@@ -2024,13 +2024,14 @@ button.swiper-pagination-bullet {
   position: relative;
   width: calc((100% - 2px) / 2);
   overflow: hidden;
-  cursor: pointer;
   margin-right: 2px;
+  -webkit-transition: 0.75s;
+  transition: 0.75s;
 }
 @media all and (min-width: 768px) {
   .banner .pic_container:hover img {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
   }
   .banner .pic_container:hover .txt::after {
     -webkit-transform: translate(30%, -50%);
@@ -2081,7 +2082,7 @@ button.swiper-pagination-bullet {
 
 .environment_txt {
   position: relative;
-  margin-bottom: 72px;
+  margin-bottom: 63px;
 }
 @media all and (max-width: 767px) {
   .environment_txt {
@@ -2156,9 +2157,24 @@ button.swiper-pagination-bullet {
           align-items: start;
 }
 .swiper-slide .txt {
-  font-size: 15px;
-  margin-top: 12px;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 28px;
   letter-spacing: 2px;
+  height: 1.5em;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* 第幾行要顯示點點點 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+@media all and (max-width: 767px) {
+  .swiper-slide .txt {
+    font-size: 15px;
+  }
 }
 .swiper-slide .txt span {
   margin: 0 13px;
@@ -2215,11 +2231,11 @@ button.swiper-pagination-bullet {
 }
 
 .teamgroup {
-  margin-bottom: 80px;
+  margin-bottom: 145px;
 }
 .teamgroup_txt {
   position: relative;
-  margin: 198px 0 72px;
+  margin: 190px 0 43px;
 }
 @media all and (max-width: 767px) {
   .teamgroup_txt {
@@ -2282,10 +2298,10 @@ button.swiper-pagination-bullet {
 .teamgroup .team_pic::after {
   background: url(../images/about/dean.png) center/contain no-repeat;
   position: absolute;
-  right: 0;
+  right: -5px;
   bottom: 0;
   content: "";
-  width: 38.31%;
+  width: 32%;
   aspect-ratio: 1/1.37;
 }
 @media all and (max-width: 767px) {
@@ -2294,33 +2310,50 @@ button.swiper-pagination-bullet {
   }
 }
 .teamgroup .team_pic .txt {
-  padding: 65px 121px 60px 85px;
+  padding: 55px 121px 60px 85px;
 }
 @media all and (max-width: 767px) {
   .teamgroup .team_pic .txt {
-    padding: 38px 23.5px 42.5px 23.5px;
+    padding: 26px 23.5px 42.5px 23.5px;
   }
 }
 .teamgroup .team_pic .txt .subtitle {
+  display: inline-block;
   font-size: 25px;
   font-family: "Shippori Mincho", sans-serif;
   color: #9e8470;
-  margin-bottom: 30px;
+  margin-bottom: 17px;
+  height: 1.5em;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* 第幾行要顯示點點點 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
 }
 @media all and (max-width: 767px) {
   .teamgroup .team_pic .txt .subtitle {
-    font-size: 25px;
+    font-size: 24px;
     margin-bottom: 10px;
   }
 }
 .teamgroup .team_pic .txt .title {
+  display: inline-block;
   font-size: 16px;
-  width: 58%;
+  width: 66%;
   font-weight: 500;
   text-align: justify;
   letter-spacing: 0.1vw;
-  line-height: 180%;
-  margin-bottom: 1.6vw;
+  margin-bottom: 1.2vw;
+  height: 5.55em;
+  line-height: 1.85;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* 第幾行要顯示點點點 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
 }
 @media all and (max-width: 767px) {
   .teamgroup .team_pic .txt .title {
@@ -2329,5 +2362,13 @@ button.swiper-pagination-bullet {
     letter-spacing: 0.5vw;
     margin-bottom: 3.5vw;
     width: 100%;
+    height: 8em;
+    line-height: 1.6;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* 第幾行要顯示點點點 */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
   }
 }
