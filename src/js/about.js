@@ -1,14 +1,11 @@
 
-
-
 $(function () {
   //@prepros-prepend plugin/swiper-bundle.min.js
 
   //swiper
-  var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 3,
-    spaceBetween: 30,
-    centeredSlides: true,
+  var environmentSwiper = new Swiper(".environmentSwiper", {
+    slidesPerView: 1.13,
+    spaceBetween: 20,
     loop: true,
     autoplay: {
       delay: 2500,
@@ -24,28 +21,18 @@ $(function () {
       },
     },
     breakpoints: {
-      375: {
-        slidesPerView: 1.13,
-        spaceBetween: 20,
-        centeredSlides: false,
-      },
       768: {
         slidesPerView: 1.2,
         spaceBetween: 32,
-        centeredSlides: false,
       },
       991: {
         slidesPerView: 1.8,
-        spaceBetween: 32,
-        centeredSlides: false,
-      },
-      991: {
-        slidesPerView: 2,
         spaceBetween: 32,
       },
       1200: {
         slidesPerView: 2.94,
         spaceBetween: 32,
+        centeredSlides: true,
       },
     },
   });

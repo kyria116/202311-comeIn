@@ -35,67 +35,66 @@
         <div class="banner">
             <div class="pic_container">
                 <a  href="javascript:;" target="_blank">
-                    <img src="dist/images/about/mindandbody.jpg" class="pc">
-                    <img src="dist/images/about/mindandbody_mb.jpg" class="mo">
-                    <div class="txt">身心小棧</div>
+                <img src="dist/images/about/mindandbody.jpg" class="pc">
+                <img src="dist/images/about/mindandbody_mb.jpg" class="mo">
+                <div class="txt">身心小棧</div>
                 </a>
             </div>
             <div class="pic_container">
                 <a  href="javascript:;" target="_blank">
-                    <img src="dist/images/about/lesson.jpg" class="pc">
-                    <img src="dist/images/about/lesson_mb.jpg" class="mo">
-                    <div class="txt">課程中心</div>
+                <img src="dist/images/about/lesson.jpg" class="pc">
+                <img src="dist/images/about/lesson_mb.jpg" class="mo">
+                <div class="txt">課程中心</div>
                 </a>
             </div>
 
         </div>
-        
-        808 * 
         <div class="environment">
             <div class="container">
-                <div class="environment_txt">
-                    <div class="subtitle">ENVIRONMENT</div>
-                    <div class="title">診所環境</div>
+                        <div class="environment_txt">
+                            <div class="subtitle">ENVIRONMENT</div>
+                            <div class="title">診所環境</div>
+                        </div>
                 </div>
-            </div>
-            <div #swiperRef="" class="swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="swiper_pic">
-                            <img src="dist/images/1.jpg">
+            <!-- 圖片 780 * 493 -->
+                <div class="swiper environmentSwiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="swiper_pic">
+                                <img src="dist/images/1.jpg">
+                            </div>
+                            <div class="txt">
+                                康迎向陽<span>|</span>台北敦化
+                            </div>
                         </div>
-                        <div class="txt">
-                            康迎向陽<span>|</span>台北敦化
+                        <div class="swiper-slide">
+                            <div class="swiper_pic">
+                                <img src="dist/images/about/environment2.jpg">
+                            </div>
+                            <div class="txt">
+                                康迎向陽<span>|</span>台北敦化
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper_pic">
+                                <img src="dist/images/about/environment3.jpg">
+                            </div>
+                            <div class="txt">
+                                康迎向陽<span>|</span>台北敦化
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="swiper_pic">
+                                <img src="dist/images/about/environment3.jpg">
+                            </div>
+                            <div class="txt">
+                                康迎向陽<span>|</span>台北敦化
+                            </div>
                         </div>
                     </div>
-                    <div class="swiper-slide">
-                        <div class="swiper_pic">
-                            <img src="dist/images/about/environment2.jpg">
-                        </div>
-                        <div class="txt">
-                            康迎向陽<span>|</span>台北敦化
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper_pic">
-                            <img src="dist/images/about/environment3.jpg">
-                        </div>
-                        <div class="txt">
-                            康迎向陽<span>|</span>台北敦化
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="swiper_pic">
-                            <img src="dist/images/about/environment3.jpg">
-                        </div>
-                        <div class="txt">
-                            康迎向陽<span>|</span>台北敦化
-                        </div>
+                    <div class="swiper-pagination">
                     </div>
                 </div>
-                <div class="swiper-pagination">
-                </div>
-            </div>
         </div>
         <div class="container">
             <div class="teamgroup">
@@ -104,8 +103,8 @@
                     <div class="title">團隊介紹</div>
                 </div>
                 <div class="team_pic">
-                <div class="colorblack_mb mo">
-                    <img src="dist/images/about/teams_colorblock_mb.jpg">
+                    <div class="colorblack_mb mo">
+                        <img src="dist/images/about/teams_colorblock_mb.jpg">
                     </div>
                     <div class="txt">
                         <div class="subtitle">多年經驗的專業醫療團隊</div>
@@ -125,7 +124,7 @@
         include "quote/template/top_btn.php";
         include "quote/template/cookies.php";
     ?>
-    <script src="dist/js/function.js"></script>
+    <script src="dist/js/main.js"></script>
     <script src="dist/js/about.js"></script>
 </body>
 
