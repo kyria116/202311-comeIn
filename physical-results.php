@@ -37,6 +37,7 @@
                     <div class="title_C">解決方案</div>
                     <div class="subtitle">我們根據您的檢測結果，提供以下解決方案，可點擊下方按鈕幫助您初步了解更多相關諮詢資訊。</div>
                 </div>
+                <!-- 圖片135 * 135 -->
                 <div class="icon">
                     <ul>
                         <li>

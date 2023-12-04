@@ -16,6 +16,7 @@
                 <div class="title">自我檢測中心</div>
             </div>
         </div>
+        <!-- 圖片 242 * 242 -->
         <div class="physical">
             <div class="container">
                 <ul>

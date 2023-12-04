@@ -7,6 +7,7 @@
     include "quote/template/added.php";
     include "quote/template/nav.php";
     ?>
+    <!-- 圖片 113 * 113 -->
     <main class="physical_detail">
         <div class="kv_banner">
             <img src="dist/images/kv/physical.jpg" class="pc">

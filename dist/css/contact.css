@@ -1099,6 +1099,7 @@ button.swiper-pagination-bullet {
 }
 .contact .item li img {
   display: block;
+  aspect-ratio: 1/1;
 }
 .contact .item li .subtitle {
   text-align: center;
