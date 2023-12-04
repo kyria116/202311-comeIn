@@ -36,11 +36,19 @@
                             <select id="day" name=""></select>
                         </div>
                     </div>
-                    <div class="w50">
+                    <div class="w50 CAPTCHA">
                         <label for="">
                             驗證碼 <span>必填</span>
                         </label>
-                        <input type="text" placeholder="請輸入四碼">
+                        <div class="inputBox">
+                            <input name="" type="text"  id="m_captcha" placeholder="請輸入四碼" >
+                            <div class="box">
+                                <img src="captcha/captcha.php"  id="imgCaptcha"  alt="">
+                                <a href="javascript:void(0)" onclick="RefreshImage('imgCaptcha')">
+                                    <img src="captcha/captcha.png"> 重新整理
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </form>
                 <div class="btnBox">
@@ -128,6 +136,14 @@
             }
             $(day).val(val);
         }
+        function RefreshImage(valImageId) {
+            var objImage = document.images[valImageId];
+            if (objImage == undefined) {
+                return;
+            }
+            var now = new Date();
+            objImage.src = objImage.src.split('?')[0] + '?s=' + new Date().getTime();
+        };
     </script>
 </body>
 

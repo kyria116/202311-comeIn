@@ -16,23 +16,23 @@
                 <div class="title">服務項目</div>
             </div>
         </div>
-        <!-- 音樂播放程式段 start -->
-        <div class="song_sound" style="display: none">
-            <audio controls class="song_music">
-                <source src="" type="audio/mpeg">
-            </audio>
-        </div>
-        <ul class="musicList">
-            <li data-src="dist/audio/ParkBom.mp4"></li>
-        </ul>
-        <!-- 音樂播放程式段 end -->
-        <!-- 彈跳視窗 start -->
-        <div id="popup">
-            <div class="popup_mailbox">
-                <iframe width="100%" height="100%" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <div class="closeIcon"></div>
+        <!-- 相關資訊 - 音樂播放程式段 start -->
+            <div class="song_sound" style="display: none">
+                <audio controls class="song_music">
+                    <source src="" type="audio/mpeg">
+                </audio>
             </div>
-        </div>
+            <ul class="musicList">
+                <li data-src="dist/audio/ParkBom.mp4"></li>
+            </ul>
+        <!-- 音樂播放程式段 end -->
+        <!-- 相關資訊 - 彈跳視窗 start -->
+            <div id="popup">
+                <div class="popup_mailbox">
+                    <iframe width="100%" height="100%" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="closeIcon"></div>
+                </div>
+            </div>
         <!-- 彈跳視窗 end -->
         <div class="service">
             <div class="container">
@@ -148,13 +148,14 @@
                     </div>
                 </div>
             </div>
+            <!-- 圖片 368 * 368 -->
             <div class="container_swiper">
                 <div class="relevant">
                     <div class="en_title">relevant information</div>
                     <div class="tw_title">相關資訊</div>
                     <div class="swiper mySwiper">
                         <div class="swiper-wrapper">
-                            <!-- 文章 -->
+                            <!-- 文章 health -->
                             <div class="swiper-slide health">
                                 <a href="news-detail.php">
                                     <div class="img" style="background: url('dist/images/podcast_img.png') center / contain no-repeat">
@@ -184,7 +185,7 @@
                                     <a href="javascript:;" class="tag">自律神經</a>
                                 </div>
                             </div>
-                            <!-- 影片 -->
+                            <!-- 影片 healthVideo -->
                             <div class="swiper-slide healthVideo">
                                 <a href="javascript:;" data-yt="0BiwY-23Xmg?si=jPO3oKeBQ1a1zB_N">
                                     <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
@@ -214,7 +215,7 @@
                                     <a href="javascript:;" class="tag">自律神經</a>
                                 </div>
                             </div>
-                            <!-- 音樂 -->
+                            <!-- 音樂 healthMusic -->
                             <div class="swiper-slide healthMusic">
                                 <a href="javascript:;">
                                     <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
@@ -244,7 +245,7 @@
                                     <a href="javascript:;" class="tag">自律神經</a>
                                 </div>
                             </div>
-                            <!-- podcast -->
+                            <!-- podcast healthPodcast -->
                             <!-- <div class="swiper-slide healthPodcast">
                                 <div class="img" style="background: rgb(238,238,238)">
                                     <iframe src="https://open.firstory.me/embed/story/clmr8isj0000a01xq2nv8614i" frameborder="0"></iframe>

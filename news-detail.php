@@ -16,6 +16,7 @@
                 <div class="title">最新消息</div>
             </div>
         </div>
+        <!-- 圖片 720 * 720 -->
         <div class="newsDetail">
             <div class="container">
                 <div class="topContain">

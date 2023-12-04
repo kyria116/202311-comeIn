@@ -96,6 +96,7 @@
                         </select>
                     </li>
                 </ul>
+                <!-- 圖片 528 * 706 -->
                 <ul class="teamItem">
                     <li>
                         <a href="team-detail.php">
@@ -518,7 +519,7 @@
         include "quote/template/cookies.php";
     ?>
     <script src="dist/js/main.js"></script> 
-    <script src="dist/js/team.js"></script> 
+    <script src="dist/js/top_menu.js"></script> 
 </body>
 
 </html>

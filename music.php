@@ -16,22 +16,24 @@
                 <div class="title">健康資訊</div>
             </div>
         </div>    
-        <div class="song_sound">
-            <audio controls class="song_music">
-                <source src="" type="audio/mpeg">
-            </audio>
-        </div>
-        <ul class="musicList" style="display: none">
-            <li data-src="dist/audio/HWASA.mp4"></li>
-            <li data-src="dist/audio/BABYMONSTER.mp4"></li>
-            <li data-src="dist/audio/ParkBom.mp4"></li>
-            <li data-src="dist/audio/HWASA.mp4"></li>
-            <li data-src="dist/audio/BABYMONSTER.mp4"></li>
-            <li data-src="dist/audio/ParkBom.mp4"></li>
-            <li data-src="dist/audio/HWASA.mp4"></li>
-            <li data-src="dist/audio/BABYMONSTER.mp4"></li>
-            <li data-src="dist/audio/ParkBom.mp4"></li>
-        </ul>
+        <!-- 音樂播放程式段 start -->
+            <div class="song_sound">
+                <audio controls class="song_music">
+                    <source src="" type="audio/mpeg">
+                </audio>
+            </div>
+            <ul class="musicList" style="display: none">
+                <li data-src="dist/audio/HWASA.mp4"></li>
+                <li data-src="dist/audio/BABYMONSTER.mp4"></li>
+                <li data-src="dist/audio/ParkBom.mp4"></li>
+                <li data-src="dist/audio/HWASA.mp4"></li>
+                <li data-src="dist/audio/BABYMONSTER.mp4"></li>
+                <li data-src="dist/audio/ParkBom.mp4"></li>
+                <li data-src="dist/audio/HWASA.mp4"></li>
+                <li data-src="dist/audio/BABYMONSTER.mp4"></li>
+                <li data-src="dist/audio/ParkBom.mp4"></li>
+            </ul>
+        <!-- 音樂播放程式段 end -->
         <div class="health">
             <div class="container">
                 <?php
@@ -85,6 +87,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- 圖片 528 * 528 -->
                 <div class="healthContain healthMusic">
                     <ul>
                         <li>

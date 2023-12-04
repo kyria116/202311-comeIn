@@ -7,12 +7,14 @@
         include "quote/template/added.php";
         include "quote/template/nav.php";
     ?>
-    <div id="popup">
-        <div class="popup_mailbox">
-            <iframe width="100%" height="100%" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <div class="closeIcon"></div>
+    <!-- 彈跳視窗 start -->
+        <div id="popup">
+            <div class="popup_mailbox">
+                <iframe width="100%" height="100%" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <div class="closeIcon"></div>
+            </div>
         </div>
-    </div>
+    <!-- 彈跳視窗 end -->
     <main data-health="1">
         <div class="kv_banner">
             <img src="dist/images/kv/health.jpg" class="pc">
@@ -75,6 +77,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- 圖片 528 * 528 -->
                 <div class="healthContain healthVideo">
                     <ul>
                         <li>

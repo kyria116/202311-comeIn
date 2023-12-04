@@ -241,7 +241,7 @@ header{
         &.active {
             @include mediaquery(992px, null){
                 .menu-list{
-                    color: $primary-color;
+                    color: $hover-color;
                     &::before{
                         opacity: 1;
                         transform: translate(0, 0);

@@ -69,6 +69,7 @@
                         </a>
                     </div>
                 </div>
+                <!-- 圖片 528 * 528 -->
                 <ul class="newsItem">
                     <li>
                         <a href="news-detail.php">

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Swiper 8.4.5
  * Most modern mobile touch slider and framework with hardware accelerated transitions
@@ -779,5 +780,464 @@ button.swiper-pagination-bullet {
   position: relative;
 }
 .contact .title {
-  font-family: "Shippori Mincho", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 143px 0 47px 0;
+}
+@media all and (max-width: 767px) {
+  .contact .title {
+    margin: 45px 0 20px 0;
+    font-size: 14.6px;
+    line-height: 150%;
+    text-align: justify;
+  }
+}
+.contact .personal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media all and (max-width: 767px) {
+  .contact .personal {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+.contact .personal .personal_data {
+  font-size: 18px;
+  font-weight: 500;
+  color: #221e1f;
+  width: 50%;
+  width: calc((100% - 32px) / 2);
+}
+@media all and (max-width: 767px) {
+  .contact .personal .personal_data {
+    width: 100%;
+  }
+}
+.contact .personal label {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #221e1f;
+}
+@media all and (max-width: 767px) {
+  .contact .personal label {
+    padding-left: 5px;
+    font-size: 15px;
+  }
+}
+.contact .personal label::before {
+  content: "*";
+  position: absolute;
+  top: -6px;
+  left: -7px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ff0303;
+}
+@media all and (max-width: 767px) {
+  .contact .personal label::before {
+    top: -1px;
+    left: 0.5px;
+    font-size: 12px;
+  }
+}
+.contact .personal label span {
+  font-size: 16px;
+  color: #ff0303;
+  padding-left: 11px;
+}
+@media all and (max-width: 767px) {
+  .contact .personal label span {
+    font-size: 12px;
+  }
+}
+.contact .personal select,
+.contact .personal input {
+  border: 1px solid #dabfb6;
+  border-radius: 8px;
+  width: 100%;
+  margin: 14.5px 0 25px 0;
+  font-size: 18px;
+  color: #221e1f;
+  padding: 0 18px;
+  height: 48px;
+  line-height: 48px;
+}
+@media all and (max-width: 767px) {
+  .contact .personal select,
+  .contact .personal input {
+    font-size: 15px;
+  }
+}
+.contact .personal select::-webkit-input-placeholder, .contact .personal input::-webkit-input-placeholder {
+  -webkit-transform: translateY(2%);
+          transform: translateY(2%);
+  font-size: 18px;
+  color: #cacaca;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.contact .personal select::-moz-placeholder, .contact .personal input::-moz-placeholder {
+  transform: translateY(2%);
+  font-size: 18px;
+  color: #cacaca;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.contact .personal select:-ms-input-placeholder, .contact .personal input:-ms-input-placeholder {
+  transform: translateY(2%);
+  font-size: 18px;
+  color: #cacaca;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.contact .personal select::-ms-input-placeholder, .contact .personal input::-ms-input-placeholder {
+  transform: translateY(2%);
+  font-size: 18px;
+  color: #cacaca;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.contact .personal select::placeholder,
+.contact .personal input::placeholder {
+  -webkit-transform: translateY(2%);
+          transform: translateY(2%);
+  font-size: 18px;
+  color: #cacaca;
+  font-family: "Noto Sans TC", sans-serif;
+}
+@media all and (max-width: 767px) {
+  .contact .personal select::-webkit-input-placeholder, .contact .personal input::-webkit-input-placeholder {
+    font-size: 15px;
+    margin: 14.5px 0 12px 0;
+  }
+  .contact .personal select::-moz-placeholder, .contact .personal input::-moz-placeholder {
+    font-size: 15px;
+    margin: 14.5px 0 12px 0;
+  }
+  .contact .personal select:-ms-input-placeholder, .contact .personal input:-ms-input-placeholder {
+    font-size: 15px;
+    margin: 14.5px 0 12px 0;
+  }
+  .contact .personal select::-ms-input-placeholder, .contact .personal input::-ms-input-placeholder {
+    font-size: 15px;
+    margin: 14.5px 0 12px 0;
+  }
+  .contact .personal select::placeholder,
+  .contact .personal input::placeholder {
+    font-size: 15px;
+    margin: 14.5px 0 12px 0;
+  }
+}
+.contact .personal input:nth-child(odd) {
+  margin-right: 32px;
+}
+@media all and (max-width: 767px) {
+  .contact .personal input:nth-child(odd) {
+    margin-right: 0;
+  }
+}
+.contact .personal select {
+  color: #cacaca;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  background: url("../images/contact/arrow_select.png") center right 24px/12px 8px no-repeat;
+}
+.contact .personal select option {
+  color: #221e1f;
+}
+.contact .item-title {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  color: #221e1f;
+  margin: 28px 0 15px 0;
+}
+@media all and (max-width: 767px) {
+  .contact .item-title {
+    padding-left: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+}
+.contact .item-title::before {
+  content: "*";
+  position: absolute;
+  top: -6px;
+  left: -7px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #ff0303;
+}
+@media all and (max-width: 767px) {
+  .contact .item-title::before {
+    top: -1px;
+    left: 0.5px;
+    font-size: 12px;
+  }
+}
+.contact .item-title span {
+  font-size: 16px;
+  color: #ff0303;
+  padding-left: 11px;
+  font-weight: 400;
+}
+@media all and (max-width: 767px) {
+  .contact .item-title span {
+    font-size: 12px;
+  }
+}
+.contact .item {
+  background-color: #f4e9e7;
+  border-radius: 24px;
+  padding: 62px 58px 0 62px;
+  margin-bottom: 50px;
+}
+@media all and (max-width: 767px) {
+  .contact .item {
+    padding: 36px 31px 5.5px 31px;
+    margin-bottom: 30px;
+  }
+}
+.contact .item ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+@media all and (max-width: 767px) {
+  .contact .item ul {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+.contact .item ul li:nth-child(5n) {
+  margin-right: 0;
+}
+@media all and (max-width: 767px) {
+  .contact .item ul li:nth-child(5n) {
+    margin-right: 24px;
+  }
+}
+.contact .item ul li:last-child {
+  margin-right: 0;
+}
+.contact .item li {
+  position: relative;
+  width: calc((100% - 216px) / 5);
+  margin: 0 54px 60px 0;
+}
+@media all and (max-width: 991px) {
+  .contact .item li {
+    width: calc(50% - 54px);
+  }
+}
+@media all and (max-width: 767px) {
+  .contact .item li {
+    width: calc(50% - 12.5px);
+    margin: 0 24px 29px 0;
+  }
+}
+.contact .item li .icon_pic {
+  position: relative;
+  border: 2px solid #dabfb6;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.contact .item li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 32px 26px;
+}
+.contact .item li a::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 18px;
+  border: 2px solid #d17559;
+  background-color: #d17559;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: 0.75s;
+  transition: 0.75s;
+}
+@media all and (max-width: 767px) {
+  .contact .item li a {
+    padding: 26px;
+  }
+}
+@media all and (min-width: 767px) {
+  .contact .item li a:hover::after {
+    opacity: 0.5;
+  }
+}
+.contact .item li img {
+  display: block;
+}
+.contact .item li .subtitle {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #221e1f;
+  margin-top: 16px;
+  -webkit-transition: 0.75s;
+  transition: 0.75s;
+  height: 1.5em;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* 第幾行要顯示點點點 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+@media all and (max-width: 767px) {
+  .contact .item li .subtitle {
+    font-size: 15px;
+  }
+}
+@media all and (max-width: 767px) {
+  .contact .item li:nth-child(even) {
+    margin-right: 0;
+  }
+}
+.contact .note-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #221e1f;
+  margin-bottom: 25px;
+}
+@media all and (max-width: 767px) {
+  .contact .note-title {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+}
+.contact .note {
+  position: relative;
+  width: 100%;
+}
+.contact .note textarea {
+  width: 100%;
+  height: 230px;
+  padding: 15px 20px;
+  font-size: 18px;
+  color: #221e1f;
+  border: 1px solid #dabfb6;
+  border-radius: 8px;
+  resize: none;
+  overflow: auto;
+}
+@media all and (max-width: 767px) {
+  .contact .note textarea {
+    border-radius: 14px 0 0 14px;
+  }
+}
+.contact .note textarea::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 20px;
+}
+.contact .note textarea::-webkit-scrollbar-track {
+  background-color: #b68a7c;
+  opacity: 0.5;
+  border-radius: 20px;
+}
+.contact .note textarea::-webkit-scrollbar-thumb {
+  background: #eeeeee;
+  border-radius: 20px;
+}
+@media all and (max-width: 767px) {
+  .contact .note textarea {
+    height: 214px;
+  }
+}
+.contact .note textarea::-webkit-input-placeholder {
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+  font-size: 18px;
+  color: #cacaca;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.contact .note textarea::-moz-placeholder {
+  transform: translateY(-10%);
+  font-size: 18px;
+  color: #cacaca;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.contact .note textarea:-ms-input-placeholder {
+  transform: translateY(-10%);
+  font-size: 18px;
+  color: #cacaca;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.contact .note textarea::-ms-input-placeholder {
+  transform: translateY(-10%);
+  font-size: 18px;
+  color: #cacaca;
+  font-family: "Noto Sans TC", sans-serif;
+}
+.contact .note textarea::placeholder {
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+  font-size: 18px;
+  color: #cacaca;
+  font-family: "Noto Sans TC", sans-serif;
+}
+@media all and (max-width: 767px) {
+  .contact .note textarea::-webkit-input-placeholder {
+    font-size: 15px;
+  }
+  .contact .note textarea::-moz-placeholder {
+    font-size: 15px;
+  }
+  .contact .note textarea:-ms-input-placeholder {
+    font-size: 15px;
+  }
+  .contact .note textarea::-ms-input-placeholder {
+    font-size: 15px;
+  }
+  .contact .note textarea::placeholder {
+    font-size: 15px;
+  }
+}
+.contact .sumbit {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 78px 0 150px;
+}
+@media all and (max-width: 767px) {
+  .contact .sumbit {
+    margin: 41px 0 81.5px;
+  }
 }

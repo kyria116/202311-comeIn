@@ -13,7 +13,7 @@
             <img src="dist/images/kv/contact_mo.jpg" class="mo">
             <div class="txt">
                 <div class="subtitle">contact</div>
-                <div class="title">專人諮詢</div>
+                <div class="title">   </div>
             </div>
         </div>
         <div class="contact">

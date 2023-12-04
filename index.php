@@ -9,6 +9,8 @@
         include "quote/template/popup.php";
     ?>
     <main>
+        <!-- 桌機 1920 * 900
+             手機 768 * 433  -->
         <div class="banner">
             <div class="swiper_banner mySwiper">
                 <div class="swiper-wrapper">
@@ -45,6 +47,7 @@
             <span class="circle_1"></span>
             <span class="circle_2"></span>
             <div class="about">
+                <!-- 圖片 880 * 584  -->
                 <div class="img">
                     <img src="dist/images/about.jpg">
                 </div>
@@ -65,6 +68,7 @@
                 </div>
             </div>
             <div class="team">
+                <!-- 圖片 616 * 980  -->
                 <div class="img">
                     <img src="dist/images/img_index_2.jpg" class="img_2">
                     <img src="dist/images/img_index_1.jpg" class="img_1">
@@ -99,7 +103,7 @@
                         <div class="swiper-slide">
                             <a href="service.php">
                                 <div class="img">
-                                    <img src="dist/images/icon_1.png">
+                                    <img src="dist/images/1.jpg">
                                 </div>
                                 <div class="txt">
                                     <div class="title">
@@ -213,6 +217,7 @@
                     <div class="title_tw">最新消息</div>
                 </div>
             </div>
+            <!-- 圖片 472 * 472 -->
             <div class="swiperNews">
                 <div class="swiper_news mySwiper">
                     <div class="swiper-wrapper">
@@ -449,8 +454,11 @@
                 <?php
                     include "quote/template/tag_menu.php";
                 ?>
+                <!-- 圖片 720 * 477 -->
                 <div class="swiperInfo">
-                    <div class="img" style="background: url('dist/images/img.jpg') center / cover no-repeat;"><img src="dist/images/1.jpg"></div>
+                    <div class="img">
+                        <img style="background: url('dist/images/img.jpg') center / cover no-repeat;" src="dist/images/1.jpg">
+                    </div>
                     <div class="txt">
                         <div class="titleBox">
                             <div class="iconInfo"><img src="dist/images/infoLogo.jpg"></div>

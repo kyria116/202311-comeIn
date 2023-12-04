@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="38"
+   name=""
+   committed-date="2014-07-04T02:50:49.140417Z"
+   url="https://114.32.161.142:8443/svn/integrity/web_php/integritytravel/captcha"
+   last-author="ivanyu1207"
+   kind="dir"
+   uuid="43a0db3c-461d-9d44-8734-8b15afe0ec80"
+   repos="https://114.32.161.142:8443/svn/integrity"
+   revision="51"/>
+<entry
+   committed-rev="10"
+   name="arial.ttf"
+   text-time="2014-03-10T02:36:03.987000Z"
+   committed-date="2014-05-22T10:52:16.623112Z"
+   checksum="05ada5bd099c819f28fbe4a1de2f0a61"
+   last-author="ivanyu1207"
+   kind="file"
+   prop-time="2014-05-22T10:47:37.019175Z"/>
+<entry
+   committed-rev="38"
+   name="captcha.php"
+   text-time="2014-07-03T09:34:35.728515Z"
+   committed-date="2014-07-04T02:50:49.140417Z"
+   checksum="c06060296a7780dd249b4c4ac9199137"
+   last-author="ivanyu1207"
+   kind="file"/>
+</wc-entries>

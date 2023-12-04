@@ -21,8 +21,11 @@
                 <?php
                     include "quote/template/tag_menu.php";
                 ?>
+                <!-- 圖片 720 * 477 -->
                 <div class="swiperInfo">
-                    <div class="img"><img src="dist/images/1.jpg"></div>
+                    <div class="img">
+                        <img style="background: url('dist/images/img.jpg') center / cover no-repeat;" src="dist/images/1.jpg">
+                    </div>
                     <div class="txt">
                         <div class="titleBox">
                             <div class="iconInfo"><img src="dist/images/infoLogo.jpg"></div>
@@ -643,9 +646,10 @@
                                 </div>
                             </div>
                         </div>
+                        <!-- 圖片 528 * 706 -->
                         <ul>
                             <li>
-                                <a href="javascript:;">
+                                <a href="team-detail.php">
                                     <div class="img">
                                         <img src="dist/images/1.jpg">
                                     </div>
@@ -679,7 +683,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
+                                <a href="team-detail.php">
                                     <div class="img">
                                         <img src="dist/images/1.jpg">
                                     </div>
@@ -713,7 +717,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
+                                <a href="team-detail.php">
                                     <div class="img">
                                         <img src="dist/images/1.jpg">
                                     </div>
@@ -747,7 +751,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
+                                <a href="team-detail.php">
                                     <div class="img">
                                         <img src="dist/images/1.jpg">
                                     </div>
@@ -781,7 +785,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
+                                <a href="team-detail.php">
                                     <div class="img">
                                         <img src="dist/images/1.jpg">
                                     </div>
@@ -815,7 +819,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
+                                <a href="team-detail.php">
                                     <div class="img">
                                         <img src="dist/images/1.jpg">
                                     </div>
@@ -849,7 +853,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
+                                <a href="team-detail.php">
                                     <div class="img">
                                         <img src="dist/images/1.jpg">
                                     </div>
@@ -883,7 +887,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
+                                <a href="team-detail.php">
                                     <div class="img">
                                         <img src="dist/images/1.jpg">
                                     </div>
@@ -917,7 +921,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
+                                <a href="team-detail.php">
                                     <div class="img">
                                         <img src="dist/images/1.jpg">
                                     </div>
@@ -951,7 +955,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
+                                <a href="team-detail.php">
                                     <div class="img">
                                         <img src="dist/images/1.jpg">
                                     </div>
@@ -985,7 +989,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
+                                <a href="team-detail.php">
                                     <div class="img">
                                         <img src="dist/images/1.jpg">
                                     </div>
@@ -1019,7 +1023,7 @@
                                 </div>
                             </li>
                             <li>
-                                <a href="javascript:;">
+                                <a href="team-detail.php">
                                     <div class="img">
                                         <img src="dist/images/1.jpg">
                                     </div>
@@ -1058,6 +1062,7 @@
                 <li>
                     <div class="container">
                         <ul>
+                            <!-- 圖片 720 * 457 -->
                             <li>
                                 <div class="img">
                                     <img src="dist/images/1.jpg">

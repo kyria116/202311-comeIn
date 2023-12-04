@@ -2,7 +2,6 @@
 
 
 $(function(){
-    //@prepros-prepend template/top_menu.js
     //@prepros-prepend plugin/swiper-bundle.min.js
 
     
@@ -49,7 +48,7 @@ $(function(){
         $('html').removeClass('popupOpen')
         $('#popup iframe').attr('src', ``)
     });
-    // setTimeout(function(){console.clear()}, 500)
+    setTimeout(function(){console.clear()}, 500)
 
 
     

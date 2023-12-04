@@ -1,5 +1,5 @@
 <div class="fixBoxBtn">
-    <a href="javascript:;" class="iconPhone">
+    <a href="contact.php" class="iconPhone">
         <div class="img"></div>
         <div class="txt">專人諮詢</div>
     </a>
@@ -13,7 +13,7 @@
         <div class="img f_line"></div>
         <div class="txt">預約看診</div>
     </a>
-    <a href="javascript:;" target="_blank">
+    <a href="contact.php">
         <div class="img f_serve"></div>
         <div class="txt">專人諮詢</div>
     </a>
