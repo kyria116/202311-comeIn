@@ -898,6 +898,7 @@ button.swiper-pagination-bullet {
   display: block;
   width: 50%;
   margin-bottom: 12.5%;
+  aspect-ratio: 1/1;
 }
 @media all and (max-width: 767px) {
   .physical ul li img {
@@ -971,6 +972,9 @@ button.swiper-pagination-bullet {
   .physical_detail .physical_d {
     padding-top: 74px;
   }
+}
+.physical_detail img {
+  aspect-ratio: 1/1;
 }
 .physical_detail .breadCrumbs {
   display: -webkit-box;
@@ -1393,6 +1397,7 @@ button.swiper-pagination-bullet {
   padding: 25px 26px;
   border-radius: 20px;
   z-index: 1;
+  aspect-ratio: 1/1;
 }
 @media all and (max-width: 767px) {
   .physical_results .icon li img {
@@ -1453,7 +1458,7 @@ button.swiper-pagination-bullet {
 }
 @media all and (max-width: 991px) {
   .physical_results .icon li:nth-child(even) {
-    margin-right: 0;
+    margin-right: 27;
   }
 }
 .physical_results .icon li:nth-child(3n) {

@@ -2189,6 +2189,7 @@ button.swiper-pagination-bullet {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  aspect-ratio: 1/0.631;
 }
 
 .swiper-pagination {
