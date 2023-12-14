@@ -27,16 +27,16 @@ $(function () {
     
     //footer
     $('footer .mailBox a').on('click', function(){
-        if($('body').hasClass('popupOpen')){
-            $('body').removeClass('popupOpen')
+        if($('body').hasClass('popupOpen2')){
+            $('body').removeClass('popupOpen2')
             $('body, html').css('overflow-y', 'auto')
         }else{
-            $('body').addClass('popupOpen')
+            $('body').addClass('popupOpen2')
             $('body, html').css('overflow-y', 'hidden')
         }
     })
-    $('.popup_mailbox .closeIcon').on('click', function () {
-        $('body').removeClass('popupOpen')
+    $('.popup_mailbox2 .closeIcon2').on('click', function () {
+        $('body').removeClass('popupOpen2')
         $('body, html').css('overflow-y', 'auto')
     });
 

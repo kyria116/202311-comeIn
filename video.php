@@ -6,6 +6,7 @@
     <?php
         include "quote/template/added.php";
         include "quote/template/nav.php";
+        include "quote/template/popup.php";
     ?>
     <!-- 彈跳視窗 start -->
         <div id="popup">
@@ -15,7 +16,7 @@
             </div>
         </div>
     <!-- 彈跳視窗 end -->
-    <main data-health="1">
+    <main data-health="1" data-name="影音專區">
         <div class="kv_banner">
             <img src="dist/images/kv/health.jpg" class="pc">
             <img src="dist/images/kv/health_mo.jpg" class="mo">

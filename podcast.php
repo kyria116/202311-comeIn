@@ -6,8 +6,9 @@
     <?php
         include "quote/template/added.php";
         include "quote/template/nav.php";
+        include "quote/template/popup.php";
     ?>
-    <main data-health="0">
+    <main data-health="0" data-name="Podcast">
         <div class="kv_banner">
             <img src="dist/images/kv/health.jpg" class="pc">
             <img src="dist/images/kv/health_mo.jpg" class="mo">

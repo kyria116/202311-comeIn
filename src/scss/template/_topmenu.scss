@@ -6,26 +6,6 @@
     @include mediaquery(null, 767px) {
         margin-bottom: 34px;
     }
-    &.index::before{
-        content: "";
-        position: absolute;
-        z-index: 2;
-        top: 0;
-        left: 0px;
-        width: 10px;
-        height: 100%;
-        background: linear-gradient(to right, #fff, rgba(255,255,255,0));
-    }
-    &.index::after{
-        content: "";
-        position: absolute;
-        z-index: 2;
-        top: 0;
-        right: 0px;
-        width: 10px;
-        height: 100%;
-        background: linear-gradient(to left, #fff, rgba(255,255,255,0));
-    }
     .item_menu_Box {
         text-align: left;
         position: relative;
@@ -41,85 +21,145 @@
         white-space: nowrap;
         display: inline-flex;
     }
-    &.index li{
-        margin-right: 36px;
-        @include mediaquery(null, 767px){
-            margin-right: 6px;
+    &.index {
+        &::before{
+            content: "";
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            left: 0px;
+            width: 10px;
+            height: 100%;
+            background: linear-gradient(to right, #fff, rgba(255,255,255,0));
         }
-        &.active{
-            a{
-                background-color: $hover-color;
-            }
-            .b_title{
-                color: #fff;
-            }
-            .s_title{
-                color: #fff;
-                &::before{
-                    background-color: #fff;
-                }
-            }
+        &::after{
+            content: "";
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            right: 0px;
+            width: 10px;
+            height: 100%;
+            background: linear-gradient(to left, #fff, rgba(255,255,255,0));
         }
-        a{
-            display: block;
-            padding: 16px 15px 12px;
-            border-radius: 19px;
-            transition: background-color 0.75s;
+        li{
+            margin-right: 36px;
             @include mediaquery(null, 767px){
-                padding: 12px 12px 9px;
-                border-radius: 15px;
+                margin-right: 6px;
             }
-            &:hover{
-                @include mediaquery(768px, null){
+            &.active{
+                a{
                     background-color: $hover-color;
-                    .b_title{
-                        color: #fff;
+                }
+                .b_title{
+                    color: #fff;
+                }
+                .s_title{
+                    color: #fff;
+                    &::before{
+                        background-color: #fff;
                     }
-                    .s_title{
-                        color: #fff;
-                        &::before{
-                            background-color: #fff;
+                }
+                &:hover{
+                    @include mediaquery(768px, null){
+                        a{
+                            background-color: $hover-color;
+                        }
+                        .b_title{
+                            color: #fff;
+                        }
+                        .s_title{
+                            color: #fff;
+                            &::before{
+                                background-color: #fff;
+                            }
                         }
                     }
                 }
             }
-        }
-        .b_title{
-            display: block;
-            font-size: 18px;
-            margin-bottom: 4px;
-            color: $primary-color;
-            letter-spacing: 0.1em;
-            transition: color 0.75s;
-            line-height: 1;
-            @include mediaquery(null, 767px){
-                font-size: 16px;
-                margin-bottom: 3px;
-                letter-spacing: 0.05em;
-            }
-        }
-        .s_title{
-            position: relative;
-            display: inline-block;
-            padding-left: 8px;
-            font-size: 14px;
-            color: #8c8c8c;
-            line-height: 1;
-            letter-spacing: 0.1em;
-            transition: color 0.75s;
-            @include mediaquery(null, 767px){
-                letter-spacing: 0.05em;
-            }
-            &::before{
-                content: "";
-                position: absolute;
-                top: 50%;
-                left: 0;
-                transform: translateY(-50%);
-                width: 1px;
-                height: 1em;
-                background-color: #8c8c8c;
+            a{
+                display: block;
+                padding: 16px 15px 12px;
+                border-radius: 19px;
                 transition: background-color 0.75s;
+                @include mediaquery(null, 767px){
+                    padding: 12px 12px 9px;
+                    border-radius: 15px;
+                }
+                &:hover{
+                    @include mediaquery(768px, null){
+                        .b_title{
+                            color: $hover-color;
+                        }
+                        .s_title{
+                            color: $hover-color;
+                            &::before{
+                                background-color: $hover-color;
+                            }
+                        }
+                    }
+                }
+            }
+            .b_title{
+                display: block;
+                font-size: 18px;
+                margin-bottom: 4px;
+                color: $primary-color;
+                letter-spacing: 0.1em;
+                transition: color 0.75s;
+                line-height: 1;
+                @include mediaquery(null, 767px){
+                    font-size: 16px;
+                    margin-bottom: 3px;
+                    letter-spacing: 0.05em;
+                }
+            }
+            .s_title{
+                position: relative;
+                display: inline-block;
+                padding-left: 8px;
+                font-size: 14px;
+                color: #8c8c8c;
+                line-height: 1;
+                letter-spacing: 0.1em;
+                transition: color 0.75s;
+                @include mediaquery(null, 767px){
+                    letter-spacing: 0.05em;
+                }
+                &::before{
+                    content: "";
+                    position: absolute;
+                    top: 50%;
+                    left: 0;
+                    transform: translateY(-50%);
+                    width: 1px;
+                    height: 1em;
+                    background-color: #8c8c8c;
+                    transition: background-color 0.75s;
+                }
+            }
+        }
+        .flex-direction-nav {
+            a.flex-prev {
+                left: -3px;
+                div {
+                    &::before{
+                        background: url('../images/common/index_left.png') center/contain no-repeat;
+                    }
+                    &::after{
+                        content: none;
+                    }
+                }
+            }
+            a.flex-next {
+                div {
+                    &::before{
+                        background: url('../images/common/index_right.png') center/contain no-repeat;
+                    }
+                    &::after{
+                        content: none;
+                    }
+                }
             }
         }
     }
@@ -262,6 +302,11 @@
         }
     }
 }
+.topmenuBox{
+    @include mediaquery(null, 767px){
+        margin: 0 18px;
+    }
+}
 .page_brown{
     position: relative;
     z-index: 5;
@@ -277,6 +322,9 @@
         -ms-overflow-style: none;
         scrollbar-width: none;
         border-radius: 8px;
+        @include mediaquery(null, 767px) {
+            border-radius: 4px;
+        }
         &::-webkit-scrollbar {
             display: none;
         }
@@ -287,7 +335,6 @@
         height: 56px;
         line-height: 56px;
         background-color: #f4e9e7;
-        border-radius: 8px;
         overflow: hidden;
         @include mediaquery(null, 767px) {
             height: 45px;
@@ -320,11 +367,12 @@
     }
     .flex-direction-nav {
         a.flex-prev {
+            left: -5px;
             transition: opacity 0.75s;
             div {
                 position: relative;
-                width: 7px;
-                height: 11px;
+                width: 8px;
+                height: 12px;
                 &::before{
                     content: "";
                     position: absolute;
@@ -332,7 +380,7 @@
                     left: 0;
                     width: 100%;
                     height: 100%;
-                    background: url('../images/common/leftMenu.png') center/contain no-repeat;
+                    background: url('../images/common/index_left.png') center/contain no-repeat;
                 }
             }
             &:hover{
@@ -347,10 +395,11 @@
         }
         a.flex-next {
             transition: opacity 0.75s;
+            right: -5px;
             div {
                 position: relative;
-                width: 7px;
-                height: 11px;
+                width: 8px;
+                height: 12px;
                 &::before{
                     content: "";
                     position: absolute;
@@ -358,7 +407,7 @@
                     left: 0;
                     width: 100%;
                     height: 100%;
-                    background: url('../images/common/rightMenu.png') center/contain no-repeat;
+                    background: url('../images/common/index_right.png') center/contain no-repeat;
                 }
             }
             &:hover{

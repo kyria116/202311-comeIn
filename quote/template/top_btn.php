@@ -1,4 +1,18 @@
 <div class="fixBoxBtn">
+    <ul class="shareBar pc_991">
+        <li>
+            <a href="javascript:;" target="_blank" class="link"></a>
+        </li>
+        <li>
+            <a href="javascript:;" target="_blank" class="fb"></a>
+        </li>
+        <li>
+            <a href="javascript:;" target="_blank" class="line"></a>
+        </li>
+        <li>
+            <a href="javascript:;" target="_blank" class="ig"></a>
+        </li>
+    </ul>
     <a href="contact.php" class="iconPhone">
         <div class="img"></div>
         <div class="txt">專人諮詢</div>
@@ -9,6 +23,20 @@
     </a>
 </div>
 <div class="fixBoxBtn2">
+    <ul class="shareBar mo_991">
+        <li>
+            <a href="javascript:;" target="_blank" class="link"></a>
+        </li>
+        <li>
+            <a href="javascript:;" target="_blank" class="fb"></a>
+        </li>
+        <li>
+            <a href="javascript:;" target="_blank" class="line"></a>
+        </li>
+        <li>
+            <a href="javascript:;" target="_blank" class="ig"></a>
+        </li>
+    </ul>
     <a href="javascript:;" target="_blank">
         <div class="img f_line"></div>
         <div class="txt">預約看診</div>

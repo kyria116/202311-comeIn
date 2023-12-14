@@ -294,8 +294,7 @@
                     }
                     &:hover{
                         @include mediaquery(768px, null){
-                            background-color: #fff;
-                            color: #cdb0a7;
+                            background-color: #ab897e;
                         }
                     }
                 }
@@ -453,8 +452,7 @@
             }
             &:hover{
                 @include mediaquery(768px, null){
-                    background-color: #fff;
-                    color: #cdb0a7;
+                    background-color: #ab897e;
                 }
             }
         }
@@ -614,6 +612,27 @@
             &::after{
                 transform: scale(-1);
             }
+        }
+    }
+    .shareBar.pc_991{
+        display: none !important;
+        @include mediaquery(992px, null){
+            display: block !important;
+        }
+    }
+    .shareBar.mo_991{
+        @include mediaquery(992px, null){
+            display: none !important;
+        }
+        @include mediaquery(null, 991px){
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    .footer{
+        @include mediaquery(null, 991px){
+            padding-bottom: 130px;
         }
     }
 }

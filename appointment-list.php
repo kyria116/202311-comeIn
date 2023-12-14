@@ -6,6 +6,7 @@
     <?php
         include "quote/template/added.php";
         include "quote/template/nav.php";
+        include "quote/template/popup.php";
     ?>
     <main class="reserveList">
         <div class="kv_banner">
@@ -53,7 +54,7 @@
                         <li>
                             <div class="m_title mo"></div>
                             <div class="m_info">
-                                <a href="javascript:;" class="btnDele">取消<i></i>預約</a>
+                                <a href="javascript:;" class="btnDele">取消預約</a>
                             </div>
                         </li>
                     </ul>
@@ -81,7 +82,7 @@
                         <li>
                             <div class="m_title mo"></div>
                             <div class="m_info">
-                                <a href="javascript:;" class="btnDele">取消<i></i>預約</a>
+                                <a href="javascript:;" class="btnDele">取消預約</a>
                             </div>
                         </li>
                     </ul>
@@ -109,13 +110,13 @@
                         <li>
                             <div class="m_title mo"></div>
                             <div class="m_info">
-                                <a href="javascript:;" class="btnDele">取消<i></i>預約</a>
+                                <a href="javascript:;" class="btnDele">取消預約</a>
                             </div>
                         </li>
                     </ul>
                 </div>
                 <div class="btnBox">
-                    <a href="reserve-online.php" class="btn_blue">
+                    <a href="information.php?outpatientList" class="btn_blue">
                         更多門診資訊
                         <div class="arrow"></div>
                     </a>
@@ -129,6 +130,16 @@
         include "quote/template/cookies.php";
     ?>
     <script src="dist/js/main.js"></script>     
+    <script>
+        $('.btnDele').on('click', function () {
+            var yes = confirm('確認是否取消?');
+            if (yes) {
+                alert('取消完成');
+            } else {
+                return false;
+            }
+        });
+    </script>
 </body>
 
 </html>

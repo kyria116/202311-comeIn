@@ -3,10 +3,10 @@
     <span class="menuContain"></span>
     <div class="header">
         <a href="./" class="container-logo tw">
-            <img src="dist/images/common/logo.png" alt="logo">
+            <img src="dist/images/common/logo.svg" alt="logo">
         </a>
         <a href="./" class="container-logo en">
-            <img src="dist/images/common/logo.png" alt="logo">
+            <img src="dist/images/common/logo.svg" alt="logo">
         </a>
         <div class="menuBox">
             <nav class="container-menu">

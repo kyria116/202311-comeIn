@@ -1,5 +1,5 @@
 <div class="bgcolor"></div>
-<div class="popup_mailbox">
+<div class="popup_mailbox2">
     <div class="editor_Content">
         <div class="editor_box pc_use">
             <!-- <p>pcpcpcpcpcpcppcpcpc</p> -->
@@ -16,7 +16,7 @@
             <p>臺北市服務業汰換節能設備補助-無風管空氣調節機、接風管空氣調節機照明燈具及室內停車場智慧照明申請臺北市服務業汰換節能設備補助-無風管空氣調節機、接風管空氣調節機照明燈具及室內停車場智慧照明申請臺北市服務業汰換節能設備補助-無風管空氣調節機、接風管空氣調節機照明燈具及室內停車場智慧照明申請臺北市服務業汰換節能設備補助-無風管空氣調節機、接風管空氣調節機照明燈具及室內停車場智慧照明申請臺北市服務業汰換節能設備補助-無風管空氣調節機、接風管空氣調節機照明燈具及室內停車場智慧照明申請臺北市服務業汰換節能設備補助-無風管空氣調節機、接風管空氣調節機照明燈具及室內停車場智慧照明申請臺北市服務業汰換節能設備補助-無風管空氣調節機、接風管空氣調節機照明燈具及室內停車場智慧照明申請臺北市服務業汰換節能設備補助</p>           
         </div>
     </div>
-    <div class="closeIcon">
+    <div class="closeIcon2">
         <img src="dist/images/common/close_bt.png">
     </div>
 </div>

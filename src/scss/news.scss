@@ -166,8 +166,7 @@
                     }
                     &:hover{
                         @include mediaquery(768px, null){
-                            background-color: #fff;
-                            color: #cdb0a7;
+                            background-color: #ab897e;
                         }
                     }
                 }
@@ -327,8 +326,7 @@
             }
             &:hover{
                 @include mediaquery(768px, null){
-                    background-color: #fff;
-                    color: #cdb0a7;
+                    background-color: #ab897e;
                 }
             }
         }

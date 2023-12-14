@@ -5,7 +5,7 @@
 .team{
     padding: 143px 0 148px;
     @include mediaquery(null, 767px){
-        padding: 46px 0 148px;
+        padding: 46px 0 78px;
     }
     .info{
         font-size: 16px;
@@ -42,6 +42,7 @@
             flex-direction: column;
             align-items: baseline;
             margin-bottom: 24px;
+            padding: 0 16px 0 18px;
         }
         li{
             flex: 0 0 48.6%;
@@ -59,7 +60,7 @@
                 margin-right: 15px;
                 @include mediaquery(null, 767px){
                     margin-right: 0;
-                    flex: 0 0 115px;
+                    flex: 0 0 93px;
                 }
             }
             select{
@@ -72,11 +73,14 @@
                 border-radius: 8px;
                 border: 1px solid #dabfb6;
                 font-size: 18px;
-                padding: 0 12px;
+                padding: 0 34px 0 12px;
                 background: #fff url('../images/common/select_down.png') center right 16px / 12px 8px no-repeat;
                 @include mediaquery(null, 767px){
+                    border-radius: 4px;
+                    padding: 0 42px 0 12px;
                     height: 45px;
                     line-height: 45px;
+                    background: #fff url('../images/common/select_down.png') center right 23px / 12px 8px no-repeat;
                 }
             }
         }
@@ -85,6 +89,9 @@
         display: flex;
         flex-wrap: wrap;
         margin-bottom: 12px;
+        @include mediaquery(null, 767px){
+            margin-bottom: 37px;
+        }
         li{
             @include mediaquery(1201px, null){
                 width: calc((100% - 96px) / 4);
@@ -120,9 +127,6 @@
                         &::after{
                             opacity: 1;
                         }
-                        // img{
-                        //     transform: scale(1.05);
-                        // }
                     }
                 }
             }
@@ -195,6 +199,7 @@
                 }
                 .location{
                     font-size: 16px;
+                    font-weight: 500;
                     font-family: $font-tw;
                     color: $primary-color;
                     margin-bottom: 19px;
@@ -429,8 +434,7 @@ html.popupOpen{
             }
             &:hover{
                 @include mediaquery(768px, null){
-                    background-color: #fff;
-                    color: #cdb0a7;
+                    background-color: #ab897e;
                 }
             }
         }
@@ -504,6 +508,7 @@ html.popupOpen{
         }
         .location{
             font-size: 16px;
+            font-weight: 500;
             font-family: $font-tw;
             color: $primary-color;
             margin-bottom: 22px;
@@ -748,8 +753,7 @@ html.popupOpen{
                             }
                             &:hover{
                                 @include mediaquery(768px, null){
-                                    background-color: #fff;
-                                    color: #cdb0a7;
+                                    background-color: #ab897e;
                                 }
                             }
                         }
@@ -952,9 +956,9 @@ html.popupOpen{
         position: relative;
         .container_table{
             margin: 0 auto;
-            width: 967px;
-            margin-left: calc((100vw - 17px - 967px) / 2);
-            @include mediaquery(null, 967px) {
+            width: 968px;
+            margin-left: calc((100vw - 17px - 968px) / 2);
+            @include mediaquery(null, 968px) {
                 margin-left: 6%;
                 width: 94%;
             }
@@ -995,11 +999,14 @@ html.popupOpen{
         }
         table{
             position: relative;
-            width: 100%;
+            width: 966px;
             margin: 0;
             border-spacing: 0;
             table-layout: fixed;
             border-collapse: separate;
+            @include mediaquery(null, 767px) {
+                width: 854px;
+            }
             td:first-child, th:first-child {
                 position: sticky;
                 z-index: 1;
@@ -1011,8 +1018,9 @@ html.popupOpen{
                 top: 0;
                 left: 0;
                 display: table;
-                width: 965px;
+                width: 966px;
                 @include mediaquery(null, 767px) {
+                    width: 854px;
                 }
                 tr.pc{
                     @include mediaquery(768px, null) {
@@ -1037,7 +1045,7 @@ html.popupOpen{
                         font-weight: 400;
                         font-size: 16px;
                         padding: 24px 0;
-                        width: 137px;
+                        width: 123px;
                         text-align: center;
                         &::before{
                             content: "";
@@ -1056,7 +1064,7 @@ html.popupOpen{
                             z-index: 6;
                         }
                         @include mediaquery(null, 767px) {
-                            width: 100px;
+                            width: 90px;
                             &::before{
                                 content: none;
                             }
@@ -1077,10 +1085,11 @@ html.popupOpen{
                 position: relative;
                 display: table;
                 margin: 25px 25px 33px 30px;
-                width: 902px;
+                width: 908px;
                 font-family: $font-tw;
                 @include mediaquery(null, 767px) {
-                    margin: 25px 0 15px 25px;
+                    margin: 25px 0 15px;
+                    width: 826px;
                 }
                 tr{
                     &:first-child{
@@ -1092,6 +1101,9 @@ html.popupOpen{
                         }
                         td{
                             padding-top: 14px;
+                            &:nth-child(1)::after{
+                                content: none;
+                            }
                         }
                     }
                     &:nth-child(2), &:nth-child(3){
@@ -1104,22 +1116,39 @@ html.popupOpen{
                             padding: 23px 0 15px;
                         }
                     }
+                    &:last-child td:nth-child(1)::after{
+                        content: none;
+                    }
                     td{
                         text-align: center;
                         vertical-align: top;
                         &:nth-child(1){
-                            width: 130px;
+                            width: 110px !important;
                             text-align: left;
+                            padding-left: 6px;
                             border-right: 0;
                             font-size: 18px;
                             font-weight: 500;
                             color: $hover-color;
                             background-color: #fff;
                             vertical-align: middle;
+                            border-bottom: none;
                             @include mediaquery(null, 767px) {
-                                width: 70px;
+                                width: 90px !important;
                                 padding: 0;
                                 text-align: center;
+                            }
+                            &::after{
+                                content: "";
+                                position: absolute;
+                                bottom: 0;
+                                right: 0;
+                                width: 100%;
+                                height: 1px;
+                                background-color: #dadada;
+                                @include mediaquery(null, 767px) {
+                                    width: calc(100% - 25px);
+                                }
                             }
                             i.pc{
                                 display: inline-block;
@@ -1142,43 +1171,17 @@ html.popupOpen{
                                 }
                             }
                         }
-                        &:nth-child(2){
-                            width: 128px;
+                        &:nth-child(2n){
+                            width: 105px;
                             background-color: #fef8f6;
                             @include mediaquery(null, 767px) {
-                                width: 128.5px;
+                                width: 123px;
                             }
                         }
-                        &:nth-child(3){
-                            width: 128px;
+                        &:nth-child(2n+1){
+                            width: 105px;
                             @include mediaquery(null, 767px) {
-                                width: 128.5px;
-                            }
-                        }
-                        &:nth-child(4){
-                            width: 128px;
-                            background-color: #fef8f6;
-                            @include mediaquery(null, 767px) {
-                                width: 128.5px;
-                            }
-                        }
-                        &:nth-child(5){
-                            width: 128px;
-                            @include mediaquery(null, 767px) {
-                                width: 128.5px;
-                            }
-                        }
-                        &:nth-child(6){
-                            width: 128px;
-                            background-color: #fef8f6;
-                            @include mediaquery(null, 767px) {
-                                width: 128.5px;
-                            }
-                        }
-                        &:nth-child(7){
-                            width: 128px;
-                            @include mediaquery(null, 767px) {
-                                width: 128.5px;
+                                width: 123px;
                             }
                         }
                         .box{
@@ -1198,6 +1201,12 @@ html.popupOpen{
                                 color: #d17559;
                                 font-size: 14px;
                                 margin-bottom: 10px;
+                                transition: opacity 0.75s;
+                                &:hover{
+                                    @include mediaquery(768px, null){
+                                        opacity: 0.7;
+                                    }
+                                }
                                 &::after{
                                     content: "";
                                     position: absolute;
@@ -1225,8 +1234,9 @@ html.popupOpen{
             }
             tfoot{
                 display: table;
-                width: 965px;
+                width: 966px;
                 @include mediaquery(null, 767px) {
+                    width: 854px;
                 }
                 td{
                     background-color: #b68a7c;

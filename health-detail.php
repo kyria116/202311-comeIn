@@ -2,12 +2,14 @@
 <link rel="stylesheet" href="dist/css/health.css">
 </head>
 
-<body class="lang_tw" data-menu="4">
+<body class="lang_tw detail" data-menu="4">
     <?php
         include "quote/template/added.php";
         include "quote/template/nav.php";
+        include "quote/template/popup.php";
     ?>
-    <main class="detail">
+    <!-- 分享連結在 quote/template/top_btn.php 中 -->
+    <main>
         <div class="kv_banner">
             <img src="dist/images/kv/health.jpg" class="pc">
             <img src="dist/images/kv/health_mo.jpg" class="mo">

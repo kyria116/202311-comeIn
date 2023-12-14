@@ -12,19 +12,6 @@ $(function(){
         slider_ul_list("top-menu-ul-2");
     }, 1);
 
-    // let newIndex = 0
-    // $('.health_topMenu .item_menu_list li').on('click', function(){
-    //     newIndex = $(this).index()
-    //     $(this).addClass('active')
-    //     $(this).siblings().removeClass('active')
-    //     $('.healthContain > li').eq(newIndex).addClass('active')
-    //     $('.healthContain > li').eq(newIndex).siblings().removeClass('active')
-    // })
-    // $('.health_topMenu select').on('change', function () {
-    //     newIndex = $(this).val()
-    //     $('.healthContain > li').eq(newIndex).addClass('active')
-    //     $('.healthContain > li').eq(newIndex).siblings().removeClass('active')
-    // });
 
 
     //音樂
@@ -70,4 +57,12 @@ $(function(){
         $('#popup iframe').attr('src', ``)
     });
     setTimeout(function(){console.clear()}, 500)
+
+    if(winW < 768){
+        $('.health_topMenu select option').each(function(){
+            if($(this).text().trim() == $('main').attr('data-name')){
+                $(this).prop('selected', true)
+            }
+        })
+    }
 });

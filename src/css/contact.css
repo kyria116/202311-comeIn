@@ -841,16 +841,16 @@ button.swiper-pagination-bullet {
 .contact .personal label::before {
   content: "*";
   position: absolute;
-  top: -6px;
+  top: -2px;
   left: -7px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #ff0303;
 }
 @media all and (max-width: 767px) {
   .contact .personal label::before {
-    top: -1px;
-    left: 0.5px;
+    top: 0px;
+    left: -2px;
     font-size: 12px;
   }
 }
@@ -977,16 +977,16 @@ button.swiper-pagination-bullet {
 .contact .item-title::before {
   content: "*";
   position: absolute;
-  top: -6px;
+  top: -2px;
   left: -7px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #ff0303;
 }
 @media all and (max-width: 767px) {
   .contact .item-title::before {
-    top: -1px;
-    left: 0.5px;
+    top: 0px;
+    left: -2px;
     font-size: 12px;
   }
 }

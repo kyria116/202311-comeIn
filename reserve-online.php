@@ -6,6 +6,7 @@
     <?php
         include "quote/template/added.php";
         include "quote/template/nav.php";
+        include "quote/template/popup.php";
     ?>
     <main class="detail">
         <div class="kv_banner">
@@ -26,6 +27,8 @@
                 <div class="online_choose">
                     <div>
                         <div class="title">請選擇您的預約方式 </div>
+                        <!-- 預設是選擇"依院所"，所以會顯示第一間診所，並且不會有全部診所的選項
+                        如果是選擇"依醫生"，所以會顯示第一位醫生，並且不會有全部醫生的選項 -->
                         <ul>
                             <li>
                                 <a href="javascript:;">
@@ -40,14 +43,12 @@
                                 </a>
                             </li>
                         </ul>
-                        <!-- 依院所時沒有全部診所的選項且醫生的下拉選單需要增加discolor的class;
-                             依醫生時沒有全部醫生的選項且診所的下拉選單需要增加discolor的class -->
                         <select name="" id="select_1">
                             <option value="0">全部診所</option>
                             <option value="1">晴天診所</option>
                             <option value="2">天晴診所</option>
                         </select>
-                        <select name="" id="select_2" class="discolor">
+                        <select name="" id="select_2">
                             <!-- <option value="0">全部醫生</option> -->
                             <option value="1">郭怡君</option>
                             <option value="2">郭怡君</option>
@@ -68,9 +69,9 @@
                         <div class="mo mo_txt">
                             <div class="tableTitle">
                                 <!-- 依院所 -->
-                                <span style="display: none">晴天診所 初診預約</span>
+                                <span>晴天診所 初診預約</span>
                                 <!-- 依醫師 初診 -->
-                                <span>葉明玫醫師 初診預約</span>
+                                <span style="display: none">葉明玫醫師 初診預約</span>
                                 <!-- 依醫師 複診 -->
                                 <span style="display: none">葉明玫醫師 複診預約</span>
                             </div>
@@ -121,9 +122,9 @@
                                         <tr>
                                             <td>
                                                 <!-- 依院所 -->
-                                                <span style="display: none">早診 9:00 - 12:00</span>
+                                                <span>早診 <i></i>9:00 <i class="line">-</i> 12:00</span>
                                                 <!-- 依醫師 -->
-                                                <span>早診</span>
+                                                <span style="display: none">早診</span>
                                             </td>
                                             <td>
                                             </td>
@@ -132,7 +133,7 @@
                                                     <div class="name">張邦彥</div>
                                                     <!-- 如果額滿就顯示reserveFull，若還沒有額滿就顯示reserveBtn -->
                                                     <!-- <a class="reserveBtn" href="javascript:;">線上預約</a> -->
-                                                    <a class="reserveFull" href="javascript:;"><img src="dist/images/common/phoneIcon.png">請來電洽詢預約</a>
+                                                    <a class="reserveFull" href="javascript:;"><img src="dist/images/common/phoneIcon.png"><div class="txt">請來電<i></i>洽詢預約</div></a>
                                                     <br>
                                                     <a class="reserveLink" href="javascript:;" target="_blank">4/1起</a>
                                                     <br>
@@ -144,7 +145,7 @@
                                                     <!-- 依院所時，顯示name，隱藏locationBtn -->
                                                     <div class="name">張邦彥</div>
                                                     <!-- <a class="reserveBtn" href="javascript:;">線上預約</a> -->
-                                                    <a class="reserveFull" href="javascript:;"><img src="dist/images/common/phoneIcon.png">請來電洽詢預約</a>
+                                                    <a class="reserveFull" href="javascript:;"><img src="dist/images/common/phoneIcon.png"><div class="txt">請來電<i></i>洽詢預約</div></a>
                                                     <br>
                                                     <div class="locationBtn">向陽</div>
                                                 </div>
@@ -189,7 +190,7 @@
                                         <tr>
                                             <td>
                                                 <!-- 依院所 -->
-                                                <span>午診 13:00 - 17:00</span>
+                                                <span>午診 <i></i>13:00 <i class="line">-</i> 17:00</span>
                                                 <!-- 依醫師 -->
                                                 <span style="display: none">午診</span>
                                             </td>
@@ -248,7 +249,7 @@
                                         <tr>
                                             <td>
                                                 <!-- 依院所 -->
-                                                <span>晚診 18:00 - 20:00</span>
+                                                <span>晚診 <i></i>18:00 <i class="line">-</i> 20:00</span>
                                                 <!-- 依醫師 -->
                                                 <span style="display: none">晚診</span>
                                             </td>

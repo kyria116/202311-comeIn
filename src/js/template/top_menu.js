@@ -27,30 +27,28 @@ function slider_ul_list(id) {
         sumArray[i] = sum;
         i++;
     });
-    let marginAuto = 0
     //判斷是否有箭頭 
     $window.on('resize', function () {
         win_W = $window.width();
         total_width = obj.find('ul').width();
         menu_box = obj.find('.item_menu_Box').width();
-        marginAuto = ($('.item_menu_Box').width() - $('.item_menu_list li').width()) / 2
         if (total_width > menu_box) {
             obj.addClass('open_flexslider');
-            obj.find('.item_menu_Box').scrollLeft(sumArray[active] - marginAuto);
+            obj.find('.item_menu_Box').scrollLeft(sumArray[active] );
         } else {
             obj.removeClass('open_flexslider');
         }
     }).resize();
     $('#' + id + ' .rbtn').on('click', function () {
-        if (sumArray[active] - marginAuto < total_width - menu_box) {
+        if (sumArray[active]  < total_width - menu_box) {
             active++;
-            obj.find('.item_menu_Box').stop().animate({ scrollLeft: sumArray[active] - marginAuto }, 600)
+            obj.find('.item_menu_Box').stop().animate({ scrollLeft: sumArray[active]  }, 600)
         }
     })
     $('#' + id + ' .lbtn').on('click', function () {
-        if (sumArray[active] - marginAuto > 0) {
+        if (sumArray[active]  > 0) {
             active--;
-            obj.find('.item_menu_Box').stop().animate({ scrollLeft: sumArray[active] - marginAuto }, 600)
+            obj.find('.item_menu_Box').stop().animate({ scrollLeft: sumArray[active]  }, 600)
         }
     })
     //判斷是否第一個或是最後一個            

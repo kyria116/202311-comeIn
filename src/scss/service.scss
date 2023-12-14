@@ -121,7 +121,7 @@ html.popupOpen{
     .teamTopMenu{
         margin: 0 0 89px;
         @include mediaquery(null, 767px){
-            margin: 0 24px 45px;
+            margin: 0 2px 45px;
         }
         .top-menu-ul{
             margin: 0;
@@ -186,14 +186,20 @@ html.popupOpen{
             width: calc(100% + 72px);
             a.flex-prev{
                 padding-right: 0;
-                div::before{
-                    background: url("../images/common/leftMenu.png") center/contain no-repeat;
+                div{
+                    width: 6px;
+                    &::before{
+                        background: url("../images/common/leftMenu.png") center/contain no-repeat;
+                    }
                 }
             }
             a.flex-next{
                 padding-left: 0;
-                div::before{
-                    background: url("../images/common/rightMenu.png") center/contain no-repeat;
+                div{
+                    width: 6px;
+                    &::before{
+                        background: url("../images/common/rightMenu.png") center/contain no-repeat;
+                    }
                 }
             }
         }
@@ -387,8 +393,7 @@ html.popupOpen{
                         }
                         &:hover{
                             @include mediaquery(768px, null){
-                                background-color: #fff;
-                                color: #cdb0a7;
+                                background-color: #ab897e;
                             }
                         }
                     }

@@ -6,6 +6,7 @@
     <?php
     include "quote/template/added.php";
     include "quote/template/nav.php";
+    include "quote/template/popup.php";
     ?>
     <!-- 圖片 113 * 113 -->
     <main class="physical_detail">
@@ -239,7 +240,7 @@
     include "quote/template/top_btn.php";
     include "quote/template/cookies.php";
     ?>
-    <script src="dist/js/function.js"></script>
+    <script src="dist/js/main.js"></script>
     <script src="dist/js/physical.js"></script>
 
 </body>

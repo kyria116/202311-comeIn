@@ -248,11 +248,6 @@ header{
                     }
                 }
             }
-            @include mediaquery(null, 991px){
-                .menu-second{
-                    display: block;
-                }
-            }
         }
     }
     &-list{
@@ -330,6 +325,11 @@ header{
             @include mediaquery(992px, null){
                 opacity: 1;
                 pointer-events: all;
+            }
+        }
+        &.active{
+            @include mediaquery(null, 991px){
+                display: block;
             }
         }
         >li {

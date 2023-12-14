@@ -39,6 +39,11 @@
             font-size: 25px;
             margin-bottom: 18px;
         }
+        i{
+            @include mediaquery(null, 767px){
+                display: block;
+            }
+        }
     }
     .subtitle{
         font-size: 20px;
@@ -158,13 +163,14 @@
             &::before{
                 content: "*";
                 position: absolute;
-                top: -2px;
-                left: -10px;
-                font-size: 12px;
+                top: -1px;
+                left: -8px;
+                font-size: 16px;
+                font-weight: 500;
                 color: #ff0303;
                 @include mediaquery(null, 767px){
-                    top: -2px;
-                    left: -10px;
+                    top: 0;
+                    left: -6px;
                     font-size: 12px;
                 }
             }
@@ -211,12 +217,15 @@
                 border-radius: 8px;
                 width: 100%;
                 font-size: 18px;
-                color: #221e1f;
                 padding: 0 16px;
+                color: #cacaca;
                 background: #fff url('../images/common/select_down.png') center right 16px / 8px 5px no-repeat;
                 @include mediaquery(null, 767px){
                     font-size: 15px;
                     background: #fff url('../images/common/select_down.png') center right 10px / 8px 5px no-repeat;
+                }
+                option{
+                    color: #221e1f;
                 }
             }
             select + select{
@@ -682,6 +691,9 @@
                     flex: 0 0 20%;
                     margin-right: 20px;
                 }
+                @include mediaquery(768px, 1365px){
+                    margin-right: 18px;
+                }
             }
             &:nth-child(2){
                 @include mediaquery(768px, null){
@@ -689,13 +701,17 @@
                     margin-right: 20px;
                 }
                 @include mediaquery(768px, 1365px){
-                    flex: 0 0 13.8%;
+                    flex: 0 0 13%;
+                    margin-right: 18px;
                 }
             }
             &:nth-child(3){
                 @include mediaquery(768px, null){
                     flex: 0 0 19.1%;
                     margin-right: 20px;
+                }
+                @include mediaquery(768px, 1365px){
+                    margin-right: 18px;
                 }
             }
             &:nth-child(4){
@@ -705,6 +721,7 @@
                 }
                 @include mediaquery(768px, 1365px){
                     flex: 0 0 12.4%;
+                    margin-right: 18px;
                 }
             }
             &:nth-child(5){
@@ -713,7 +730,8 @@
                     margin-right: 20px;
                 }
                 @include mediaquery(768px, 1365px){
-                    flex: 0 0 10%;
+                    flex: 0 0 8%;
+                    margin-right: 18px;
                 }
             }
             &:nth-child(6){
@@ -820,11 +838,6 @@
                     color: #9e8470;
                 }
             }
-            i{
-                @include mediaquery(768px, 992px){
-                    display: block;
-                }
-            }
         }
     }
     .btn_blue{
@@ -850,11 +863,20 @@
         border-radius: 24px;
         background-color: #fff;
         border: 2px solid #dabfb6;
+        @include mediaquery(null, 767px){
+            width: 282px;
+            height: 53px;
+            line-height: 53px;
+            border: 1px solid #dabfb6;
+        }
         .title{
             flex: 1;
             font-size: 18px;
             color: #9e8470;
             text-align: center;
+            @include mediaquery(null, 767px){
+                font-size: 15px;
+            }
         }
         a{
             position: relative;
@@ -872,6 +894,10 @@
                     height: 100%;
                     background: url('../images/common/arrow_bt.png') center / 5px 8px no-repeat;
                     transition: 0.75s;
+                    @include mediaquery(null, 767px){
+                        left: 70%;
+                        background: url('../images/common/arrow_bt.png') center / 6px 12px no-repeat;
+                    }
                 }
                 &:hover{
                     @include mediaquery(768px, null){
@@ -892,6 +918,10 @@
                     height: 100%;
                     background: url('../images/common/arrow_bt.png') center / 5px 8px no-repeat;
                     transition: 0.75s;
+                    @include mediaquery(null, 767px){
+                        left: 33%;
+                        background: url('../images/common/arrow_bt.png') center / 6px 12px no-repeat;
+                    }
                 }
                 &:hover{
                     @include mediaquery(768px, null){
@@ -909,9 +939,9 @@
         position: relative;
         .container_table{
             margin: 0 auto;
-            width: 967px;
-            margin-left: calc((100vw - 17px - 967px) / 2);
-            @include mediaquery(null, 967px) {
+            width: 968px;
+            margin-left: calc((100vw - 17px - 968px) / 2);
+            @include mediaquery(null, 968px) {
                 margin-left: 6%;
                 width: 94%;
             }
@@ -952,11 +982,14 @@
         }
         table{
             position: relative;
-            width: 100%;
+            width: 966px;
             margin: 0;
             border-spacing: 0;
             table-layout: fixed;
             border-collapse: separate;
+            @include mediaquery(null, 767px) {
+                width: 854px;
+            }
             td:first-child, th:first-child {
                 @include mediaquery(null, 767px) {
                     position: sticky;
@@ -966,8 +999,13 @@
             }
             thead{
                 display: table;
-                width: 965px;
+                z-index: 5;
+                top: 0;
+                left: 0;
+                display: table;
+                width: 966px;
                 @include mediaquery(null, 767px) {
+                    width: 854px;
                 }
                 tr.pc{
                     @include mediaquery(768px, null) {
@@ -992,7 +1030,7 @@
                         font-weight: 400;
                         font-size: 16px;
                         padding: 24px 0;
-                        width: 151px;
+                        width: 123px;
                         text-align: center;
                         line-height: 1.5;
                         &::before{
@@ -1012,7 +1050,7 @@
                             z-index: 6;
                         }
                         @include mediaquery(null, 767px) {
-                            width: 151px;
+                            width: 90px;
                             &::before{
                                 content: none;
                             }
@@ -1023,12 +1061,12 @@
             tbody{
                 position: relative;
                 display: table;
-                margin: 25px 30px;
-                width: 906px;
+                margin: 25px 25px 33px 30px;
+                width: 908px;
                 font-family: $font-tw;
                 @include mediaquery(null, 767px) {
                     margin: 25px 0 15px;
-                    width: 956px;
+                    width: 826px;
                 }
                 tr{
                     &:first-child{
@@ -1041,7 +1079,7 @@
                         }
                     }
                     &.sTitle{
-                        background-color: #b5897c;
+                        background-color: #cdb0a7;
                         text-align: center;
                         height: 40px;
                         line-height: 40px;
@@ -1073,19 +1111,27 @@
                                 font-size: 18px;
                                 color: #b5897c;
                                 vertical-align: middle;
+                                width: 90px !important;
                             }
                         }
                         &:nth-child(2n+1){
                             width: 151px;
                             background-color: #fef8f6;
                             @include mediaquery(null, 767px) {
+                                width: 123px;
                                 background-color: #fff;
                             }
                         }
                         &:nth-child(2n){
                             width: 151px;
                             @include mediaquery(null, 767px) {
+                                width: 123px;
                                 background-color: #fef8f6;
+                            }
+                        }
+                        i{
+                            @include mediaquery(null, 767px) {
+                                display: block;
                             }
                         }
                         .box{
@@ -1105,6 +1151,7 @@
                                 color: #d17559;
                                 font-size: 14px;
                                 margin-bottom: 10px;
+                                transition: opacity 0.75s;
                                 &::after{
                                     content: "";
                                     position: absolute;
@@ -1114,14 +1161,40 @@
                                     height: 1px;
                                     background-color: #d17559;
                                 }
+                                &:hover{
+                                    @include mediaquery(768px, null){
+                                        opacity: 0.6;
+                                    }
+                                }
                             }
                             .reserveFull{
                                 display: inline-flex;
                                 font-size: 14px;
                                 color: #749294;
+                                transition: opacity 0.75s;
+                                align-items: self-start;
+                                margin-bottom: 5px;
                                 img{
                                     display: inline-block;
-                                    margin-right: 6px;
+                                    margin: 0px 6px 0 0;
+                                    @include mediaquery(null, 767px){
+                                        margin: 3px 6px 0 0;
+                                        width: 20px;
+                                        object-fit: contain;
+                                    }
+                                }
+                                .txt{
+                                    text-align: left;
+                                    i{
+                                        @include mediaquery(null, 767px){
+                                            display: block;
+                                        }
+                                    }
+                                }
+                                &:hover{
+                                    @include mediaquery(768px, null){
+                                        opacity: 0.6;
+                                    }
                                 }
                             }
                             .reserveBtn{
@@ -1551,9 +1624,21 @@
                 }
             }
             .bottomBox{
-                padding: 24px 0 37px;
+                padding: 23px 0 37px;
                 @include mediaquery(null, 767px){
-                    padding: 30px 0 30px;
+                    padding: 26px 0 30px;
+                }
+                .reminder{
+                    font-size: 26px;
+                    font-family: $font-en;
+                    font-weight: 600;
+                    letter-spacing: 0.05em;
+                    color: #9e8470;
+                    margin-bottom: 20px;
+                    @include mediaquery(null, 767px){
+                        font-size: 25px;
+                        margin-bottom: 10px;
+                    }
                 }
             }
         }

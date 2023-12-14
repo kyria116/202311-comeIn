@@ -26,11 +26,17 @@
                             <img src="dist/images/1.jpg" class="mo">
                         </a>
                     </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;" target="_blank">
+                            <img src="dist/images/1.jpg" class="pc">
+                            <img src="dist/images/1.jpg" class="mo">
+                        </a>
+                    </div>
                 </div>
                 <div class="swiper-pagination"></div>
             </div>
             <div class="btnBox">
-                <a href="information.php" class="btn_blue">
+                <a href="javascript:;" class="btn_blue">
                     診所資訊
                     <div class="arrow"></div>
                 </a>
@@ -224,7 +230,8 @@
                         <div class="swiper-slide">
                             <a href="news-detail.php">
                                 <div class="img" style="background: url('dist/images/img.jpg') center / contain no-repeat">
-                                    <img src="dist/">
+                                    <!-- 如果沒有圖片就直接隱藏img
+                                    <img src="dist/images/banner.png"> -->
                                 </div>
                                 <div class="txt">
                                     <div class="tags">
@@ -504,13 +511,13 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="information.php" class="btn_blue">
+                                    <a href="reserve-information.php" class="btn_blue">
                                         線上預約
                                         <div class="arrow"></div>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="information.php" class="btn_blue">
+                                    <a href="information.php?traffic" class="btn_blue">
                                         交通資訊
                                         <div class="arrow"></div>
                                     </a>

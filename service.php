@@ -6,6 +6,7 @@
     <?php
         include "quote/template/added.php";
         include "quote/template/nav.php";
+        include "quote/template/popup.php";
     ?>
     <main>
         <div class="kv_banner">
@@ -36,90 +37,44 @@
         <!-- 彈跳視窗 end -->
         <div class="service">
             <div class="container">
-                <div id="top-menu-ul" class="top-menu-ul page_brown">
-                    <div class="item_Menu">
-                        <div class="item_menu_Box">
-                            <ul class="item_menu_list slides">
-                                <li class="active">
-                                    <a href="javascript:;">
-                                        全部
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;">
-                                        診所消息
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;">
-                                        門診異動
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;">
-                                        診所消息
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;">
-                                        門診異動
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;">
-                                        診所消息
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;">
-                                        門診異動44
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="flex-direction-nav">
-                        <a href="javascript:;" class="lbtn arrow flex-prev">
-                            <div></div>
-                        </a>
-                        <a href="javascript:;" class="rbtn arrow flex-next">
-                            <div></div>
-                        </a>
-                    </div>
-                </div>
-                <div class="teamTopMenu">
-                    <div id="top-menu-ul-2" class="top-menu-ul">
+                <div class="topmenuBox">
+                    <div id="top-menu-ul" class="top-menu-ul page_brown">
                         <div class="item_Menu">
                             <div class="item_menu_Box">
                                 <ul class="item_menu_list slides">
                                     <li class="active">
                                         <a href="javascript:;">
-                                            <span>醫師</span>
+                                            全部
                                         </a>
                                     </li>
                                     <li>
                                         <a href="javascript:;">
-                                            <span>心理師</span>
+                                            診所消息
                                         </a>
                                     </li>
                                     <li>
                                         <a href="javascript:;">
-                                            <span>精神科醫師</span>
+                                            門診異動
                                         </a>
                                     </li>
                                     <li>
                                         <a href="javascript:;">
-                                            <span>精神科醫師</span>
+                                            診所消息
                                         </a>
                                     </li>
                                     <li>
                                         <a href="javascript:;">
-                                            <span>精神科醫師</span>
+                                            門診異動
                                         </a>
                                     </li>
                                     <li>
                                         <a href="javascript:;">
-                                            <span>精神科醫師</span>
+                                            診所消息
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            門診異動44
                                         </a>
                                     </li>
                                 </ul>
@@ -132,6 +87,54 @@
                             <a href="javascript:;" class="rbtn arrow flex-next">
                                 <div></div>
                             </a>
+                        </div>
+                    </div>
+                    <div class="teamTopMenu">
+                        <div id="top-menu-ul-2" class="top-menu-ul">
+                            <div class="item_Menu">
+                                <div class="item_menu_Box">
+                                    <ul class="item_menu_list slides">
+                                        <li class="active">
+                                            <a href="javascript:;">
+                                                <span>醫師</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <span>心理師</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <span>精神科醫師</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <span>精神科醫師</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <span>精神科醫師</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <span>精神科醫師</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="flex-direction-nav">
+                                <a href="javascript:;" class="lbtn arrow flex-prev">
+                                    <div></div>
+                                </a>
+                                <a href="javascript:;" class="rbtn arrow flex-next">
+                                    <div></div>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

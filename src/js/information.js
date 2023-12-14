@@ -3,7 +3,6 @@
 
 $(function(){
     //@prepros-prepend template/top_menu.js
-    // @prepros-prepend plugin/dataTables.min.js
 
     window.setTimeout(function () {
         slider_ul_list("top-menu-ul-2");
@@ -25,16 +24,28 @@ $(function(){
         $('.topMenuContain > li').eq(newIndex).addClass('active')
         $('.topMenuContain > li').eq(newIndex).siblings().removeClass('active')
     });
-    $('#example').DataTable({
-        fixedColumns: {
-            leftColumns: 2
-        },
-        scrollY:        400,
-        scrollX:        true,
-        fixedColumns:   true,
-        searching: false,
-        paging: false,
-        info: false,
-        ordering: false,
-    });
+
+    let traffic = 0
+    let menuNum = [['outpatientList', 2], ['traffic', 5]]
+    for(let i=0; i<menuNum.length; i++){
+        if(location.href.split('?')[1] == menuNum[i][0]){
+            if(winW > 767){
+                $(`.${menuNum[i][0]}`).click()
+                traffic = $(`.${menuNum[i][0]}`).offset().top - $('header').outerHeight() - 20
+            }else{
+                $('.information_topMenu select option').each(function(){
+                    if($(this).val() == menuNum[i][1]){
+                        $(this).prop('selected', true)
+                        $('.topMenuContain li').removeClass('active')
+                        $('.topMenuContain > li').eq( menuNum[i][1]).addClass('active')
+                    }
+                })
+                traffic = $('.informationContain').offset().top - $('header').outerHeight() - 20
+            }
+            
+            $('html,body').stop(true).animate({
+                scrollTop: traffic 
+            }, 1000);
+        }
+    }
 });

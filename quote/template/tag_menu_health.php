@@ -34,11 +34,12 @@
         </a>
     </div>
 </div>
+
 <div class="mo health_topMenu">
-    <select name="" id="">
-        <option value="0">Podcast</option>
-        <option value="1">影音專區</option>
-        <option value="2">音頻專區</option>
-        <option value="3">精選文章</option>
+    <select name="" id="" onChange="location = this.options[this.selectedIndex].value;">
+        <option value="podcast.php">Podcast</option>
+        <option value="video.php">影音專區</option>
+        <option value="music.php">音頻專區</option>
+        <option value="health.php">精選文章</option>
     </select>
 </div>

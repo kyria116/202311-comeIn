@@ -4,8 +4,9 @@
 
 <body class="lang_tw" data-menu="0">
     <?php
-    include "quote/template/added.php";
-    include "quote/template/nav.php";
+        include "quote/template/added.php";
+        include "quote/template/nav.php";
+        include "quote/template/popup.php";
     ?>
     <main>
         <div class="kv_banner">

@@ -6,6 +6,7 @@
     <?php
         include "quote/template/added.php";
         include "quote/template/nav.php";
+        include "quote/template/popup.php";
     ?>
     <main>
         <div class="kv_banner">
@@ -35,9 +36,9 @@
                             郭怡君您好，您已完成預約，您可於LINE下方選單查詢當診看診進度
                         </div>
                         <div class="bottomBox">
+                            <div class="reminder">貼心小叮嚀</div>
                             <div class="editor_Content">
                                 <div class="editor_box pc_use">
-                                    <p>貼心pcpcpcpcpcpcppcpcpc</p>
                                     <ul>
                                         <li>初診初診初診初診初診初診初診初診初診初診初診初診初診初診初診</li>
                                         <li>初診</li>
@@ -46,7 +47,6 @@
                                     </ul>
                                 </div>
                                 <div class="editor_box mo_use">
-                                    <p>貼心momomomomomomom</p>   
                                     <ul>
                                         <li>初診初診初診初診初診初診初診初診初診初診初診初診初診初診初診初診初診初診初診初診初診初診初診初診初診</li>
                                         <li>初診</li>

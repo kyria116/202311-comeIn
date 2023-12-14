@@ -13,8 +13,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: $tag-color;
-    padding: 0 20px 38px 40px;
-    min-height: 166px;
+    padding: 6px 20px 38px 40px;
     @include mediaquery(null, 1200px){
         padding: 0 20px 38px;
     }
@@ -40,43 +39,57 @@
     &_left{
         display: flex;
         align-items: center;
+        padding-bottom: 15px;
         @include mediaquery(null, 1200px){
             flex-direction: column;
             align-items: baseline;
+            padding-bottom: 0;
         }
         @include mediaquery(null, 991px){
             margin-bottom: 19px;
         }
-        ul li{
-            margin-bottom: 8px;
-            @include mediaquery(null, 767px){
-                margin-bottom: 9px;
+        ul {
+            padding-top: 5px;
+            @include mediaquery(null, 1200px){
+                padding-top: 0;
             }
-            &:last-child{
-                margin-bottom: 0;
-            }
-            a{
-                display: flex;
-                align-items: center;
-                color: #fff;
+            li{
+                margin-bottom: 8px;
                 @include mediaquery(null, 767px){
-                    font-size: 15px;
+                    margin-bottom: 9px;
                 }
-                .img{
-                    width: 22px;
-                    margin-right: 6px;
-                    @include mediaquery(null, 767px){
-                        width: 17px;
-                        margin-right: 8px;
-                    }
-                    img{
-                        display: block;
-                    }
+                &:last-child{
+                    margin-bottom: 0;
                 }
-                .txt{
-                    letter-spacing: 1px;
+                a{
+                    display: flex;
+                    align-items: center;
+                    color: #fff;
+                    transition: opacity 0.75s;
                     @include mediaquery(null, 767px){
-                        letter-spacing: 0.7px;
+                        font-size: 15px;
+                    }
+                    &:hover{
+                        @include mediaquery(768px, null){
+                            opacity: 0.6;
+                        }
+                    }
+                    .img{
+                        width: 22px;
+                        margin-right: 6px;
+                        @include mediaquery(null, 767px){
+                            width: 17px;
+                            margin-right: 8px;
+                        }
+                        img{
+                            display: block;
+                        }
+                    }
+                    .txt{
+                        letter-spacing: 1px;
+                        @include mediaquery(null, 767px){
+                            letter-spacing: 0.7px;
+                        }
                     }
                 }
             }
@@ -320,6 +333,12 @@
         font-size: 14px;
         .f_privacy{
             margin-right: 18px;
+            transition: opacity 0.75s;
+            &:hover{
+                @include mediaquery(768px, null){
+                    opacity: 0.6;
+                }
+            }
             a{
                 position: relative;
                 padding: 2px 0;

@@ -6,6 +6,7 @@
     <?php
         include "quote/template/added.php";
         include "quote/template/nav.php";
+        include "quote/template/popup.php";
     ?>
     <main class="detail">
         <div class="kv_banner">
@@ -299,7 +300,7 @@
                 </li>
             </ul>
             <div class="btnBox">
-                <a href="reserve-online.php" class="btn_blue">
+                <a href="reserve-information.php" class="btn_blue">
                     線上預約
                     <div class="arrow"></div>
                 </a>

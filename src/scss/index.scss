@@ -1,6 +1,5 @@
 @import "base/mixin";
 @import "base/variable";
-@import "template/popup";
 @import "plugin/swiper-bundle.min";
 
 .banner{
@@ -13,9 +12,11 @@
         object-fit: cover;
         @include mediaquery(992px, null) {
             aspect-ratio: 1 / 0.46875;
+            min-height: 650px;
+            object-position: center left;
         }
         @include mediaquery(768px, 991px) {
-            height: 500px;
+            height: 600px;
             object-position: center left;
         }
         @include mediaquery(null, 767px) {
@@ -48,9 +49,9 @@
         }
         .swiper-pagination-bullet{
             position: relative;
-            margin: 10px 0;
+            margin: 12px 0;
             width: 5px;
-            height: 41px;
+            height: 40px;
             background-color: $hover-color;
             border-radius: 2px;
             opacity: 1;
@@ -61,10 +62,10 @@
             &::after{
                 content: "";
                 position: absolute;
-                top: -3px;
-                left: -3px;
-                width: calc(100% + 6px);
-                height: calc(100% + 6px);
+                top: -2px;
+                left: -2px;
+                width: calc(100% + 4px);
+                height: calc(100% + 4px);
                 border: 1px solid $hover-color;
                 border-radius: 4px;
                 opacity: 0;
@@ -92,7 +93,7 @@
         line-height: 48px;
         border-radius: 24px;
         background-color: #efe1dd;
-        border: 1px solid #fff;
+        border: 2px solid #fff;
         overflow: hidden;
         color: $primary-color;
         @include mediaquery(null, 767px) {
@@ -104,18 +105,28 @@
             left: 16%;
             bottom: 4.17%;
             transform: none;
+            border: 1px solid #fff;
         }
     }
     .scrollBox{
         display: flex;
         position: absolute;
         z-index: 2;
-        bottom: 58px;
+        bottom: 110px;
         left: 40px;
         width: 2px;
         height: 116px;
+        @include mediaquery(992px, 1500px) {
+            bottom: 40px;
+            left: 30px;
+        }
+        @include mediaquery(768px, 991px) {
+            bottom: 10px;
+            left: 30px;
+        }
         @include mediaquery(null, 767px) {
             left: 25px;
+            bottom: 58px;
         }
         .line{
             position: relative;
@@ -150,10 +161,13 @@
             }
         }
         .txt{
-            font-size: 14px;
+            font-size: 13px;
             writing-mode: tb;
             color: $hover-color;
             margin-left: 8px;
+            @include mediaquery(null, 767px) {
+                font-size: 14px;
+            }
         }
     }
 }
@@ -359,6 +373,12 @@
     justify-content: flex-end;
     margin-left: calc((100% - 1168px) / 2);
     padding: 160px 0 106px;
+    @include mediaquery(992px, 1440px) {
+        padding: 100px 0 106px;
+    }
+    @include mediaquery(null, 991px) {
+        padding: 0px 0 106px;
+    }
     @include mediaquery(992px, 1328px){
         margin-left: 6%;
     }
@@ -401,7 +421,10 @@
         }
         .img_1{
             transform: translateY(-152px);
-            @include mediaquery(null, 767px) {
+            @include mediaquery(992px, 1440px) {
+                transform: translateY(-100px);
+            }
+            @include mediaquery(null, 991px) {
                 transform: translateY(-62px);
             }
         }
@@ -853,8 +876,7 @@
                 }
                 &:hover{
                     @include mediaquery(768px, null) {
-                        color: $tag-color;
-                        background-color: #fff;
+                        background-color: #ab897e;
                     }
                 }
                 a{

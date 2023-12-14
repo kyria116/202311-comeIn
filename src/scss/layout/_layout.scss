@@ -11,6 +11,9 @@ html, body, *{
         opacity: 0;
     }
 }
+.wrap{
+    overflow: hidden;
+}
 html, body {
     position: relative;
     overflow: hidden auto;

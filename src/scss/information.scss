@@ -261,7 +261,7 @@
 .information_topMenu{
     border-top: 1px solid $line-color;
     border-bottom: 1px solid $line-color;
-    height: 48px;
+    height: 50px;
     line-height: 48px;
     margin-bottom: 74px;
     @include mediaquery(null, 767px){
@@ -380,45 +380,62 @@
                 width: 1168px;
                 margin-left: calc((100vw - 17px - 1168px) / 2);
                 @include mediaquery(null, 1327px) {
-                //     max-width: 100%;
                     margin-left: 6%;
-                    width: 94%;
-                //     padding-right: 6%;
+                }
+                @include mediaquery(null, 1260px) {
+                    margin-left: 6%;
+                    width: calc(100% - 6%);
                 }
                 @include mediaquery(null, 991px) {
-                    width: 100%;
-                    padding: 0 48px 0 0;
                     margin-left: 48px;
+                    width: calc(100% - 48px);
                 }
                 @include mediaquery(null, 767px) {
-                    padding: 0 24px 0 0;
                     margin-left: 24px;
+                    width: calc(100% - 24px);
                 }
             }
             .bigBox{
                 position: relative;
                 width: 100%;
+                overflow: hidden;
                 >div{
                     overflow: auto;
                     width:100%;
                     border-radius: 14px;
                     border: 1px solid #b68a7c;
-                    @include mediaquery(null, 1168px) {
+                    @include mediaquery(null, 1260px) {
                         border-radius: 14px 0 0 14px;
+                    }
+                    &::-webkit-scrollbar{
+                        height: 5px;
+                        border-radius: 20px;
+                    }
+                    &::-webkit-scrollbar-track{
+                        background-color: #b68a7c;
+                        opacity: 0.5;
+                        border-radius: 20px;
+                    }
+                    &::-webkit-scrollbar-thumb{
+                        background: #eeeeee;
+                        border-radius: 20px;
                     }
                 }
             }
             table{
                 position: relative;
-                width: 100%;
                 margin: 0;
                 border-spacing: 0;
                 table-layout: fixed;
                 border-collapse: separate;
-                background-color: #b68a7c;
+                width: 1166px;
+                @include mediaquery(null, 767px) {
+                    width: 814px;
+                }
                 td:first-child, th:first-child {
                     position: sticky;
                     z-index: 1;
+                    top: 0;
                     left: 0;
                     background-color: #fff;
                 }
@@ -429,12 +446,16 @@
                     left: 0;
                     height: 60px;
                     line-height: 60px;
+                    background-color: #b68a7c;
                     th{
                         position: relative;
                         font-size: 18px;
                         font-family: $font-en;
                         text-align: center;
                         color: #fff;
+                        @include mediaquery(null, 767px) {
+                            font-size: 18px;
+                        }
                         &::after{
                             content: "";
                             position: absolute;
@@ -457,14 +478,21 @@
                 tbody{
                     background-color: #fff;
                     tr{
+                        >th, >td{
+                            font-size: 16px;
+                            @include mediaquery(null, 767px) {
+                                font-size: 15px;
+                            }
+                        }
                         &:last-child td{
-                            border-bottom: 0 !important;
+                            border-bottom: 0;
                         }
                         &.m_title{
                             background-color: #fce0d7;
                             td{
                                 position: sticky;
                                 z-index: 2;
+                                top: 0;
                                 left: 0;
                                 padding: 0;
                                 text-align: left;
@@ -472,8 +500,10 @@
                                 height: 38px;
                                 background-color: #fce0d7;
                                 border-bottom: 1px solid $line-color;
-                                border-right: 0 !important;
+                                border-right: 0;
+                                padding-left: 22px;
                                 @include mediaquery(null, 767px) {
+                                    padding-left: 14px;
                                     font-size: 15px;
                                 }
                                 span{
@@ -489,24 +519,17 @@
                         &:not(.m_title) {
                             td{
                                 border-bottom: 1px solid $line-color;
-                                border-right: 1px solid $line-color;
-                                height: 38px;
+                                height: 38px !important;
                                 &:first-child{
-                                    padding-left: 22px;
                                     text-align: left;
-                                    border-right: 0;
+                                    padding: 6px 0 7px 22px;
+                                    border-right: 1px solid $line-color !important;
                                     @include mediaquery(null, 767px) {
                                         padding-left: 14px;
                                     }
-                                    &::after{
-                                        content: "";
-                                        position: absolute;
-                                        top: 0;
-                                        right: 0;
-                                        width: 1px;
-                                        height: 100%;
-                                        background-color: $line-color;
-                                    }
+                                }
+                                &:nth-child(2n), &:nth-child(2n+1){
+                                    border-right: 1px solid $line-color;
                                 }
                             }
                         }
@@ -515,40 +538,36 @@
                 tr{
                     >th, >td{
                         text-align: center;
-                        font-size: 16px;
-                        @include mediaquery(null, 767px) {
-                            font-size: 15px;
-                        }
                         &:nth-child(1){
                             width: 294px;
                             border-right: 0 !important;
                             @include mediaquery(null, 767px) {
-                                width: 152px;
+                                width: 150px;
                             }
                         }
                         &:nth-child(2){
                             width: 218px;
                             @include mediaquery(null, 767px) {
-                                width: 164px;
+                                width: 166px;
                             }
                         }
                         &:nth-child(3){
                             width: 220px;
                             @include mediaquery(null, 767px) {
-                                width: 164px;
+                                width: 166px;
                             }
                         }
                         &:nth-child(4){
                             width: 218px;
                             @include mediaquery(null, 767px) {
-                                width: 164px;
+                                width: 166px;
                             }
                         }
                         &:nth-child(5){
                             width: 215px;
                             border-right: 0 !important;
                             @include mediaquery(null, 767px) {
-                                width: 164px;
+                                width: 166px;
                             }
                         }
                     }
@@ -558,18 +577,18 @@
         &:nth-child(3){
             .container_table{
                 margin: 0 auto;
-                width: 1168px;
-                margin-left: calc((100vw - 17px - 1168px) / 2);
-                @include mediaquery(null, 1327px) {
+                width: 968px;
+                margin-left: calc((100vw - 17px - 968px) / 2);
+                @include mediaquery(null, 1030px) {
                     margin-left: 6%;
-                    width: 94%;
+                    width: calc(100% - 6%);
                 }
                 @include mediaquery(null, 991px) {
-                    max-width: 100%;
-                    width: 100%;
+                    width: calc(100% - 48px);
                     margin-left: 48px;
                 }
                 @include mediaquery(null, 767px) {
+                    width: calc(100% - 24px);
                     margin-left: 24px;
                 }
             }
@@ -581,18 +600,34 @@
                     width:100%;
                     border-radius: 24px;
                     border: 1px solid #b68a7c;
-                    @include mediaquery(null, 1168px) {
+                    @include mediaquery(null, 1030px) {
                         border-radius: 14px 0 0 14px;
+                    }
+                    &::-webkit-scrollbar{
+                        height: 5px;
+                        border-radius: 20px;
+                    }
+                    &::-webkit-scrollbar-track{
+                        background-color: #b68a7c;
+                        opacity: 0.5;
+                        border-radius: 20px;
+                    }
+                    &::-webkit-scrollbar-thumb{
+                        background: #eeeeee;
+                        border-radius: 20px;
                     }
                 }
             }
             table{
                 position: relative;
-                width: 100%;
+                width: 966px;
                 margin: 0;
                 border-spacing: 0;
                 table-layout: fixed;
                 border-collapse: separate;
+                @include mediaquery(null, 767px) {
+                    width: 854px;
+                }
                 td:first-child, th:first-child {
                     position: sticky;
                     z-index: 1;
@@ -604,9 +639,9 @@
                     top: 0;
                     left: 0;
                     display: table;
-                    width: 1166px;
+                    width: 966px;
                     @include mediaquery(null, 767px) {
-                        width: 870px;
+                        width: 854px;
                     }
                     tr.pc{
                         @include mediaquery(768px, null) {
@@ -628,7 +663,7 @@
                             font-weight: 400;
                             font-size: 16px;
                             padding: 24px 0;
-                            width: 128.5px;
+                            width: 127px;
                             text-align: center;
                             &::before{
                                 content: "";
@@ -646,7 +681,7 @@
                                 z-index: 6;
                             }
                             @include mediaquery(null, 767px) {
-                                width: 98px;
+                                width: 92px;
                                 &::before{
                                     content: none;
                                 }
@@ -670,6 +705,12 @@
                         &.allDoctor{
                             display: inline-block;
                             margin-right: 18px;
+                            transition: opacity 0.75s;
+                            &:hover{
+                                @include mediaquery(768px, null) {
+                                    opacity: 0.6;
+                                }
+                            }
                         }
                         &:not(.allDoctor){
                             font-family: $font-tw;
@@ -678,11 +719,19 @@
                             font-size: 16px;
                             color: $primary-color;
                             background-color: #fff;
+                            border: 1px solid #fff;
                             height: 32px;
-                            line-height: 32px;
+                            line-height: 29px;
                             border-radius: 16px;
-                            padding: 0 17px;
+                            padding: 0 16px 0 18px;
                             margin-right: 1px;
+                            transition: 0.75s;
+                            &:hover{
+                                @include mediaquery(768px, null) {
+                                    background-color: #9e8470;
+                                    color: #fff;
+                                }
+                            }
                         }
                     }
                 }
@@ -690,11 +739,11 @@
                     position: relative;
                     display: table;
                     margin: 25px;
-                    width: 1118px;
+                    width: 916px;
                     font-family: $font-tw;
                     @include mediaquery(null, 767px) {
-                        margin: 25px 0 15px 25px;
-                        width: 845px;
+                        margin: 25px 0 15px 10px;
+                        width: 844px;
                     }
                     tr{
                         &:first-child{
@@ -722,8 +771,8 @@
                             text-align: center;
                             vertical-align: top;
                             &:nth-child(1){
-                                width: 160px;
-                                padding-left: 30px;
+                                width: 110px;
+                                padding-left: 6px;
                                 text-align: left;
                                 border-right: 0;
                                 font-size: 18px;
@@ -732,7 +781,7 @@
                                 background-color: #fff;
                                 vertical-align: middle;
                                 @include mediaquery(null, 767px) {
-                                    width: 70px;
+                                    width: 82px;
                                     padding: 0;
                                     text-align: center;
                                 }
@@ -745,7 +794,19 @@
                                 i.mo{
                                     display: none;
                                     @include mediaquery(null, 767px){
+                                        position: relative;
                                         display: block;
+                                        color: transparent;
+                                        &::before{
+                                            content: "";
+                                            position: absolute;
+                                            top: 50%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                            width: 1px;
+                                            height: 10px;
+                                            background-color: #8c8c8c;
+                                        }
                                     }
                                 }
                                 >div{
@@ -758,42 +819,42 @@
                                 }
                             }
                             &:nth-child(2){
-                                width: 130px;
+                                width: 105px;
                                 background-color: #fef8f6;
                                 @include mediaquery(null, 767px) {
-                                    width: 128.5px;
+                                    width: 127px;
                                 }
                             }
                             &:nth-child(3){
-                                width: 130px;
+                                width: 105px;
                                 @include mediaquery(null, 767px) {
-                                    width: 128.5px;
+                                    width: 127px;
                                 }
                             }
                             &:nth-child(4){
-                                width: 130px;
+                                width: 105px;
                                 background-color: #fef8f6;
                                 @include mediaquery(null, 767px) {
-                                    width: 128.5px;
+                                    width: 127px;
                                 }
                             }
                             &:nth-child(5){
-                                width: 130px;
+                                width: 105px;
                                 @include mediaquery(null, 767px) {
-                                    width: 128.5px;
+                                    width: 127px;
                                 }
                             }
                             &:nth-child(6){
-                                width: 130px;
+                                width: 105px;
                                 background-color: #fef8f6;
                                 @include mediaquery(null, 767px) {
-                                    width: 128.5px;
+                                    width: 127px;
                                 }
                             }
                             &:nth-child(7){
-                                width: 130px;
+                                width: 105px;
                                 @include mediaquery(null, 767px) {
-                                    width: 128.5px;
+                                    width: 127px;
                                 }
                             }
                             .box{
@@ -812,6 +873,7 @@
                                     display: inline-block;
                                     color: #d17559;
                                     font-size: 14px;
+                                    transition: opacity 0.75s;
                                     &::after{
                                         content: "";
                                         position: absolute;
@@ -821,6 +883,11 @@
                                         height: 1px;
                                         background-color: #d17559;
                                     }
+                                    &:hover{
+                                        @include mediaquery(768px, null) {
+                                            opacity: 0.6;
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -828,9 +895,9 @@
                 }
                 tfoot{
                     display: table;
-                    width: 1166px;
+                    width: 966px;
                     @include mediaquery(null, 767px) {
-                        width: 870px;
+                        width: 854px;
                     }
                     td{
                         background-color: #b68a7c;
@@ -859,15 +926,6 @@
                     text-align: center;
                     margin: -10px 0 20px -25px;
                 }
-                .allDoctor{
-                    display: block;
-                    white-space: nowrap;
-                    margin-right: 5px;
-                    font-size: 15px;
-                    font-family: $font-en;
-                    font-weight: 700;
-                    color: #b68a7c;
-                }
                 .tag{
                     display: flex;
                     align-items: center;
@@ -883,7 +941,20 @@
                             white-space: nowrap;
                             display: inline-flex;
                         }
-                        a{
+                        .allDoctor{
+                            display: block;
+                            white-space: nowrap;
+                            margin-right: 5px;
+                            font-size: 15px;
+                            font-family: $font-en;
+                            font-weight: 700;
+                            color: #b68a7c;
+                            line-height: 32px;
+                            @include mediaquery(null, 767px) {
+                                line-height: 38px;
+                            }
+                        }
+                        li:not(.allDoctor) a{
                             display: block;
                             font-size: 15px;
                             text-align: center;
@@ -1148,6 +1219,11 @@
                         width: 100%;
                         margin-bottom: 42px;
                     }
+                    &:last-child{
+                        @include mediaquery(null, 767px){
+                            margin-bottom: -2px;
+                        }
+                    }
                     .img{
                         aspect-ratio: 1 / 0.6338;
                         border-radius: 24px;
@@ -1167,6 +1243,7 @@
                     }
                     .txt{
                         font-size: 16px;
+                        font-weight: 500;
                         color: $primary-color;
                         @include clamp(1.5, 1);
                         @include mediaquery(null, 767px){

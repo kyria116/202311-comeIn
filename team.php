@@ -6,6 +6,7 @@
     <?php
         include "quote/template/added.php";
         include "quote/template/nav.php";
+        include "quote/template/popup.php";
     ?>
     <main>
         <div class="kv_banner">
@@ -21,55 +22,57 @@
                 <div class="info">
                     <span>我們是由台大、松德、新光、國泰、亞東、長庚、北醫、桃療、成大、桃醫、陽明大學附設醫院、臺北榮總之精神科專科醫師群、心理諮商團隊、藥師團隊、表達藝術治療團隊，所組成之身心醫療診所，致力於嚴謹、專業、可近、人性化之心理健康服務。我們是由台大、松德、新光、國泰、亞東、長庚、北醫、桃療、成大、桃醫、陽明大學附設醫院、臺北榮總之精神科專科醫師群、心理諮商團隊、藥師團隊、表達藝術治療團隊，所組成之身心醫療診所，致力於嚴謹、專業、可近、人性化之心理健康服務。</span>
                 </div>
-                <div id="top-menu-ul" class="top-menu-ul page_brown">
-                    <div class="item_Menu">
-                        <div class="item_menu_Box">
-                            <ul class="item_menu_list slides">
-                                <li class="active">
-                                    <a href="javascript:;">
-                                        全部
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;">
-                                        診所消息
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;">
-                                        門診異動
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;">
-                                        診所消息
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;">
-                                        門診異動
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;">
-                                        診所消息
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="javascript:;">
-                                        門診異動44
-                                    </a>
-                                </li>
-                            </ul>
+                <div class="topmenuBox">
+                    <div id="top-menu-ul" class="top-menu-ul page_brown">
+                        <div class="item_Menu">
+                            <div class="item_menu_Box">
+                                <ul class="item_menu_list slides">
+                                    <li class="active">
+                                        <a href="javascript:;">
+                                            全部
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            診所消息
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            門診異動
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            診所消息
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            門診異動
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            診所消息
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                            門診異動44
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div class="flex-direction-nav">
-                        <a href="javascript:;" class="lbtn arrow flex-prev">
-                            <div></div>
-                        </a>
-                        <a href="javascript:;" class="rbtn arrow flex-next">
-                            <div></div>
-                        </a>
+                        <div class="flex-direction-nav">
+                            <a href="javascript:;" class="lbtn arrow flex-prev">
+                                <div></div>
+                            </a>
+                            <a href="javascript:;" class="rbtn arrow flex-next">
+                                <div></div>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <ul class="selectBox">

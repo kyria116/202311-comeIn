@@ -6,6 +6,7 @@
     <?php
     include "quote/template/added.php";
     include "quote/template/nav.php";
+    include "quote/template/popup.php";
     ?>
     <main class="physical_results">
         <div class="kv_banner">
@@ -120,7 +121,7 @@
     include "quote/template/top_btn.php";
     include "quote/template/cookies.php";
     ?>
-    <script src="dist/js/function.js"></script>
+    <script src="dist/js/main.js"></script>
     <script src="dist/js/physical.js"></script>
 
 </body>
