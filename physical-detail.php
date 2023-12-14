@@ -6,7 +6,6 @@
     <?php
     include "quote/template/added.php";
     include "quote/template/nav.php";
-    include "quote/template/popup.php";
     ?>
     <!-- 圖片 113 * 113 -->
     <main class="physical_detail">
@@ -184,7 +183,7 @@
                     </div>
                 </fieldset>
                 <fieldset>
-                    <legend class="txt_3"><span>8</span><i>動作或說話速度緩慢，或煩躁或坐立不安動作或說話速度緩慢，或煩躁或坐立不安</i></legend>
+                    <legend class="txt_3"><span>8</span><i>動作或說話速度緩慢，或煩躁或坐立不安</i></legend>
                     <div class="ckbutton">
                         <input type="radio" id="none8" name="contact8"  />
                         <label for="none8">完全沒有</label>
@@ -240,7 +239,7 @@
     include "quote/template/top_btn.php";
     include "quote/template/cookies.php";
     ?>
-    <script src="dist/js/main.js"></script>
+    <script src="dist/js/function.js"></script>
     <script src="dist/js/physical.js"></script>
 
 </body>

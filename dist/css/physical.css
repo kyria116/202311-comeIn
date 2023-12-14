@@ -973,9 +973,6 @@ button.swiper-pagination-bullet {
     padding-top: 74px;
   }
 }
-.physical_detail img {
-  aspect-ratio: 1/1;
-}
 .physical_detail .breadCrumbs {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1042,12 +1039,13 @@ button.swiper-pagination-bullet {
   background-color: #fff;
   border: 2px solid #dabfb6;
   border-radius: 50%;
-  width: 167px;
+  max-width: 170px;
   padding: 25px;
 }
 @media all and (max-width: 767px) {
   .physical_detail .circle_pic {
     top: 0px;
+    max-width: 150px;
   }
 }
 .physical_detail .txt_1 {
@@ -1065,7 +1063,8 @@ button.swiper-pagination-bullet {
   .physical_detail .txt_1 {
     padding: 72px 46px 25px 46px;
     border-radius: 22.5px;
-    margin-top: 105px;
+    margin-top: 90px;
+    font-size: 23px;
   }
 }
 .physical_detail .txt_2 {
@@ -1094,6 +1093,11 @@ button.swiper-pagination-bullet {
   border-radius: 8px;
   margin-bottom: 26px;
 }
+@media all and (max-width: 767px) {
+  .physical_detail .txt_3 {
+    font-size: 16px;
+  }
+}
 .physical_detail .txt_3 span {
   position: absolute;
   display: -webkit-box;
@@ -1108,11 +1112,17 @@ button.swiper-pagination-bullet {
   color: #fff;
   background-color: #dabfb6;
   height: 100%;
-  padding: 0 30px;
+  padding: 0 21px;
   border-radius: 8px 0 0 8px;
 }
 .physical_detail .txt_3 i {
-  padding: 25px 25px 25px 110px;
+  display: block;
+  padding: 16px 25px 16px 80px;
+}
+@media all and (max-width: 767px) {
+  .physical_detail .txt_3 i {
+    padding: 13px 25px 13px 80px;
+  }
 }
 .physical_detail .ckbutton {
   display: -webkit-box;
@@ -1170,7 +1180,7 @@ button.swiper-pagination-bullet {
 }
 @media all and (max-width: 767px) {
   .physical_detail fieldset {
-    margin-bottom: 45px;
+    margin-bottom: 25px;
   }
 }
 .physical_detail .sumbit {
@@ -1492,7 +1502,7 @@ button.swiper-pagination-bullet {
           justify-content: center;
   font-family: "Shippori Mincho", sans-serif;
   width: 100%;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
 }
 @media all and (min-width: 991px) and (max-width: 1440px) {
   .physical_results .banner {
@@ -1528,7 +1538,7 @@ button.swiper-pagination-bullet {
   position: relative;
   width: calc((100% - 2px) / 2);
   overflow: hidden;
-  margin-right: 2px;
+  margin-right: 1px;
   -webkit-transition: 0.75s;
   transition: 0.75s;
 }
@@ -1544,7 +1554,7 @@ button.swiper-pagination-bullet {
 }
 @media all and (max-width: 767px) {
   .physical_results .banner .pic_container {
-    margin: 0 0 4px;
+    margin: 0 0 2px;
     width: 100%;
   }
 }
@@ -1584,11 +1594,11 @@ button.swiper-pagination-bullet {
   }
 }
 .physical_results .banner:nth-child(2) {
-  margin-bottom: 2px;
+  margin-bottom: 1px;
 }
 @media all and (max-width: 767px) {
   .physical_results .banner:nth-child(2) {
-    margin-bottom: 1px;
+    margin-bottom: 0;
   }
 }
 .physical_results .banner:last-child {

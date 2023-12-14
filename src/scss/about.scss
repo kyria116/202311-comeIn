@@ -1124,8 +1124,7 @@
         font-family: $font-en;
         color: #9e8470;
         @include mediaquery(null, 767px) {
-            font-size: 12px;
-            letter-spacing: 0.75vw;
+            font-size: 20px;
             margin-bottom: 5px;
         }
     }
@@ -1176,6 +1175,7 @@
         @include clamp(1.5,1);
         @include mediaquery(null, 767px) {
             font-size: 15px;
+            margin-top: 14px;
         }
         span {
             margin: 0 13px;
@@ -1183,6 +1183,7 @@
     }
 }
 .swiper-wrapper {
+    -webkit-transition-timing-function:linear!important;    transition-timing-function:linear!important; 
     position: relative;
 }
 .swiper-slide img {
@@ -1227,6 +1228,10 @@
 }
 .teamgroup {
     margin-bottom: 145px;
+    @include mediaquery(null, 767px) {
+        margin-bottom: 82px;
+
+    }
     &_txt {
         position: relative;
         margin: 190px 0 43px;
@@ -1240,8 +1245,7 @@
             font-family: $font-en;
             color: #9e8470;
             @include mediaquery(null, 767px) {
-                font-size: 12px;
-                letter-spacing: 0.75vw;
+                font-size: 20px;
             }
         }
         .title {

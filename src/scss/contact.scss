@@ -167,9 +167,24 @@
                     margin-right: 24px;
                 }
             }
+            li:nth-child(5) {
+                @include mediaquery(null, 991px) {
+                    margin-right: 54px;
+                }
+                @include mediaquery(null, 767px) {
+                    margin-right: 24px;
+                }
+            }
             li:last-child {
                     margin-right: 0;
             }
+            li:nth-child(even) {
+                @include mediaquery(null, 991px) {
+                    margin-right: 0;
+                }
+                @include mediaquery(null, 767px) {
+                    margin-right: 0;
+                }}
         }
         li {
             position: relative;
@@ -234,10 +249,7 @@
                 @include clamp(1.5,1)
             }
         }
-        li:nth-child(even) {
-            @include mediaquery(null, 767px) {
-                margin-right: 0;
-            }}
+       
         
 
     }

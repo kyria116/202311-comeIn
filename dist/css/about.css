@@ -2097,8 +2097,7 @@ button.swiper-pagination-bullet {
 }
 @media all and (max-width: 767px) {
   .environment_txt .subtitle {
-    font-size: 12px;
-    letter-spacing: 0.75vw;
+    font-size: 20px;
     margin-bottom: 5px;
   }
 }
@@ -2174,6 +2173,7 @@ button.swiper-pagination-bullet {
 @media all and (max-width: 767px) {
   .swiper-slide .txt {
     font-size: 15px;
+    margin-top: 14px;
   }
 }
 .swiper-slide .txt span {
@@ -2181,6 +2181,8 @@ button.swiper-pagination-bullet {
 }
 
 .swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
   position: relative;
 }
 
@@ -2234,6 +2236,11 @@ button.swiper-pagination-bullet {
 .teamgroup {
   margin-bottom: 145px;
 }
+@media all and (max-width: 767px) {
+  .teamgroup {
+    margin-bottom: 82px;
+  }
+}
 .teamgroup_txt {
   position: relative;
   margin: 190px 0 43px;
@@ -2252,8 +2259,7 @@ button.swiper-pagination-bullet {
 }
 @media all and (max-width: 767px) {
   .teamgroup_txt .subtitle {
-    font-size: 12px;
-    letter-spacing: 0.75vw;
+    font-size: 20px;
   }
 }
 .teamgroup_txt .title {

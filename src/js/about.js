@@ -6,11 +6,16 @@ $(function () {
   var environmentSwiper = new Swiper(".environmentSwiper", {
     slidesPerView: 1.13,
     spaceBetween: 20,
-    loop: true,
+    centeredSlides: true,
+    speed: 10000,
     autoplay: {
-      delay: 2500,
+      delay: 0,
       disableOnInteraction: false,
     },
+    loop: true,
+    allowTouchMove: false,
+    disableOnInteraction: true,
+    loopedSlides: 4,
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",
@@ -36,4 +41,5 @@ $(function () {
       },
     },
   });
+ 
 })

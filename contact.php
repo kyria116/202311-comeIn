@@ -6,7 +6,6 @@
     <?php
     include "quote/template/added.php";
     include "quote/template/nav.php";
-    include "quote/template/popup.php";
     ?>
     <main class="contact_results">
         <div class="kv_banner">
@@ -14,7 +13,7 @@
             <img src="dist/images/kv/contact_mo.jpg" class="mo">
             <div class="txt">
                 <div class="subtitle">contact</div>
-                <div class="title">   </div>
+                <div class="title">專人諮詢</div>
             </div>
         </div>
         <div class="contact">
@@ -181,7 +180,7 @@
     include "quote/template/top_btn.php";
     include "quote/template/cookies.php";
     ?>
-    <script src="dist/js/main.js"></script>
+    <script src="dist/js/function.js"></script>
     <script src="dist/js/contact.js"></script>
     <script>
         $('#date').on('change', function () {

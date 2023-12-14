@@ -49,6 +49,11 @@
     margin-bottom: 18px;
   }
 }
+@media all and (max-width: 767px) {
+  .personInfo .title i {
+    display: block;
+  }
+}
 .personInfo .subtitle {
   font-size: 20px;
   font-weight: 700;
@@ -231,15 +236,16 @@
 .personInfo form label::before {
   content: "*";
   position: absolute;
-  top: -2px;
-  left: -10px;
-  font-size: 12px;
+  top: -1px;
+  left: -8px;
+  font-size: 16px;
+  font-weight: 500;
   color: #ff0303;
 }
 @media all and (max-width: 767px) {
   .personInfo form label::before {
-    top: -2px;
-    left: -10px;
+    top: 0;
+    left: -6px;
     font-size: 12px;
   }
 }
@@ -326,8 +332,8 @@
   border-radius: 8px;
   width: 100%;
   font-size: 18px;
-  color: #221e1f;
   padding: 0 16px;
+  color: #cacaca;
   background: #fff url("../images/common/select_down.png") center right 16px/8px 5px no-repeat;
 }
 @media all and (max-width: 767px) {
@@ -335,6 +341,9 @@
     font-size: 15px;
     background: #fff url("../images/common/select_down.png") center right 10px/8px 5px no-repeat;
   }
+}
+.personInfo form .selectBox select option {
+  color: #221e1f;
 }
 .personInfo form .selectBox select + select {
   margin-left: 20px;
@@ -914,6 +923,11 @@
     margin-right: 20px;
   }
 }
+@media all and (min-width: 768px) and (max-width: 1365px) {
+  .reserveList .table_wrap ul > li:nth-child(1) {
+    margin-right: 18px;
+  }
+}
 @media all and (min-width: 768px) {
   .reserveList .table_wrap ul > li:nth-child(2) {
     -webkit-box-flex: 0;
@@ -925,8 +939,9 @@
 @media all and (min-width: 768px) and (max-width: 1365px) {
   .reserveList .table_wrap ul > li:nth-child(2) {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 13.8%;
-            flex: 0 0 13.8%;
+        -ms-flex: 0 0 13%;
+            flex: 0 0 13%;
+    margin-right: 18px;
   }
 }
 @media all and (min-width: 768px) {
@@ -935,6 +950,11 @@
         -ms-flex: 0 0 19.1%;
             flex: 0 0 19.1%;
     margin-right: 20px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1365px) {
+  .reserveList .table_wrap ul > li:nth-child(3) {
+    margin-right: 18px;
   }
 }
 @media all and (min-width: 768px) {
@@ -950,6 +970,7 @@
     -webkit-box-flex: 0;
         -ms-flex: 0 0 12.4%;
             flex: 0 0 12.4%;
+    margin-right: 18px;
   }
 }
 @media all and (min-width: 768px) {
@@ -963,8 +984,9 @@
 @media all and (min-width: 768px) and (max-width: 1365px) {
   .reserveList .table_wrap ul > li:nth-child(5) {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 10%;
-            flex: 0 0 10%;
+        -ms-flex: 0 0 8%;
+            flex: 0 0 8%;
+    margin-right: 18px;
   }
 }
 @media all and (min-width: 768px) {
@@ -1107,11 +1129,6 @@
     color: #9e8470;
   }
 }
-@media all and (min-width: 768px) and (max-width: 992px) {
-  .reserveList .table_wrap .btnDele i {
-    display: block;
-  }
-}
 .reserveList .btn_blue {
   letter-spacing: 0.02em;
 }
@@ -1147,6 +1164,14 @@
   background-color: #fff;
   border: 2px solid #dabfb6;
 }
+@media all and (max-width: 767px) {
+  .listBox .week {
+    width: 282px;
+    height: 53px;
+    line-height: 53px;
+    border: 1px solid #dabfb6;
+  }
+}
 .listBox .week .title {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -1154,6 +1179,11 @@
   font-size: 18px;
   color: #9e8470;
   text-align: center;
+}
+@media all and (max-width: 767px) {
+  .listBox .week .title {
+    font-size: 15px;
+  }
 }
 .listBox .week a {
   position: relative;
@@ -1176,6 +1206,12 @@
   -webkit-transition: 0.75s;
   transition: 0.75s;
 }
+@media all and (max-width: 767px) {
+  .listBox .week a.weekPrev::after {
+    left: 70%;
+    background: url("../images/common/arrow_bt.png") center/6px 12px no-repeat;
+  }
+}
 @media all and (min-width: 768px) {
   .listBox .week a.weekPrev:hover::after {
     -webkit-transform: translate(-60%, -50%) scale(-1);
@@ -1195,6 +1231,12 @@
   -webkit-transition: 0.75s;
   transition: 0.75s;
 }
+@media all and (max-width: 767px) {
+  .listBox .week a.weekNext::after {
+    left: 33%;
+    background: url("../images/common/arrow_bt.png") center/6px 12px no-repeat;
+  }
+}
 @media all and (min-width: 768px) {
   .listBox .week a.weekNext:hover::after {
     -webkit-transform: translate(-40%, -50%);
@@ -1207,10 +1249,10 @@
 }
 .topMenuContain > li .container_table {
   margin: 0 auto;
-  width: 967px;
-  margin-left: calc((100vw - 17px - 967px) / 2);
+  width: 968px;
+  margin-left: calc((100vw - 17px - 968px) / 2);
 }
-@media all and (max-width: 967px) {
+@media all and (max-width: 968px) {
   .topMenuContain > li .container_table {
     margin-left: 6%;
     width: 94%;
@@ -1258,11 +1300,16 @@
 }
 .topMenuContain > li table {
   position: relative;
-  width: 100%;
+  width: 966px;
   margin: 0;
   border-spacing: 0;
   table-layout: fixed;
   border-collapse: separate;
+}
+@media all and (max-width: 767px) {
+  .topMenuContain > li table {
+    width: 854px;
+  }
 }
 @media all and (max-width: 767px) {
   .topMenuContain > li table td:first-child, .topMenuContain > li table th:first-child {
@@ -1273,7 +1320,16 @@
 }
 .topMenuContain > li table thead {
   display: table;
-  width: 965px;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  display: table;
+  width: 966px;
+}
+@media all and (max-width: 767px) {
+  .topMenuContain > li table thead {
+    width: 854px;
+  }
 }
 @media all and (min-width: 768px) {
   .topMenuContain > li table thead tr.pc {
@@ -1300,7 +1356,7 @@
     font-weight: 400;
     font-size: 16px;
     padding: 24px 0;
-    width: 151px;
+    width: 123px;
     text-align: center;
     line-height: 1.5;
   }
@@ -1326,7 +1382,7 @@
 }
 @media all and (max-width: 767px) {
   .topMenuContain > li table thead th:first-child {
-    width: 151px;
+    width: 90px;
   }
   .topMenuContain > li table thead th:first-child::before {
     content: none;
@@ -1335,14 +1391,14 @@
 .topMenuContain > li table tbody {
   position: relative;
   display: table;
-  margin: 25px 30px;
-  width: 906px;
+  margin: 25px 25px 33px 30px;
+  width: 908px;
   font-family: "Noto Sans TC", sans-serif;
 }
 @media all and (max-width: 767px) {
   .topMenuContain > li table tbody {
     margin: 25px 0 15px;
-    width: 956px;
+    width: 826px;
   }
 }
 .topMenuContain > li table tbody tr:first-child {
@@ -1357,7 +1413,7 @@
   }
 }
 .topMenuContain > li table tbody tr.sTitle {
-  background-color: #b5897c;
+  background-color: #cdb0a7;
   text-align: center;
   height: 40px;
   line-height: 40px;
@@ -1392,6 +1448,7 @@
     font-size: 18px;
     color: #b5897c;
     vertical-align: middle;
+    width: 90px !important;
   }
 }
 .topMenuContain > li table tbody tr:not(.sTitle) td:nth-child(2n+1) {
@@ -1400,6 +1457,7 @@
 }
 @media all and (max-width: 767px) {
   .topMenuContain > li table tbody tr:not(.sTitle) td:nth-child(2n+1) {
+    width: 123px;
     background-color: #fff;
   }
 }
@@ -1408,7 +1466,13 @@
 }
 @media all and (max-width: 767px) {
   .topMenuContain > li table tbody tr:not(.sTitle) td:nth-child(2n) {
+    width: 123px;
     background-color: #fef8f6;
+  }
+}
+@media all and (max-width: 767px) {
+  .topMenuContain > li table tbody tr:not(.sTitle) td i {
+    display: block;
   }
 }
 .topMenuContain > li table tbody tr:not(.sTitle) td .box {
@@ -1431,6 +1495,8 @@
   color: #d17559;
   font-size: 14px;
   margin-bottom: 10px;
+  -webkit-transition: opacity 0.75s;
+  transition: opacity 0.75s;
 }
 .topMenuContain > li table tbody tr:not(.sTitle) td .box .reserveLink::after {
   content: "";
@@ -1441,16 +1507,48 @@
   height: 1px;
   background-color: #d17559;
 }
+@media all and (min-width: 768px) {
+  .topMenuContain > li table tbody tr:not(.sTitle) td .box .reserveLink:hover {
+    opacity: 0.6;
+  }
+}
 .topMenuContain > li table tbody tr:not(.sTitle) td .box .reserveFull {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   font-size: 14px;
   color: #749294;
+  -webkit-transition: opacity 0.75s;
+  transition: opacity 0.75s;
+  -webkit-box-align: self-start;
+      -ms-flex-align: self-start;
+          align-items: self-start;
+  margin-bottom: 5px;
 }
 .topMenuContain > li table tbody tr:not(.sTitle) td .box .reserveFull img {
   display: inline-block;
-  margin-right: 6px;
+  margin: 0px 6px 0 0;
+}
+@media all and (max-width: 767px) {
+  .topMenuContain > li table tbody tr:not(.sTitle) td .box .reserveFull img {
+    margin: 3px 6px 0 0;
+    width: 20px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+.topMenuContain > li table tbody tr:not(.sTitle) td .box .reserveFull .txt {
+  text-align: left;
+}
+@media all and (max-width: 767px) {
+  .topMenuContain > li table tbody tr:not(.sTitle) td .box .reserveFull .txt i {
+    display: block;
+  }
+}
+@media all and (min-width: 768px) {
+  .topMenuContain > li table tbody tr:not(.sTitle) td .box .reserveFull:hover {
+    opacity: 0.6;
+  }
 }
 .topMenuContain > li table tbody tr:not(.sTitle) td .box .reserveBtn {
   display: inline-block;
@@ -1996,10 +2094,24 @@
   }
 }
 .successful .finishBox .containBox .bottomBox {
-  padding: 24px 0 37px;
+  padding: 23px 0 37px;
 }
 @media all and (max-width: 767px) {
   .successful .finishBox .containBox .bottomBox {
-    padding: 30px 0 30px;
+    padding: 26px 0 30px;
+  }
+}
+.successful .finishBox .containBox .bottomBox .reminder {
+  font-size: 26px;
+  font-family: "Shippori Mincho", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #9e8470;
+  margin-bottom: 20px;
+}
+@media all and (max-width: 767px) {
+  .successful .finishBox .containBox .bottomBox .reminder {
+    font-size: 25px;
+    margin-bottom: 10px;
   }
 }

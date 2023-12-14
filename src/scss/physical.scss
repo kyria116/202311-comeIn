@@ -147,9 +147,6 @@
             padding-top: 74px;
         }
     }
-    img{
-        aspect-ratio: 1/1;
-    }
     .breadCrumbs {
         display: flex;
         align-items: baseline;
@@ -194,10 +191,11 @@
         background-color: #fff;
         border: 2px solid #dabfb6;
         border-radius: 50%;
-        width: 167px;
+        max-width: 170px;
         padding: 25px;
         @include mediaquery(null, 767px) {
             top: 0px;
+            max-width: 150px;
         }
     }
     .txt_1 {
@@ -213,7 +211,8 @@
         @include mediaquery(null, 767px) {
             padding: 72px 46px 25px 46px;
             border-radius: 22.5px;
-            margin-top: 105px;
+            margin-top: 90px;
+            font-size: 23px;
         }
     }
     .txt_2 {
@@ -235,6 +234,10 @@
         background-color: #f4e9e7;
         border-radius: 8px;
         margin-bottom: 26px;
+        @include mediaquery(null, 767px) {
+            font-size: 16px;
+        }
+
         span {
             position: absolute;
             display: flex;
@@ -245,11 +248,15 @@
             color: #fff;
             background-color: #dabfb6;
             height: 100%;
-            padding: 0 30px;
+            padding: 0 21px;
             border-radius: 8px 0 0 8px;
         }
         i {
-            padding:25px 25px 25px 110px;
+            display: block;
+            padding:16px 25px 16px 80px;
+            @include mediaquery(null, 767px) {
+                padding:13px 25px 13px 80px;
+            }
         }
     }
     .ckbutton {
@@ -302,7 +309,7 @@
     fieldset {
         margin-bottom: 10px;
         @include mediaquery(null, 767px) {
-            margin-bottom: 45px;
+            margin-bottom: 25px;
         }
     }
     .sumbit {
@@ -563,7 +570,7 @@
         justify-content: center;
         font-family: $font-en;
         width: 100%;
-        margin-bottom: 2px;
+        margin-bottom: 1px;
         @include mediaquery(991px, 1440px) {
             height: 400px;
         }
@@ -586,7 +593,7 @@
             position: relative;
             width: calc((100% - 2px) / 2);
             overflow: hidden;
-            margin-right: 2px;
+            margin-right: 1px;
             transition: 0.75s;
             @include mediaquery(768px, null) {
                 &:hover {
@@ -602,7 +609,7 @@
                 }
             }
             @include mediaquery(null, 767px) {
-                margin: 0 0 4px;
+                margin: 0 0 2px;
                 width: 100%;
             }
         }
@@ -637,9 +644,9 @@
         }
     }
     .banner:nth-child(2) {
-        margin-bottom: 2px;
+        margin-bottom: 1px;
         @include mediaquery(null, 767px) {
-            margin-bottom: 1px;
+            margin-bottom: 0;
         }
     }
     .banner:last-child {
