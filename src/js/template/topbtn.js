@@ -4,12 +4,13 @@
 
 $(window).on('scroll', gotop);
 $(window).on('resize', gotop);
+let numBer = 20
 function gotop(){
     let topbtnH = $('.fixBoxBtn').outerHeight();
     let winH = $(window).height();
     let winscroll = $(window).scrollTop();
-    let topBtnStop = $(document).height() - winH - $('footer').outerHeight() + ($('.fixBtn').outerHeight() / 2) + 20;
-    let topPc = $(document).height() - $('footer').outerHeight() - topbtnH + ($('.fixBtn').outerHeight() / 2) - 20;
+    let topBtnStop = $(document).height() - winH - $('footer').outerHeight() + ($('.fixBtn').outerHeight() / 2) + numBer;
+    let topPc = $(document).height() - $('footer').outerHeight() - topbtnH + ($('.fixBtn').outerHeight() / 2) - numBer;
     let topMo = $(document).height() - $('footer').outerHeight() - topbtnH + ($('.fixBtn').outerHeight() / 2);
     
     //show info icon

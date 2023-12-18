@@ -1,5 +1,5 @@
 <?php include "quote/template/head.php"; ?>
-<link rel="stylesheet" href="dist/css/health.css">
+<link rel="stylesheet" href="dist/css/health.css?01">
 </head>
 
 <body class="lang_tw detail" data-menu="4">
@@ -148,8 +148,13 @@
         include "quote/template/top_btn.php";
         include "quote/template/cookies.php";
     ?>
-    <script src="dist/js/main.js"></script>     
-    
+    <script src="dist/js/main.js?01"></script>     
+    <script>
+        if(winW < 992){
+            numBer = 110
+            gotop()
+        }
+    </script>
 </body>
 
 </html>

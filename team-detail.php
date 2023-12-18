@@ -1,5 +1,5 @@
 <?php include "quote/template/head.php"; ?>
-<link rel="stylesheet" href="dist/css/team.css">
+<link rel="stylesheet" href="dist/css/team.css?05">
 </head>
 
 <body class="lang_tw" data-menu="0">
@@ -284,12 +284,11 @@
                                         <tr>
                                             <td colspan="7">
                                                 <span>
-                                                    備註<br>
-                                                    週二午診張瀞方醫師為飲食疾<br>
-                                                    患特別門診<br>
-                                                    四月起「週三晚診」<br>
-                                                    葉明玫醫師休診
-                                                </span>
+                                                備註<br>
+                                                週二午診張瀞方醫師為飲食疾<br>
+                                                患特別門診<br>
+                                                四月起「週三晚診」<br>
+                                                葉明玫醫師休診</span>
                                             </td>
                                         </tr>
                                     </tfoot>

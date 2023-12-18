@@ -216,23 +216,35 @@
     display: none !important;
     @include mediaquery(null, 991px){
         position: absolute;
-        top: -62px;
+        top: -50px;
+        width: 100%;
+        background-color: #749294;
     }
     li{
+        position: relative;
         margin-bottom: 11px;
         @include mediaquery(null, 991px){
-            margin: 0 10px;
+            margin: 0;
+            width: 25%;
         }
-        @include mediaquery(null, 575px){
-            margin: 0 4px;
+        &:after{
+            @include mediaquery(null, 991px){
+                content: "";
+                position: absolute;
+                top: 0;
+                right: -1px;
+                width: 1px;
+                height: 100%;
+                background-color: #fff;
+            }
         }
         &:last-child{
             margin-bottom: 22px;
             @include mediaquery(null, 991px){
-                margin: 0 10px;
+                margin: 0;
             }
-            @include mediaquery(null, 575px){
-                margin: 0 4px;
+            &::after{
+                content: none;
             }
         }
         a{
@@ -241,22 +253,24 @@
             width: 31px;
             height: 31px;
             @include mediaquery(null, 991px){
-                width: 44px;
-                height: 44px;
+                width: 100%;
+                height: 50px;
             }
             &::before{
                 content: "";
                 position: absolute;
-                top: 0;
-                left: 0;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
                 width: 100%;
                 height: 100%;
             }
             &::after{
                 content: "";
                 position: absolute;
-                top: 0;
-                left: 0;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
                 width: 100%;
                 height: 100%;
                 opacity: 0;
@@ -272,33 +286,57 @@
             &.link{
                 &::before{
                     background: url('../images/health/link.png') center / contain no-repeat;
+                    @include mediaquery(null, 991px){
+                        background: url('../images/health/link_mo.png') center / 29px 29px no-repeat;
+                    }
                 }
                 &::after{
                     background: url('../images/health/link_h.png') center / contain no-repeat;
+                    @include mediaquery(null, 991px){
+                        display: none;
+                    }
                 }
             }
             &.fb{
                 &::before{
                     background: url('../images/health/fb.png') center / contain no-repeat;
+                    @include mediaquery(null, 991px){
+                        background: url('../images/health/fb_mo.png') center / 29px 29px no-repeat;
+                    }
                 }
                 &::after{
                     background: url('../images/health/fb_h.png') center / contain no-repeat;
+                    @include mediaquery(null, 991px){
+                        display: none;
+                    }
                 }
             }
             &.ig{
                 &::before{
                     background: url('../images/health/ig.png') center / contain no-repeat;
+                    @include mediaquery(null, 991px){
+                        background: url('../images/health/ig_mo.png') center / 29px 29px no-repeat;
+                    }
                 }
                 &::after{
                     background: url('../images/health/ig_h.png') center / contain no-repeat;
+                    @include mediaquery(null, 991px){
+                        display: none;
+                    }
                 }
             }
             &.line{
                 &::before{
                     background: url('../images/health/line.png') center / contain no-repeat;
+                    @include mediaquery(null, 991px){
+                        background: url('../images/health/line_mo.png') center / 29px 29px no-repeat;
+                    }
                 }
                 &::after{
                     background: url('../images/health/line_h.png') center / contain no-repeat;
+                    @include mediaquery(null, 991px){
+                        display: none;
+                    }
                 }
             }
         }

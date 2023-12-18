@@ -1278,6 +1278,8 @@
   overflow: auto;
   width: 100%;
   border-radius: 24px;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
   border: 1px solid #b68a7c;
 }
 @media all and (max-width: 767px) {

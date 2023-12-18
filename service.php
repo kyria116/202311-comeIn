@@ -1,5 +1,5 @@
 <?php include "quote/template/head.php"; ?>
-<link rel="stylesheet" href="dist/css/service.css">
+<link rel="stylesheet" href="dist/css/service.css?02">
 </head>
 
 <body class="lang_tw" data-menu="1">
@@ -102,6 +102,31 @@
                                         <li>
                                             <a href="javascript:;">
                                                 <span>心理師</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <span>精神科醫師</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <span>精神科醫師</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <span>精神科醫師</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <span>精神科醫師</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:;">
+                                                <span>精神科醫師</span>
                                             </a>
                                         </li>
                                         <li>
@@ -279,8 +304,8 @@
         include "quote/template/top_btn.php";
         include "quote/template/cookies.php";
     ?>
-    <script src="dist/js/main.js"></script> 
-    <script src="dist/js/service.js"></script> 
+    <script src="dist/js/main.js?02"></script> 
+    <script src="dist/js/service.js?02"></script> 
 </body>
 
 </html>

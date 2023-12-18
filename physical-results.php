@@ -107,7 +107,7 @@
                     </a>
                 </div>
                 <div class="pic_container">
-                    <a href="information.php">
+                    <a href="information.php?outpatientList">
                         <img src="dist/images/physical/moredepartments.jpg" class="pc">
                         <img src="dist/images/physical/moredepartments_mb.jpg" class="mo">
                         <div class="txt">更多門診資訊</div>

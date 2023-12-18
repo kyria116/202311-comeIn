@@ -303,6 +303,8 @@
     }
 }
 .topmenuBox{
+    position: relative;
+    z-index: 2;
     @include mediaquery(null, 767px){
         margin: 0 18px;
     }

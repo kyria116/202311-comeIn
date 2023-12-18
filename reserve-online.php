@@ -1,5 +1,5 @@
 <?php include "quote/template/head.php"; ?>
-<link rel="stylesheet" href="dist/css/reserve.css">
+<link rel="stylesheet" href="dist/css/reserve.css?02">
 </head>
 
 <body class="lang_tw" data-menu="5">
@@ -69,9 +69,9 @@
                         <div class="mo mo_txt">
                             <div class="tableTitle">
                                 <!-- 依院所 -->
-                                <span>晴天診所 初診預約</span>
+                                <span style="display: none">晴天診所 初診預約</span>
                                 <!-- 依醫師 初診 -->
-                                <span style="display: none">葉明玫醫師 初診預約</span>
+                                <span>葉明玫醫師 初診預約</span>
                                 <!-- 依醫師 複診 -->
                                 <span style="display: none">葉明玫醫師 複診預約</span>
                             </div>
@@ -83,9 +83,9 @@
                                         <tr class="pc">
                                             <th colspan="7">
                                                 <!-- 依院所 -->
-                                                <span>晴天診所 初診預約</span>
+                                                <span style="display: none">晴天診所 初診預約</span>
                                                 <!-- 依醫師 初診 -->
-                                                <span style="display: none">葉明玫醫師 初診預約</span>
+                                                <span>葉明玫醫師 初診預約</span>
                                                 <!-- 依醫師 複診 -->
                                                 <span style="display: none">葉明玫醫師 複診預約</span>
                                             </th>
@@ -114,17 +114,17 @@
                                         <tr class="sTitle">
                                             <td colspan="7">
                                                 <!-- 依院所 -->
-                                                <span>早診 9:00 - 12:00</span>
+                                                <span style="display: none">早診 9:00 - 12:00</span>
                                                 <!-- 依醫師 -->
-                                                <span style="display: none">早診</span>
+                                                <span>早診</span>
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>
                                                 <!-- 依院所 -->
-                                                <span>早診 <i></i>9:00 <i class="line">-</i> 12:00</span>
+                                                <span style="display: none">早診 <i></i>9:00<i class="line pc"> - </i><i class="mo"> | </i>12:00</span>
                                                 <!-- 依醫師 -->
-                                                <span style="display: none">早診</span>
+                                                <span>早診</span>
                                             </td>
                                             <td>
                                             </td>
@@ -190,7 +190,7 @@
                                         <tr>
                                             <td>
                                                 <!-- 依院所 -->
-                                                <span>午診 <i></i>13:00 <i class="line">-</i> 17:00</span>
+                                                <span>午診 <i></i>13:00<i class="line pc"> - </i><i class="mo"> | </i>17:00</span>
                                                 <!-- 依醫師 -->
                                                 <span style="display: none">午診</span>
                                             </td>
@@ -249,7 +249,7 @@
                                         <tr>
                                             <td>
                                                 <!-- 依院所 -->
-                                                <span>晚診 <i></i>18:00 <i class="line">-</i> 20:00</span>
+                                                <span>晚診 <i></i>18:00<i class="line pc"> - </i><i class="mo"> | </i>20:00</span>
                                                 <!-- 依醫師 -->
                                                 <span style="display: none">晚診</span>
                                             </td>

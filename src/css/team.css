@@ -2255,7 +2255,6 @@ html.popupOpen #popup {
   text-align: center;
 }
 .topMenuContain > li table tfoot {
-  display: table;
   width: 966px;
 }
 @media all and (max-width: 767px) {
@@ -2272,15 +2271,6 @@ html.popupOpen #popup {
 @media all and (max-width: 767px) {
   .topMenuContain > li table tfoot td {
     padding: 21px 30px 18px;
-  }
-}
-@media all and (max-width: 967px) {
-  .topMenuContain > li table tfoot td span {
-    position: sticky;
-    left: 30px;
-    top: 0;
-    width: calc(100vw - 60px - 24px);
-    display: block;
   }
 }
 .topMenuContain > li .mo_txt {
