@@ -37,7 +37,7 @@
                         </div>
                         <div class="bottomBox">
                             <div class="reminder">貼心小叮嚀</div>
-                            <div class="editor_Content">
+                            <div class="editor_content">
                                 <div class="editor_box pc_use">
                                     <ul>
                                         <li>初診初診初診初診初診初診初診初診初診初診初診初診初診初診初診</li>

@@ -1511,12 +1511,12 @@ html.popupOpen #popup {
     top: 7px;
   }
 }
-.detail .editor_Content {
+.detail .editor_content {
   padding: 22px 0 26px;
   border-bottom: 1px solid #dadada;
 }
 @media all and (max-width: 767px) {
-  .detail .editor_Content {
+  .detail .editor_content {
     padding: 34px 0 26px;
   }
 }

@@ -430,12 +430,12 @@
     background-color: #ab897e;
   }
 }
-.detail .editor_Content {
+.detail .editor_content {
   border-bottom: 1px solid #dadada;
   padding-bottom: 40px;
 }
 @media all and (max-width: 767px) {
-  .detail .editor_Content {
+  .detail .editor_content {
     padding-bottom: 32px;
   }
 }
