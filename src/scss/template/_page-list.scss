@@ -27,6 +27,8 @@
             font-family: $font-tw;
             @include mediaquery(null, 767px) {
                 margin: 0 4px;
+                width: 30px;
+                height: 30px;
             }
         }
     }
@@ -61,6 +63,11 @@
                 border-radius: 50%;
                 border: 1px solid $secondary-color;
                 background-color: #fff;
+                @include mediaquery(null, 767px){
+                    top: 50%;
+                    width: 30px;
+                    height: 30px;
+                }
             }
         }
     }
@@ -73,9 +80,15 @@
         cursor: pointer;
         width: 46px;
         height: 46px;
+        transition: opacity 0.75s;
         @include mediaquery(null, 767px){
             width: 30px;
             height: 30px;
+        }
+        &:hover{
+            @include mediaquery(768px, null){
+                opacity: 0.6;
+            }
         }
         &::before{
             content: "";
@@ -100,9 +113,15 @@
         cursor: pointer;
         width: 46px;
         height: 46px;
+        transition: opacity 0.75s;
         @include mediaquery(null, 767px){
             width: 30px;
             height: 30px;
+        }
+        &:hover{
+            @include mediaquery(768px, null){
+                opacity: 0.6;
+            }
         }
         &::before{
             content: "";
@@ -123,7 +142,73 @@
             }
         }
     }
-    
+    dt.beforebn{
+        position: relative;
+        cursor: pointer;
+        width: 46px;
+        height: 46px;
+        transition: opacity 0.75s;
+        @include mediaquery(null, 767px){
+            width: 30px;
+            height: 30px;
+        }
+        &:hover{
+            @include mediaquery(768px, null){
+                opacity: 0.6;
+            }
+        }
+        &::before{
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 45%;
+            transform: translate(-50%, -50%);
+            background: url('../images/common/before.png') center / contain no-repeat;
+            transition: opacity 0.75s;
+            width: 10px;
+            height: 8px;
+            @include mediaquery(null, 767px) {
+                width: 14px;
+                height: 11px;
+                left: 0;
+                transform: translate(0, -50%);
+            }
+        }
+    }
+    dt.afterbn{
+        position: relative;
+        cursor: pointer;
+        width: 46px;
+        height: 46px;
+        transition: opacity 0.75s;
+        @include mediaquery(null, 767px){
+            width: 30px;
+            height: 30px;
+        }
+        &:hover{
+            @include mediaquery(768px, null){
+                opacity: 0.6;
+            }
+        }
+        &::before{
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 45%;
+            transform: translate(-50%, -50%);
+            background: url('../images/common/after.png') center / contain no-repeat;
+            transition: opacity 0.75s;
+            width: 10px;
+            height: 8px;
+            @include mediaquery(null, 767px) {
+                width: 14px;
+                height: 11px;
+                left: auto;
+                right: 0;
+                transform: translate(0, -50%);
+            }
+        }
+    }
     .nopage {
         opacity: 0.2;
         pointer-events: none;

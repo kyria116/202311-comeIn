@@ -29,17 +29,24 @@ $('.closeMenu').on('click', function () {
     $('.menu li').removeClass('active')
     $('.menu-second').removeClass('active')
 });
+$(window).on('scroll', function () {
+    if(winW < 992){
+        $('.container-menu').css('height', `${window.innerHeight - 88}px`)
+    }
+});
 
 //-------------------HAMBUR 開合--------------------
 $('.menu-ham').on('click', function () {
     $(this).toggleClass('hamActive');
     $('body').toggleClass('openMenu');
+    $('.container-menu').css('height', `${window.innerHeight - 88}px`)
 
     if ($(this).hasClass('hamActive')) {
-        $('html').css('overflow-y', 'hidden');
-        $('header').removeClass('scroll');
+        $('html').css('overflow', 'hidden');
+        $('body').css('overflow', 'hidden');
     } else {
-        $('html').css('overflow-y', 'auto');
+        $('html').css('overflow', 'hidden auto');
+        $('body').css('overflow', 'hidden auto');
         $('.menu li').removeClass('active')
     }
 });

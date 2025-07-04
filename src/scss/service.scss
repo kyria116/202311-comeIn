@@ -2,19 +2,23 @@
 @import "base/variable";
 @import "plugIn/swiper-bundle.min";
 
-.song_sound{
-    display: none;
+.song_sound, .musicList{
+    display: none !important;
+    pointer-events: none !important;
+    opacity: 0 !important;
 }
 html.popupOpen{
     overflow: hidden !important;
     #popup{
-        pointer-events: all;
-        opacity: 1;
+        display: block !important;
+        pointer-events: all !important;
+        opacity: 1 !important;
     }
 }
 #popup{
-    pointer-events: none;
-    opacity: 0;
+    display: none !important;
+    pointer-events: none !important;
+    opacity: 0 !important;
     position: fixed;
     z-index: 1000;
     top: 0;

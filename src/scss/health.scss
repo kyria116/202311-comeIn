@@ -12,7 +12,7 @@
     border-top: 1px solid $line-color;
     border-bottom: 1px solid $line-color;
     height: 50px;
-    line-height: 50px;
+    line-height: 48px;
     margin-bottom: 24px;
     @include mediaquery(null, 767px){
         border: none;
@@ -635,7 +635,13 @@
             padding-bottom: 130px;
         }
     }
+    .fixBoxBtn{
+        @include mediaquery(null, 991px){
+            bottom: 110px;
+        }
+    }
 }
+
 .song_sound{
     display: none;
 }

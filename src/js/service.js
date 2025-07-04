@@ -3,8 +3,8 @@
 
 $(function(){
 
-    //@prepros-prepend template/top_menu.js
     //@prepros-prepend plugin/swiper-bundle.min.js
+    //@prepros-prepend template/top_menu.js
 
     window.setTimeout(function () {
         slider_ul_list("top-menu-ul-2");
@@ -56,7 +56,7 @@ $(function(){
         $('html').removeClass('popupOpen')
         $('#popup iframe').attr('src', ``)
     });
-    // setTimeout(function(){console.clear()}, 500)
+    setTimeout(function(){console.clear()}, 500)
 
 
     

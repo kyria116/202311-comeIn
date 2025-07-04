@@ -1,5 +1,5 @@
 <?php include "quote/template/head.php"; ?>
-<link rel="stylesheet" href="dist/css/reserve.css">
+<link rel="stylesheet" href="dist/css/reserve.css?02">
 </head>
 
 <body class="lang_tw" data-menu="5">

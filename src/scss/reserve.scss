@@ -108,7 +108,7 @@
                     @include mediaquery(null, 767px){
                         flex: 0 0 165px;
                     }
-                    >img{
+                    >canvas{
                         display: inline-block;
                         margin-right: 20px;
                         border: 1px solid #dadada;
@@ -961,6 +961,8 @@
                 overflow: auto;
                 width:100%;
                 border-radius: 24px;
+                transform: rotate(0deg);
+                -webkit-transform: rotate(0deg);
                 border: 1px solid #b68a7c;
                 @include mediaquery(null, 767px) {
                     border-radius: 14px 0 0 14px;
@@ -1132,6 +1134,31 @@
                         i{
                             @include mediaquery(null, 767px) {
                                 display: block;
+                            }
+                            &.line{
+                                @include mediaquery(null, 767px) {
+                                    display: none;
+                                }
+                            }
+                            &.mo{
+                                display: none;
+                                @include mediaquery(null, 767px) {
+                                    position: relative;
+                                    display: block;
+                                    color: transparent;
+                                    line-height: 1;
+                                    margin-bottom: -4px;
+                                    &::before{
+                                        content: "";
+                                        position: absolute;
+                                        top: 50%;
+                                        left: 50%;
+                                        transform: translate(-50%, -50%);
+                                        width: 1px;
+                                        height: 10px;
+                                        background-color: #b5897c;
+                                    }
+                                }
                             }
                         }
                         .box{
